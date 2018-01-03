@@ -1,0 +1,3200 @@
+hashcat (v4.0.1) starting in benchmark mode...
+
+Benchmarking uses hand-optimized kernel code by default.
+You can use it in your cracking session by setting the -O option.
+Note: Using optimized kernel code limits the maximum supported password length.
+To disable the optimized kernel code in benchmark mode, use the -w option.
+
+* Device #1: WARNING! Kernel exec timeout is not disabled.
+             This may cause "CL_OUT_OF_RESOURCES" or related errors.
+             To disable the timeout, see: https://hashcat.net/q/timeoutpatch
+* Device #2: WARNING! Kernel exec timeout is not disabled.
+             This may cause "CL_OUT_OF_RESOURCES" or related errors.
+             To disable the timeout, see: https://hashcat.net/q/timeoutpatch
+* Device #3: WARNING! Kernel exec timeout is not disabled.
+             This may cause "CL_OUT_OF_RESOURCES" or related errors.
+             To disable the timeout, see: https://hashcat.net/q/timeoutpatch
+* Device #4: WARNING! Kernel exec timeout is not disabled.
+             This may cause "CL_OUT_OF_RESOURCES" or related errors.
+             To disable the timeout, see: https://hashcat.net/q/timeoutpatch
+* Device #5: WARNING! Kernel exec timeout is not disabled.
+             This may cause "CL_OUT_OF_RESOURCES" or related errors.
+             To disable the timeout, see: https://hashcat.net/q/timeoutpatch
+* Device #6: WARNING! Kernel exec timeout is not disabled.
+             This may cause "CL_OUT_OF_RESOURCES" or related errors.
+             To disable the timeout, see: https://hashcat.net/q/timeoutpatch
+* Device #7: WARNING! Kernel exec timeout is not disabled.
+             This may cause "CL_OUT_OF_RESOURCES" or related errors.
+             To disable the timeout, see: https://hashcat.net/q/timeoutpatch
+* Device #8: WARNING! Kernel exec timeout is not disabled.
+             This may cause "CL_OUT_OF_RESOURCES" or related errors.
+             To disable the timeout, see: https://hashcat.net/q/timeoutpatch
+* Device #9: WARNING! Kernel exec timeout is not disabled.
+             This may cause "CL_OUT_OF_RESOURCES" or related errors.
+             To disable the timeout, see: https://hashcat.net/q/timeoutpatch
+* Device #10: WARNING! Kernel exec timeout is not disabled.
+             This may cause "CL_OUT_OF_RESOURCES" or related errors.
+             To disable the timeout, see: https://hashcat.net/q/timeoutpatch
+* Device #11: WARNING! Kernel exec timeout is not disabled.
+             This may cause "CL_OUT_OF_RESOURCES" or related errors.
+             To disable the timeout, see: https://hashcat.net/q/timeoutpatch
+* Device #12: WARNING! Kernel exec timeout is not disabled.
+             This may cause "CL_OUT_OF_RESOURCES" or related errors.
+             To disable the timeout, see: https://hashcat.net/q/timeoutpatch
+* Device #13: WARNING! Kernel exec timeout is not disabled.
+             This may cause "CL_OUT_OF_RESOURCES" or related errors.
+             To disable the timeout, see: https://hashcat.net/q/timeoutpatch
+* Device #14: WARNING! Kernel exec timeout is not disabled.
+             This may cause "CL_OUT_OF_RESOURCES" or related errors.
+             To disable the timeout, see: https://hashcat.net/q/timeoutpatch
+* Device #15: WARNING! Kernel exec timeout is not disabled.
+             This may cause "CL_OUT_OF_RESOURCES" or related errors.
+             To disable the timeout, see: https://hashcat.net/q/timeoutpatch
+* Device #16: WARNING! Kernel exec timeout is not disabled.
+             This may cause "CL_OUT_OF_RESOURCES" or related errors.
+             To disable the timeout, see: https://hashcat.net/q/timeoutpatch
+OpenCL Platform #1: NVIDIA Corporation
+======================================
+* Device #1: P104-100, 1009/4036 MB allocatable, 15MCU
+* Device #2: P104-100, 1009/4036 MB allocatable, 15MCU
+* Device #3: P104-100, 1009/4036 MB allocatable, 15MCU
+* Device #4: P104-100, 1009/4036 MB allocatable, 15MCU
+* Device #5: P104-100, 1009/4036 MB allocatable, 15MCU
+* Device #6: P104-100, 1009/4036 MB allocatable, 15MCU
+* Device #7: P104-100, 1009/4036 MB allocatable, 15MCU
+* Device #8: P104-100, 1009/4036 MB allocatable, 15MCU
+* Device #9: P104-100, 1009/4036 MB allocatable, 15MCU
+* Device #10: P104-100, 1009/4036 MB allocatable, 15MCU
+* Device #11: P104-100, 1009/4036 MB allocatable, 15MCU
+* Device #12: P104-100, 1009/4036 MB allocatable, 15MCU
+* Device #13: P104-100, 1009/4036 MB allocatable, 15MCU
+* Device #14: P104-100, 1009/4036 MB allocatable, 15MCU
+* Device #15: P104-100, 1009/4036 MB allocatable, 15MCU
+* Device #16: P104-100, 1009/4036 MB allocatable, 15MCU
+
+Benchmark relevant options:
+===========================
+* --optimized-kernel-enable
+
+Hashmode: 900 - MD4
+
+Speed.Dev.#1.....: 28992.9 MH/s (8.65ms)
+Speed.Dev.#2.....: 28216.0 MH/s (8.91ms)
+Speed.Dev.#3.....: 28432.7 MH/s (8.81ms)
+Speed.Dev.#4.....: 27971.4 MH/s (8.94ms)
+Speed.Dev.#5.....: 27949.6 MH/s (2.21ms)
+Speed.Dev.#6.....: 28200.2 MH/s (2.19ms)
+Speed.Dev.#7.....: 27740.1 MH/s (2.22ms)
+Speed.Dev.#8.....: 27764.6 MH/s (2.21ms)
+Speed.Dev.#9.....: 27083.3 MH/s (2.25ms)
+Speed.Dev.#10.....: 28646.4 MH/s (8.75ms)
+Speed.Dev.#11.....: 27318.5 MH/s (2.25ms)
+Speed.Dev.#12.....: 28397.5 MH/s (8.83ms)
+Speed.Dev.#13.....: 28879.8 MH/s (8.65ms)
+Speed.Dev.#14.....: 28664.3 MH/s (17.52ms)
+Speed.Dev.#15.....: 28368.6 MH/s (17.70ms)
+Speed.Dev.#16.....: 27850.6 MH/s (2.22ms)
+Speed.Dev.#*.....:   450.5 GH/s
+
+Hashmode: 0 - MD5
+
+Speed.Dev.#1.....: 16741.5 MH/s (15.03ms)
+Speed.Dev.#2.....: 16352.1 MH/s (15.42ms)
+Speed.Dev.#3.....: 16346.8 MH/s (15.35ms)
+Speed.Dev.#4.....: 16235.0 MH/s (15.54ms)
+Speed.Dev.#5.....: 16604.0 MH/s (30.28ms)
+Speed.Dev.#6.....: 16358.4 MH/s (3.80ms)
+Speed.Dev.#7.....: 16552.1 MH/s (15.18ms)
+Speed.Dev.#8.....: 16240.2 MH/s (3.82ms)
+Speed.Dev.#9.....: 16297.0 MH/s (15.37ms)
+Speed.Dev.#10.....: 16617.7 MH/s (30.28ms)
+Speed.Dev.#11.....: 15968.2 MH/s (3.89ms)
+Speed.Dev.#12.....: 16107.2 MH/s (3.86ms)
+Speed.Dev.#13.....: 16786.2 MH/s (15.04ms)
+Speed.Dev.#14.....: 16205.7 MH/s (15.40ms)
+Speed.Dev.#15.....: 15960.1 MH/s (3.89ms)
+Speed.Dev.#16.....: 16190.1 MH/s (3.84ms)
+Speed.Dev.#*.....:   261.6 GH/s
+
+Hashmode: 5100 - Half MD5
+
+Speed.Dev.#1.....: 11174.4 MH/s (22.46ms)
+Speed.Dev.#2.....: 10884.9 MH/s (23.08ms)
+Speed.Dev.#3.....: 10962.6 MH/s (22.92ms)
+Speed.Dev.#4.....: 10809.1 MH/s (23.23ms)
+Speed.Dev.#5.....: 11038.1 MH/s (22.76ms)
+Speed.Dev.#6.....: 11129.2 MH/s (45.19ms)
+Speed.Dev.#7.....: 10858.6 MH/s (5.75ms)
+Speed.Dev.#8.....: 10847.3 MH/s (5.74ms)
+Speed.Dev.#9.....: 10756.5 MH/s (5.81ms)
+Speed.Dev.#10.....: 11043.5 MH/s (22.75ms)
+Speed.Dev.#11.....: 10869.4 MH/s (23.12ms)
+Speed.Dev.#12.....: 11038.6 MH/s (45.56ms)
+Speed.Dev.#13.....: 11187.3 MH/s (22.46ms)
+Speed.Dev.#14.....: 10856.5 MH/s (46.20ms)
+Speed.Dev.#15.....: 10656.3 MH/s (5.85ms)
+Speed.Dev.#16.....: 10821.2 MH/s (5.76ms)
+Speed.Dev.#*.....:   174.9 GH/s
+
+Hashmode: 100 - SHA1
+
+Speed.Dev.#1.....:  6278.7 MH/s (40.03ms)
+Speed.Dev.#2.....:  6126.4 MH/s (41.08ms)
+Speed.Dev.#3.....:  6161.8 MH/s (40.74ms)
+Speed.Dev.#4.....:  6113.0 MH/s (41.14ms)
+Speed.Dev.#5.....:  6211.6 MH/s (80.91ms)
+Speed.Dev.#6.....:  6196.0 MH/s (10.09ms)
+Speed.Dev.#7.....:  6209.5 MH/s (40.51ms)
+Speed.Dev.#8.....:  6216.5 MH/s (40.44ms)
+Speed.Dev.#9.....:  6137.7 MH/s (40.95ms)
+Speed.Dev.#10.....:  6214.6 MH/s (40.48ms)
+Speed.Dev.#11.....:  6091.2 MH/s (41.18ms)
+Speed.Dev.#12.....:  6196.4 MH/s (81.17ms)
+Speed.Dev.#13.....:  6230.4 MH/s (10.06ms)
+Speed.Dev.#14.....:  6097.9 MH/s (82.43ms)
+Speed.Dev.#15.....:  6116.5 MH/s (82.32ms)
+Speed.Dev.#16.....:  6145.2 MH/s (10.21ms)
+Speed.Dev.#*.....: 98743.4 MH/s
+
+Hashmode: 1400 - SHA-256
+
+Speed.Dev.#1.....:  2372.4 MH/s (53.04ms)
+Speed.Dev.#2.....:  2307.6 MH/s (54.52ms)
+Speed.Dev.#3.....:  2322.7 MH/s (54.07ms)
+Speed.Dev.#4.....:  2303.4 MH/s (54.62ms)
+Speed.Dev.#5.....:  2353.2 MH/s (26.72ms)
+Speed.Dev.#6.....:  2371.1 MH/s (26.52ms)
+Speed.Dev.#7.....:  2351.3 MH/s (26.74ms)
+Speed.Dev.#8.....:  2356.4 MH/s (26.69ms)
+Speed.Dev.#9.....:  2311.9 MH/s (54.38ms)
+Speed.Dev.#10.....:  2349.9 MH/s (26.76ms)
+Speed.Dev.#11.....:  2304.7 MH/s (54.61ms)
+Speed.Dev.#12.....:  2344.7 MH/s (26.81ms)
+Speed.Dev.#13.....:  2366.1 MH/s (53.11ms)
+Speed.Dev.#14.....:  2301.5 MH/s (54.70ms)
+Speed.Dev.#15.....:  2306.5 MH/s (54.64ms)
+Speed.Dev.#16.....:  2308.3 MH/s (54.40ms)
+Speed.Dev.#*.....: 37331.6 MH/s
+
+Hashmode: 10800 - SHA-384
+
+Speed.Dev.#1.....:   702.7 MH/s (89.39ms)
+Speed.Dev.#2.....:   684.3 MH/s (91.85ms)
+Speed.Dev.#3.....:   691.2 MH/s (91.10ms)
+Speed.Dev.#4.....:   683.6 MH/s (92.05ms)
+Speed.Dev.#5.....:   703.3 MH/s (89.42ms)
+Speed.Dev.#6.....:   706.2 MH/s (89.74ms)
+Speed.Dev.#7.....:   694.5 MH/s (90.63ms)
+Speed.Dev.#8.....:   697.2 MH/s (90.39ms)
+Speed.Dev.#9.....:   687.3 MH/s (91.57ms)
+Speed.Dev.#10.....:   694.9 MH/s (90.40ms)
+Speed.Dev.#11.....:   683.1 MH/s (92.09ms)
+Speed.Dev.#12.....:   691.8 MH/s (90.87ms)
+Speed.Dev.#13.....:   711.3 MH/s (88.35ms)
+Speed.Dev.#14.....:   691.0 MH/s (91.19ms)
+Speed.Dev.#15.....:   682.7 MH/s (92.19ms)
+Speed.Dev.#16.....:   698.3 MH/s (89.99ms)
+Speed.Dev.#*.....: 11103.6 MH/s
+
+Hashmode: 1700 - SHA-512
+
+Speed.Dev.#1.....:   723.1 MH/s (87.66ms)
+Speed.Dev.#2.....:   698.6 MH/s (90.14ms)
+Speed.Dev.#3.....:   707.7 MH/s (89.40ms)
+Speed.Dev.#4.....:   694.7 MH/s (90.23ms)
+Speed.Dev.#5.....:   715.6 MH/s (87.84ms)
+Speed.Dev.#6.....:   711.3 MH/s (46.37ms)
+Speed.Dev.#7.....:   697.7 MH/s (89.53ms)
+Speed.Dev.#8.....:   708.7 MH/s (88.81ms)
+Speed.Dev.#9.....:   700.7 MH/s (89.73ms)
+Speed.Dev.#10.....:   716.8 MH/s (87.79ms)
+Speed.Dev.#11.....:   703.8 MH/s (89.35ms)
+Speed.Dev.#12.....:   705.8 MH/s (88.93ms)
+Speed.Dev.#13.....:   720.2 MH/s (87.61ms)
+Speed.Dev.#14.....:   701.5 MH/s (89.24ms)
+Speed.Dev.#15.....:   695.7 MH/s (90.35ms)
+Speed.Dev.#16.....:   709.1 MH/s (88.60ms)
+Speed.Dev.#*.....: 11311.0 MH/s
+
+Hashmode: 5000 - SHA-3 (Keccak)
+
+Speed.Dev.#1.....:   634.0 MH/s (49.60ms)
+Speed.Dev.#2.....:   615.8 MH/s (50.97ms)
+Speed.Dev.#3.....:   620.1 MH/s (50.63ms)
+Speed.Dev.#4.....:   616.0 MH/s (51.03ms)
+Speed.Dev.#5.....:   626.4 MH/s (50.24ms)
+Speed.Dev.#6.....:   629.6 MH/s (49.91ms)
+Speed.Dev.#7.....:   621.3 MH/s (50.68ms)
+Speed.Dev.#8.....:   626.5 MH/s (50.20ms)
+Speed.Dev.#9.....:   617.3 MH/s (50.85ms)
+Speed.Dev.#10.....:   626.0 MH/s (50.25ms)
+Speed.Dev.#11.....:   615.7 MH/s (51.17ms)
+Speed.Dev.#12.....:   623.7 MH/s (50.39ms)
+Speed.Dev.#13.....:   633.8 MH/s (49.73ms)
+Speed.Dev.#14.....:   614.2 MH/s (51.02ms)
+Speed.Dev.#15.....:   615.1 MH/s (51.20ms)
+Speed.Dev.#16.....:   620.7 MH/s (50.69ms)
+Speed.Dev.#*.....:  9956.1 MH/s
+
+Hashmode: 10100 - SipHash
+
+Speed.Dev.#1.....: 21845.3 MH/s (11.48ms)
+Speed.Dev.#2.....: 21262.1 MH/s (11.80ms)
+Speed.Dev.#3.....: 21392.2 MH/s (11.71ms)
+Speed.Dev.#4.....: 21403.2 MH/s (11.72ms)
+Speed.Dev.#5.....: 21632.2 MH/s (23.23ms)
+Speed.Dev.#6.....: 21204.8 MH/s (2.92ms)
+Speed.Dev.#7.....: 20881.0 MH/s (2.97ms)
+Speed.Dev.#8.....: 21674.1 MH/s (23.18ms)
+Speed.Dev.#9.....: 20750.2 MH/s (2.98ms)
+Speed.Dev.#10.....: 20985.5 MH/s (2.94ms)
+Speed.Dev.#11.....: 20798.2 MH/s (2.97ms)
+Speed.Dev.#12.....: 21709.6 MH/s (11.56ms)
+Speed.Dev.#13.....: 21830.2 MH/s (11.46ms)
+Speed.Dev.#14.....: 21383.1 MH/s (11.75ms)
+Speed.Dev.#15.....: 21452.4 MH/s (11.73ms)
+Speed.Dev.#16.....: 21140.6 MH/s (2.94ms)
+Speed.Dev.#*.....:   341.3 GH/s
+
+Hashmode: 14900 - Skip32 (PT = $salt, key = $pass)
+
+Speed.Dev.#1.....:  1607.0 MH/s (1.24ms)
+Speed.Dev.#2.....:  1554.6 MH/s (1.28ms)
+Speed.Dev.#3.....:  1561.5 MH/s (1.27ms)
+Speed.Dev.#4.....:  1578.0 MH/s (1.27ms)
+Speed.Dev.#5.....:  1285.0 MH/s (0.33ms)
+Speed.Dev.#6.....:  1652.6 MH/s (2.48ms)
+Speed.Dev.#7.....:  1304.2 MH/s (0.33ms)
+Speed.Dev.#8.....:  1641.0 MH/s (2.50ms)
+Speed.Dev.#9.....:  1213.6 MH/s (0.34ms)
+Speed.Dev.#10.....:  1165.1 MH/s (0.33ms)
+Speed.Dev.#11.....:  1572.1 MH/s (1.27ms)
+Speed.Dev.#12.....:  1436.4 MH/s (0.32ms)
+Speed.Dev.#13.....:  1605.8 MH/s (1.24ms)
+Speed.Dev.#14.....:  1239.5 MH/s (0.33ms)
+Speed.Dev.#15.....:  1567.4 MH/s (1.28ms)
+Speed.Dev.#16.....:  1188.9 MH/s (0.33ms)
+Speed.Dev.#*.....: 23172.6 MH/s
+
+Hashmode: 6000 - RIPEMD-160
+
+Speed.Dev.#1.....:  3691.0 MH/s (68.19ms)
+Speed.Dev.#2.....:  3589.6 MH/s (69.98ms)
+Speed.Dev.#3.....:  3623.2 MH/s (69.44ms)
+Speed.Dev.#4.....:  3573.8 MH/s (70.17ms)
+Speed.Dev.#5.....:  3636.9 MH/s (17.26ms)
+Speed.Dev.#6.....:  3647.4 MH/s (17.15ms)
+Speed.Dev.#7.....:  3599.8 MH/s (17.43ms)
+Speed.Dev.#8.....:  3655.4 MH/s (68.90ms)
+Speed.Dev.#9.....:  3582.4 MH/s (70.18ms)
+Speed.Dev.#10.....:  3628.8 MH/s (69.39ms)
+Speed.Dev.#11.....:  3585.4 MH/s (70.08ms)
+Speed.Dev.#12.....:  3649.3 MH/s (17.19ms)
+Speed.Dev.#13.....:  3686.4 MH/s (68.14ms)
+Speed.Dev.#14.....:  3582.2 MH/s (69.95ms)
+Speed.Dev.#15.....:  3584.0 MH/s (70.01ms)
+Speed.Dev.#16.....:  3611.3 MH/s (69.46ms)
+Speed.Dev.#*.....: 57927.0 MH/s
+
+Hashmode: 6100 - Whirlpool
+
+Speed.Dev.#1.....:   173.9 MH/s (90.44ms)
+Speed.Dev.#2.....:   169.0 MH/s (93.05ms)
+Speed.Dev.#3.....:   170.1 MH/s (92.41ms)
+Speed.Dev.#4.....:   170.5 MH/s (92.18ms)
+Speed.Dev.#5.....:   171.3 MH/s (91.79ms)
+Speed.Dev.#6.....:   172.9 MH/s (90.97ms)
+Speed.Dev.#7.....:   170.3 MH/s (91.87ms)
+Speed.Dev.#8.....:   172.0 MH/s (91.36ms)
+Speed.Dev.#9.....:   169.6 MH/s (92.66ms)
+Speed.Dev.#10.....:   171.3 MH/s (91.75ms)
+Speed.Dev.#11.....:   169.5 MH/s (92.74ms)
+Speed.Dev.#12.....:   171.3 MH/s (91.80ms)
+Speed.Dev.#13.....:   174.2 MH/s (90.25ms)
+Speed.Dev.#14.....:   170.0 MH/s (92.37ms)
+Speed.Dev.#15.....:   170.0 MH/s (92.46ms)
+Speed.Dev.#16.....:   169.7 MH/s (92.01ms)
+Speed.Dev.#*.....:  2735.5 MH/s
+
+Hashmode: 6900 - GOST R 34.11-94
+
+Speed.Dev.#1.....:   188.2 MH/s (83.54ms)
+Speed.Dev.#2.....:   183.9 MH/s (85.86ms)
+Speed.Dev.#3.....:   186.0 MH/s (84.53ms)
+Speed.Dev.#4.....:   184.7 MH/s (85.09ms)
+Speed.Dev.#5.....:   187.0 MH/s (84.10ms)
+Speed.Dev.#6.....:   176.2 MH/s (88.83ms)
+Speed.Dev.#7.....:   186.0 MH/s (84.63ms)
+Speed.Dev.#8.....:   175.3 MH/s (89.68ms)
+Speed.Dev.#9.....:   183.7 MH/s (85.17ms)
+Speed.Dev.#10.....:   134.1 MH/s (58.30ms)
+Speed.Dev.#11.....:   172.6 MH/s (90.68ms)
+Speed.Dev.#12.....:   186.9 MH/s (84.15ms)
+Speed.Dev.#13.....:   189.2 MH/s (83.37ms)
+Speed.Dev.#14.....:   184.2 MH/s (85.31ms)
+Speed.Dev.#15.....:   184.3 MH/s (85.33ms)
+Speed.Dev.#16.....:   185.6 MH/s (84.63ms)
+Speed.Dev.#*.....:  2887.9 MH/s
+
+Hashmode: 11700 - GOST R 34.11-2012 (Streebog) 256-bit
+
+Speed.Dev.#1.....: 35609.0 kH/s (55.21ms)
+Speed.Dev.#2.....: 34599.5 kH/s (56.73ms)
+Speed.Dev.#3.....: 35157.5 kH/s (55.79ms)
+Speed.Dev.#4.....: 35137.4 kH/s (56.12ms)
+Speed.Dev.#5.....: 35332.6 kH/s (55.54ms)
+Speed.Dev.#6.....: 35285.0 kH/s (55.51ms)
+Speed.Dev.#7.....: 35331.3 kH/s (55.77ms)
+Speed.Dev.#8.....: 35352.2 kH/s (55.52ms)
+Speed.Dev.#9.....: 34881.2 kH/s (56.26ms)
+Speed.Dev.#10.....: 35178.3 kH/s (55.87ms)
+Speed.Dev.#11.....: 34875.7 kH/s (56.29ms)
+Speed.Dev.#12.....: 35502.3 kH/s (55.47ms)
+Speed.Dev.#13.....: 35712.5 kH/s (54.93ms)
+Speed.Dev.#14.....: 34813.9 kH/s (56.42ms)
+Speed.Dev.#15.....: 35092.9 kH/s (56.14ms)
+Speed.Dev.#16.....: 35173.9 kH/s (55.87ms)
+Speed.Dev.#*.....:   563.0 MH/s
+
+Hashmode: 11800 - GOST R 34.11-2012 (Streebog) 512-bit
+
+Speed.Dev.#1.....: 35500.3 kH/s (55.39ms)
+Speed.Dev.#2.....: 34488.4 kH/s (56.83ms)
+Speed.Dev.#3.....: 35158.8 kH/s (55.95ms)
+Speed.Dev.#4.....: 34989.9 kH/s (56.31ms)
+Speed.Dev.#5.....: 35199.1 kH/s (55.68ms)
+Speed.Dev.#6.....: 35318.0 kH/s (55.68ms)
+Speed.Dev.#7.....: 35095.4 kH/s (56.02ms)
+Speed.Dev.#8.....: 35444.0 kH/s (55.60ms)
+Speed.Dev.#9.....: 34819.4 kH/s (56.58ms)
+Speed.Dev.#10.....: 35041.6 kH/s (56.02ms)
+Speed.Dev.#11.....: 34846.0 kH/s (56.47ms)
+Speed.Dev.#12.....: 35258.4 kH/s (55.63ms)
+Speed.Dev.#13.....: 35683.3 kH/s (55.23ms)
+Speed.Dev.#14.....: 34821.9 kH/s (56.51ms)
+Speed.Dev.#15.....: 34696.5 kH/s (56.51ms)
+Speed.Dev.#16.....: 35142.5 kH/s (56.06ms)
+Speed.Dev.#*.....:   561.5 MH/s
+
+Hashmode: 14000 - DES (PT = $salt, key = $pass)
+
+Speed.Dev.#1.....: 15222.5 MH/s (66.05ms)
+Speed.Dev.#2.....: 14787.6 MH/s (68.01ms)
+Speed.Dev.#3.....: 15048.0 MH/s (66.87ms)
+Speed.Dev.#4.....: 14908.9 MH/s (67.43ms)
+Speed.Dev.#5.....: 15011.6 MH/s (66.62ms)
+Speed.Dev.#6.....: 15144.4 MH/s (66.42ms)
+Speed.Dev.#7.....: 14916.0 MH/s (67.17ms)
+Speed.Dev.#8.....: 15035.1 MH/s (66.60ms)
+Speed.Dev.#9.....: 14856.7 MH/s (67.64ms)
+Speed.Dev.#10.....: 14987.2 MH/s (67.02ms)
+Speed.Dev.#11.....: 14871.9 MH/s (67.46ms)
+Speed.Dev.#12.....: 15135.7 MH/s (66.50ms)
+Speed.Dev.#13.....: 15224.8 MH/s (66.01ms)
+Speed.Dev.#14.....: 14883.1 MH/s (67.52ms)
+Speed.Dev.#15.....: 14890.6 MH/s (67.54ms)
+Speed.Dev.#16.....: 15026.2 MH/s (66.95ms)
+Speed.Dev.#*.....:   240.0 GH/s
+
+Hashmode: 14100 - 3DES (PT = $salt, key = $pass)
+
+Speed.Dev.#1.....:   396.4 MH/s (79.30ms)
+Speed.Dev.#2.....:   385.1 MH/s (81.65ms)
+Speed.Dev.#3.....:   392.6 MH/s (80.08ms)
+Speed.Dev.#4.....:   388.6 MH/s (80.91ms)
+Speed.Dev.#5.....:   393.5 MH/s (79.89ms)
+Speed.Dev.#6.....:   394.7 MH/s (79.66ms)
+Speed.Dev.#7.....:   393.2 MH/s (79.96ms)
+Speed.Dev.#8.....:   394.3 MH/s (79.73ms)
+Speed.Dev.#9.....:   388.6 MH/s (80.93ms)
+Speed.Dev.#10.....:   391.0 MH/s (80.39ms)
+Speed.Dev.#11.....:   389.0 MH/s (80.82ms)
+Speed.Dev.#12.....:   394.4 MH/s (79.74ms)
+Speed.Dev.#13.....:   396.5 MH/s (79.29ms)
+Speed.Dev.#14.....:   388.4 MH/s (80.94ms)
+Speed.Dev.#15.....:   388.1 MH/s (81.02ms)
+Speed.Dev.#16.....:   391.7 MH/s (80.26ms)
+Speed.Dev.#*.....:  6266.3 MH/s
+
+Hashmode: 400 - phpass, WordPress (MD5), phpBB3 (MD5), Joomla (MD5)
+
+Speed.Dev.#1.....:  5322.3 kH/s (22.62ms)
+Speed.Dev.#2.....:  5171.7 kH/s (23.28ms)
+Speed.Dev.#3.....:  4055.8 kH/s (29.84ms)
+Speed.Dev.#4.....:  5214.3 kH/s (23.09ms)
+Speed.Dev.#5.....:  5284.0 kH/s (22.77ms)
+Speed.Dev.#6.....:  5252.1 kH/s (45.81ms)
+Speed.Dev.#7.....:  5163.0 kH/s (5.79ms)
+Speed.Dev.#8.....:  5269.9 kH/s (45.71ms)
+Speed.Dev.#9.....:  5195.7 kH/s (46.48ms)
+Speed.Dev.#10.....:  5158.7 kH/s (5.79ms)
+Speed.Dev.#11.....:  5212.6 kH/s (23.10ms)
+Speed.Dev.#12.....:  5214.0 kH/s (5.75ms)
+Speed.Dev.#13.....:  5328.1 kH/s (22.62ms)
+Speed.Dev.#14.....:  5135.4 kH/s (5.84ms)
+Speed.Dev.#15.....:  5209.4 kH/s (23.13ms)
+Speed.Dev.#16.....:  5222.6 kH/s (23.00ms)
+Speed.Dev.#*.....: 82409.8 kH/s
+
+Hashmode: 8900 - scrypt
+
+Speed.Dev.#1.....:   449.0 kH/s (7.60ms)
+Speed.Dev.#2.....:   487.1 kH/s (7.49ms)
+Speed.Dev.#3.....:   480.4 kH/s (7.38ms)
+Speed.Dev.#4.....:   489.5 kH/s (7.29ms)
+Speed.Dev.#5.....:   488.4 kH/s (7.41ms)
+Speed.Dev.#6.....:   487.5 kH/s (7.50ms)
+Speed.Dev.#7.....:   463.2 kH/s (7.43ms)
+Speed.Dev.#8.....:   446.5 kH/s (7.33ms)
+Speed.Dev.#9.....:   507.7 kH/s (6.64ms)
+Speed.Dev.#10.....:   510.5 kH/s (6.64ms)
+Speed.Dev.#11.....:   507.9 kH/s (6.67ms)
+Speed.Dev.#12.....:   486.3 kH/s (6.63ms)
+Speed.Dev.#13.....:   515.7 kH/s (6.57ms)
+Speed.Dev.#14.....:   505.9 kH/s (6.73ms)
+Speed.Dev.#15.....:   504.9 kH/s (6.68ms)
+Speed.Dev.#16.....:   508.3 kH/s (6.67ms)
+Speed.Dev.#*.....:  7838.7 kH/s
+
+Hashmode: 11900 - PBKDF2-HMAC-MD5
+
+Speed.Dev.#1.....:  5807.5 kH/s (19.36ms)
+Speed.Dev.#2.....:  5651.0 kH/s (19.92ms)
+Speed.Dev.#3.....:  5737.3 kH/s (19.61ms)
+Speed.Dev.#4.....:  5695.1 kH/s (19.76ms)
+Speed.Dev.#5.....:  5762.5 kH/s (9.86ms)
+Speed.Dev.#6.....:  5748.9 kH/s (9.85ms)
+Speed.Dev.#7.....:  5708.6 kH/s (9.93ms)
+Speed.Dev.#8.....:  5755.8 kH/s (9.86ms)
+Speed.Dev.#9.....:  5716.3 kH/s (83.40ms)
+Speed.Dev.#10.....:  5787.4 kH/s (82.54ms)
+Speed.Dev.#11.....:  5692.2 kH/s (19.76ms)
+Speed.Dev.#12.....:  5768.6 kH/s (19.49ms)
+Speed.Dev.#13.....:  5784.8 kH/s (9.79ms)
+Speed.Dev.#14.....:  5659.3 kH/s (10.04ms)
+Speed.Dev.#15.....:  5674.4 kH/s (10.01ms)
+Speed.Dev.#16.....:  5761.9 kH/s (82.87ms)
+Speed.Dev.#*.....: 91711.7 kH/s
+
+Hashmode: 12000 - PBKDF2-HMAC-SHA1
+
+Speed.Dev.#1.....:  2534.6 kH/s (45.24ms)
+Speed.Dev.#2.....:  2468.8 kH/s (46.53ms)
+Speed.Dev.#3.....:  2490.1 kH/s (45.92ms)
+Speed.Dev.#4.....:  2485.2 kH/s (46.16ms)
+Speed.Dev.#5.....:  2496.8 kH/s (96.73ms)
+Speed.Dev.#6.....:  2510.8 kH/s (22.93ms)
+Speed.Dev.#7.....:  2443.5 kH/s (49.48ms)
+Speed.Dev.#8.....:  2520.7 kH/s (45.50ms)
+Speed.Dev.#9.....:  2477.1 kH/s (23.19ms)
+Speed.Dev.#10.....:  2504.9 kH/s (23.06ms)
+Speed.Dev.#11.....:  2462.6 kH/s (46.46ms)
+Speed.Dev.#12.....:  2498.4 kH/s (45.79ms)
+Speed.Dev.#13.....:  2535.3 kH/s (45.21ms)
+Speed.Dev.#14.....:  2463.1 kH/s (23.30ms)
+Speed.Dev.#15.....:  2478.8 kH/s (23.25ms)
+Speed.Dev.#16.....:  2497.4 kH/s (23.12ms)
+Speed.Dev.#*.....: 39868.3 kH/s
+
+Hashmode: 10900 - PBKDF2-HMAC-SHA256
+
+Speed.Dev.#1.....:   850.5 kH/s (67.03ms)
+Speed.Dev.#2.....:   826.2 kH/s (69.14ms)
+Speed.Dev.#3.....:   843.3 kH/s (67.88ms)
+Speed.Dev.#4.....:   836.6 kH/s (68.46ms)
+Speed.Dev.#5.....:   854.5 kH/s (67.62ms)
+Speed.Dev.#6.....:   838.6 kH/s (67.55ms)
+Speed.Dev.#7.....:   843.0 kH/s (68.38ms)
+Speed.Dev.#8.....:   852.8 kH/s (67.67ms)
+Speed.Dev.#9.....:   829.7 kH/s (68.46ms)
+Speed.Dev.#10.....:   841.4 kH/s (67.99ms)
+Speed.Dev.#11.....:   826.4 kH/s (68.83ms)
+Speed.Dev.#12.....:   838.9 kH/s (67.72ms)
+Speed.Dev.#13.....:   853.4 kH/s (67.12ms)
+Speed.Dev.#14.....:   833.4 kH/s (68.73ms)
+Speed.Dev.#15.....:   842.5 kH/s (68.61ms)
+Speed.Dev.#16.....:   848.1 kH/s (68.16ms)
+Speed.Dev.#*.....: 13459.1 kH/s
+
+Hashmode: 12100 - PBKDF2-HMAC-SHA512
+
+Speed.Dev.#1.....:   291.9 kH/s (49.41ms)
+Speed.Dev.#2.....:   283.6 kH/s (50.84ms)
+Speed.Dev.#3.....:   288.5 kH/s (49.95ms)
+Speed.Dev.#4.....:   286.7 kH/s (50.45ms)
+Speed.Dev.#5.....:   289.2 kH/s (49.78ms)
+Speed.Dev.#6.....:   290.0 kH/s (49.68ms)
+Speed.Dev.#7.....:   287.6 kH/s (50.16ms)
+Speed.Dev.#8.....:   289.3 kH/s (49.70ms)
+Speed.Dev.#9.....:   284.0 kH/s (50.27ms)
+Speed.Dev.#10.....:   287.7 kH/s (50.07ms)
+Speed.Dev.#11.....:   285.6 kH/s (50.51ms)
+Speed.Dev.#12.....:   289.9 kH/s (49.72ms)
+Speed.Dev.#13.....:   292.6 kH/s (49.25ms)
+Speed.Dev.#14.....:   285.6 kH/s (50.58ms)
+Speed.Dev.#15.....:   286.7 kH/s (50.36ms)
+Speed.Dev.#16.....:   288.3 kH/s (49.99ms)
+Speed.Dev.#*.....:  4607.1 kH/s
+
+Hashmode: 23 - Skype
+
+Speed.Dev.#1.....: 10160.6 MH/s (24.73ms)
+Speed.Dev.#2.....:  9877.5 MH/s (25.45ms)
+Speed.Dev.#3.....: 10029.0 MH/s (25.06ms)
+Speed.Dev.#4.....:  9890.7 MH/s (25.27ms)
+Speed.Dev.#5.....:  9892.2 MH/s (6.32ms)
+Speed.Dev.#6.....:  9915.6 MH/s (6.29ms)
+Speed.Dev.#7.....: 10020.6 MH/s (25.07ms)
+Speed.Dev.#8.....:  9928.1 MH/s (6.28ms)
+Speed.Dev.#9.....:  9891.4 MH/s (25.25ms)
+Speed.Dev.#10.....:  9875.1 MH/s (6.33ms)
+Speed.Dev.#11.....:  9798.2 MH/s (6.38ms)
+Speed.Dev.#12.....:  9910.9 MH/s (6.29ms)
+Speed.Dev.#13.....: 10169.7 MH/s (24.71ms)
+Speed.Dev.#14.....:  9945.2 MH/s (50.58ms)
+Speed.Dev.#15.....:  9941.5 MH/s (25.27ms)
+Speed.Dev.#16.....:  9944.6 MH/s (50.14ms)
+Speed.Dev.#*.....:   159.2 GH/s
+
+Hashmode: 2500 - WPA/WPA2
+
+Speed.Dev.#1.....:   304.5 kH/s (50.27ms)
+Speed.Dev.#2.....:   295.7 kH/s (51.79ms)
+Speed.Dev.#3.....:   301.3 kH/s (50.82ms)
+Speed.Dev.#4.....:   295.9 kH/s (51.61ms)
+Speed.Dev.#5.....:   302.5 kH/s (50.58ms)
+Speed.Dev.#6.....:   307.3 kH/s (49.74ms)
+Speed.Dev.#7.....:   304.4 kH/s (50.22ms)
+Speed.Dev.#8.....:   308.4 kH/s (49.63ms)
+Speed.Dev.#9.....:   296.1 kH/s (51.53ms)
+Speed.Dev.#10.....:   299.8 kH/s (50.99ms)
+Speed.Dev.#11.....:   295.4 kH/s (51.58ms)
+Speed.Dev.#12.....:   301.3 kH/s (50.69ms)
+Speed.Dev.#13.....:   310.3 kH/s (49.31ms)
+Speed.Dev.#14.....:   297.4 kH/s (51.44ms)
+Speed.Dev.#15.....:   298.0 kH/s (51.35ms)
+Speed.Dev.#16.....:   305.3 kH/s (50.10ms)
+Speed.Dev.#*.....:  4823.5 kH/s
+
+Hashmode: 2501 - WPA/WPA2 PMK
+
+Speed.Dev.#1.....:   152.3 MH/s (0.04ms)
+Speed.Dev.#2.....:   155.2 MH/s (0.03ms)
+Speed.Dev.#3.....:   155.7 MH/s (0.03ms)
+Speed.Dev.#4.....:   151.8 MH/s (0.04ms)
+Speed.Dev.#5.....:   155.6 MH/s (0.03ms)
+Speed.Dev.#6.....:   156.5 MH/s (0.03ms)
+Speed.Dev.#7.....:   150.9 MH/s (0.04ms)
+Speed.Dev.#8.....:   151.5 MH/s (0.03ms)
+Speed.Dev.#9.....:   153.9 MH/s (0.03ms)
+Speed.Dev.#10.....:   152.4 MH/s (0.04ms)
+Speed.Dev.#11.....:   151.0 MH/s (0.04ms)
+Speed.Dev.#12.....:   156.5 MH/s (0.03ms)
+Speed.Dev.#13.....:   156.1 MH/s (0.03ms)
+Speed.Dev.#14.....:   156.1 MH/s (0.03ms)
+Speed.Dev.#15.....:   151.9 MH/s (0.04ms)
+Speed.Dev.#16.....:   156.0 MH/s (0.03ms)
+Speed.Dev.#*.....:  2463.5 MH/s
+
+Hashmode: 5300 - IKE-PSK MD5
+
+Speed.Dev.#1.....:  1422.3 MH/s (88.35ms)
+Speed.Dev.#2.....:  1387.7 MH/s (90.85ms)
+Speed.Dev.#3.....:  1395.3 MH/s (89.78ms)
+Speed.Dev.#4.....:  1384.1 MH/s (90.87ms)
+Speed.Dev.#5.....:  1419.5 MH/s (44.30ms)
+Speed.Dev.#6.....:  1408.4 MH/s (89.39ms)
+Speed.Dev.#7.....:  1395.8 MH/s (90.11ms)
+Speed.Dev.#8.....:  1418.1 MH/s (44.31ms)
+Speed.Dev.#9.....:  1386.0 MH/s (90.74ms)
+Speed.Dev.#10.....:  1408.3 MH/s (89.47ms)
+Speed.Dev.#11.....:  1382.3 MH/s (90.97ms)
+Speed.Dev.#12.....:  1403.1 MH/s (89.64ms)
+Speed.Dev.#13.....:  1426.5 MH/s (88.16ms)
+Speed.Dev.#14.....:  1395.4 MH/s (45.01ms)
+Speed.Dev.#15.....:  1397.4 MH/s (44.99ms)
+Speed.Dev.#16.....:  1409.7 MH/s (44.59ms)
+Speed.Dev.#*.....: 22439.8 MH/s
+
+Hashmode: 5400 - IKE-PSK SHA1
+
+Speed.Dev.#1.....:   527.6 MH/s (59.05ms)
+Speed.Dev.#2.....:   516.8 MH/s (61.01ms)
+Speed.Dev.#3.....:   528.7 MH/s (59.74ms)
+Speed.Dev.#4.....:   513.7 MH/s (60.90ms)
+Speed.Dev.#5.....:   525.6 MH/s (59.59ms)
+Speed.Dev.#6.....:   523.8 MH/s (59.51ms)
+Speed.Dev.#7.....:   518.4 MH/s (60.20ms)
+Speed.Dev.#8.....:   527.7 MH/s (59.62ms)
+Speed.Dev.#9.....:   512.4 MH/s (60.76ms)
+Speed.Dev.#10.....:   523.7 MH/s (60.01ms)
+Speed.Dev.#11.....:   513.6 MH/s (60.58ms)
+Speed.Dev.#12.....:   522.8 MH/s (59.80ms)
+Speed.Dev.#13.....:   536.8 MH/s (59.12ms)
+Speed.Dev.#14.....:   519.2 MH/s (60.54ms)
+Speed.Dev.#15.....:   523.2 MH/s (60.38ms)
+Speed.Dev.#16.....:   525.6 MH/s (60.04ms)
+Speed.Dev.#*.....:  8359.6 MH/s
+
+Hashmode: 5500 - NetNTLMv1 / NetNTLMv1+ESS
+
+Speed.Dev.#1.....: 16147.5 MH/s (15.55ms)
+Speed.Dev.#2.....: 15685.5 MH/s (16.01ms)
+Speed.Dev.#3.....: 15935.8 MH/s (15.73ms)
+Speed.Dev.#4.....: 15821.6 MH/s (15.86ms)
+Speed.Dev.#5.....: 15408.9 MH/s (4.04ms)
+Speed.Dev.#6.....: 15450.5 MH/s (4.03ms)
+Speed.Dev.#7.....: 15919.7 MH/s (15.77ms)
+Speed.Dev.#8.....: 16138.7 MH/s (31.07ms)
+Speed.Dev.#9.....: 15871.0 MH/s (31.69ms)
+Speed.Dev.#10.....: 15955.0 MH/s (15.76ms)
+Speed.Dev.#11.....: 15174.8 MH/s (4.10ms)
+Speed.Dev.#12.....: 15375.0 MH/s (4.04ms)
+Speed.Dev.#13.....: 16157.8 MH/s (15.52ms)
+Speed.Dev.#14.....: 15784.9 MH/s (15.89ms)
+Speed.Dev.#15.....: 15801.7 MH/s (15.90ms)
+Speed.Dev.#16.....: 15902.6 MH/s (15.79ms)
+Speed.Dev.#*.....:   252.5 GH/s
+
+Hashmode: 5600 - NetNTLMv2
+
+Speed.Dev.#1.....:  1299.9 MH/s (48.36ms)
+Speed.Dev.#2.....:  1262.4 MH/s (49.75ms)
+Speed.Dev.#3.....:  1273.2 MH/s (49.02ms)
+Speed.Dev.#4.....:  1265.1 MH/s (49.72ms)
+Speed.Dev.#5.....:  1282.1 MH/s (48.79ms)
+Speed.Dev.#6.....:  1289.9 MH/s (48.76ms)
+Speed.Dev.#7.....:  1280.9 MH/s (49.12ms)
+Speed.Dev.#8.....:  1280.0 MH/s (48.88ms)
+Speed.Dev.#9.....:  1272.1 MH/s (49.44ms)
+Speed.Dev.#10.....:  1287.1 MH/s (48.94ms)
+Speed.Dev.#11.....:  1271.3 MH/s (49.20ms)
+Speed.Dev.#12.....:  1297.8 MH/s (48.44ms)
+Speed.Dev.#13.....:  1308.3 MH/s (48.08ms)
+Speed.Dev.#14.....:  1262.9 MH/s (49.74ms)
+Speed.Dev.#15.....:  1278.8 MH/s (49.19ms)
+Speed.Dev.#16.....:  1274.5 MH/s (49.24ms)
+Speed.Dev.#*.....: 20486.4 MH/s
+
+Hashmode: 7300 - IPMI2 RAKP HMAC-SHA1
+
+Speed.Dev.#1.....:  1154.2 MH/s (54.67ms)
+Speed.Dev.#2.....:   944.1 MH/s (66.49ms)
+Speed.Dev.#3.....:  1132.5 MH/s (55.37ms)
+Speed.Dev.#4.....:  1114.6 MH/s (56.14ms)
+Speed.Dev.#5.....:  1136.9 MH/s (55.08ms)
+Speed.Dev.#6.....:  1146.5 MH/s (55.15ms)
+Speed.Dev.#7.....:  1128.5 MH/s (55.82ms)
+Speed.Dev.#8.....:  1149.0 MH/s (54.66ms)
+Speed.Dev.#9.....:  1131.8 MH/s (55.50ms)
+Speed.Dev.#10.....:  1147.1 MH/s (54.78ms)
+Speed.Dev.#11.....:  1122.8 MH/s (55.93ms)
+Speed.Dev.#12.....:  1156.5 MH/s (54.38ms)
+Speed.Dev.#13.....:  1166.6 MH/s (53.95ms)
+Speed.Dev.#14.....:  1113.3 MH/s (56.24ms)
+Speed.Dev.#15.....:  1125.0 MH/s (55.90ms)
+Speed.Dev.#16.....:  1147.1 MH/s (54.83ms)
+Speed.Dev.#*.....: 18016.6 MH/s
+
+Hashmode: 7500 - Kerberos 5 AS-REQ Pre-Auth etype 23
+
+Speed.Dev.#1.....:   223.5 MH/s (70.33ms)
+Speed.Dev.#2.....:   217.6 MH/s (72.20ms)
+Speed.Dev.#3.....:   221.2 MH/s (71.07ms)
+Speed.Dev.#4.....:   217.5 MH/s (71.79ms)
+Speed.Dev.#5.....:   222.2 MH/s (70.74ms)
+Speed.Dev.#6.....:   222.1 MH/s (70.77ms)
+Speed.Dev.#7.....:   220.7 MH/s (71.13ms)
+Speed.Dev.#8.....:   221.1 MH/s (71.02ms)
+Speed.Dev.#9.....:   216.6 MH/s (72.24ms)
+Speed.Dev.#10.....:   220.4 MH/s (71.25ms)
+Speed.Dev.#11.....:   218.8 MH/s (71.77ms)
+Speed.Dev.#12.....:   221.9 MH/s (70.77ms)
+Speed.Dev.#13.....:   224.3 MH/s (70.12ms)
+Speed.Dev.#14.....:   219.0 MH/s (71.82ms)
+Speed.Dev.#15.....:   219.1 MH/s (71.78ms)
+Speed.Dev.#16.....:   220.1 MH/s (71.38ms)
+Speed.Dev.#*.....:  3526.2 MH/s
+
+Hashmode: 13100 - Kerberos 5 TGS-REP etype 23
+
+Speed.Dev.#1.....:   222.2 MH/s (70.61ms)
+Speed.Dev.#2.....:   216.4 MH/s (72.50ms)
+Speed.Dev.#3.....:   220.1 MH/s (71.39ms)
+Speed.Dev.#4.....:   218.6 MH/s (71.87ms)
+Speed.Dev.#5.....:   221.3 MH/s (71.08ms)
+Speed.Dev.#6.....:   221.2 MH/s (71.09ms)
+Speed.Dev.#7.....:   220.3 MH/s (71.43ms)
+Speed.Dev.#8.....:   221.7 MH/s (71.06ms)
+Speed.Dev.#9.....:   218.9 MH/s (71.62ms)
+Speed.Dev.#10.....:   219.5 MH/s (71.57ms)
+Speed.Dev.#11.....:   218.0 MH/s (72.07ms)
+Speed.Dev.#12.....:   220.8 MH/s (71.07ms)
+Speed.Dev.#13.....:   223.4 MH/s (70.38ms)
+Speed.Dev.#14.....:   218.1 MH/s (72.05ms)
+Speed.Dev.#15.....:   218.4 MH/s (72.09ms)
+Speed.Dev.#16.....:   219.1 MH/s (71.68ms)
+Speed.Dev.#*.....:  3517.9 MH/s
+
+Hashmode: 8300 - DNSSEC (NSEC3)
+
+Speed.Dev.#1.....:  2483.0 MH/s (50.64ms)
+Speed.Dev.#2.....:  2408.0 MH/s (52.08ms)
+Speed.Dev.#3.....:  2446.6 MH/s (51.19ms)
+Speed.Dev.#4.....:  2420.0 MH/s (52.08ms)
+Speed.Dev.#5.....:  2477.7 MH/s (25.36ms)
+Speed.Dev.#6.....:  2454.1 MH/s (51.04ms)
+Speed.Dev.#7.....:  2433.6 MH/s (51.63ms)
+Speed.Dev.#8.....:  2458.1 MH/s (51.12ms)
+Speed.Dev.#9.....:  2434.9 MH/s (51.79ms)
+Speed.Dev.#10.....:  2452.9 MH/s (51.29ms)
+Speed.Dev.#11.....:  2410.8 MH/s (52.13ms)
+Speed.Dev.#12.....:  2458.5 MH/s (50.97ms)
+Speed.Dev.#13.....:  2496.1 MH/s (25.17ms)
+Speed.Dev.#14.....:  2410.7 MH/s (52.00ms)
+Speed.Dev.#15.....:  2433.5 MH/s (51.68ms)
+Speed.Dev.#16.....:  2448.5 MH/s (51.40ms)
+Speed.Dev.#*.....: 39127.0 MH/s
+
+Hashmode: 11100 - PostgreSQL CRAM (MD5)
+
+Speed.Dev.#1.....:  5182.5 MH/s (48.51ms)
+Speed.Dev.#2.....:  5025.0 MH/s (49.95ms)
+Speed.Dev.#3.....:  5079.7 MH/s (49.29ms)
+Speed.Dev.#4.....:  5036.2 MH/s (49.77ms)
+Speed.Dev.#5.....:  5091.8 MH/s (12.31ms)
+Speed.Dev.#6.....:  5115.3 MH/s (49.05ms)
+Speed.Dev.#7.....:  5066.1 MH/s (49.43ms)
+Speed.Dev.#8.....:  5070.1 MH/s (12.37ms)
+Speed.Dev.#9.....:  4997.2 MH/s (12.53ms)
+Speed.Dev.#10.....:  5112.2 MH/s (49.17ms)
+Speed.Dev.#11.....:  5020.7 MH/s (12.52ms)
+Speed.Dev.#12.....:  5079.1 MH/s (12.32ms)
+Speed.Dev.#13.....:  5189.8 MH/s (48.46ms)
+Speed.Dev.#14.....:  5006.3 MH/s (12.52ms)
+Speed.Dev.#15.....:  5021.5 MH/s (12.50ms)
+Speed.Dev.#16.....:  5087.5 MH/s (49.40ms)
+Speed.Dev.#*.....: 81181.1 MH/s
+
+Hashmode: 11200 - MySQL CRAM (SHA1)
+
+Speed.Dev.#1.....:  1704.6 MH/s (73.75ms)
+Speed.Dev.#2.....:  1658.5 MH/s (75.86ms)
+Speed.Dev.#3.....:  1669.2 MH/s (75.21ms)
+Speed.Dev.#4.....:  1660.5 MH/s (75.87ms)
+Speed.Dev.#5.....:  1684.8 MH/s (74.70ms)
+Speed.Dev.#6.....:  1691.3 MH/s (37.02ms)
+Speed.Dev.#7.....:  1669.9 MH/s (75.30ms)
+Speed.Dev.#8.....:  1678.6 MH/s (74.54ms)
+Speed.Dev.#9.....:  1670.9 MH/s (75.48ms)
+Speed.Dev.#10.....:  1689.0 MH/s (74.71ms)
+Speed.Dev.#11.....:  1647.8 MH/s (75.99ms)
+Speed.Dev.#12.....:  1699.2 MH/s (36.92ms)
+Speed.Dev.#13.....:  1707.0 MH/s (36.69ms)
+Speed.Dev.#14.....:  1658.1 MH/s (76.07ms)
+Speed.Dev.#15.....:  1654.7 MH/s (75.47ms)
+Speed.Dev.#16.....:  1682.9 MH/s (37.25ms)
+Speed.Dev.#*.....: 26826.8 MH/s
+
+Hashmode: 11400 - SIP digest authentication (MD5)
+
+Speed.Dev.#1.....:  2568.9 MH/s (48.93ms)
+Speed.Dev.#2.....:  2493.9 MH/s (50.41ms)
+Speed.Dev.#3.....:  2521.3 MH/s (49.73ms)
+Speed.Dev.#4.....:  2496.1 MH/s (50.15ms)
+Speed.Dev.#5.....:  2536.6 MH/s (24.74ms)
+Speed.Dev.#6.....:  2537.3 MH/s (49.36ms)
+Speed.Dev.#7.....:  2518.2 MH/s (49.79ms)
+Speed.Dev.#8.....:  2538.0 MH/s (49.39ms)
+Speed.Dev.#9.....:  2509.0 MH/s (50.13ms)
+Speed.Dev.#10.....:  2535.8 MH/s (49.57ms)
+Speed.Dev.#11.....:  2496.8 MH/s (25.15ms)
+Speed.Dev.#12.....:  2549.9 MH/s (49.26ms)
+Speed.Dev.#13.....:  2571.6 MH/s (48.89ms)
+Speed.Dev.#14.....:  2488.1 MH/s (50.26ms)
+Speed.Dev.#15.....:  2502.9 MH/s (25.10ms)
+Speed.Dev.#16.....:  2525.8 MH/s (49.74ms)
+Speed.Dev.#*.....: 40390.0 MH/s
+
+Hashmode: 121 - SMF (Simple Machines Forum) > v1.1
+
+Speed.Dev.#1.....:  5121.4 MH/s (49.11ms)
+Speed.Dev.#2.....:  4976.4 MH/s (50.55ms)
+Speed.Dev.#3.....:  5022.4 MH/s (49.86ms)
+Speed.Dev.#4.....:  4976.7 MH/s (50.36ms)
+Speed.Dev.#5.....:  5053.4 MH/s (12.42ms)
+Speed.Dev.#6.....:  5048.5 MH/s (12.41ms)
+Speed.Dev.#7.....:  5017.1 MH/s (12.51ms)
+Speed.Dev.#8.....:  5024.5 MH/s (50.06ms)
+Speed.Dev.#9.....:  4961.3 MH/s (12.64ms)
+Speed.Dev.#10.....:  5025.1 MH/s (12.51ms)
+Speed.Dev.#11.....:  4966.4 MH/s (50.35ms)
+Speed.Dev.#12.....:  5088.1 MH/s (49.44ms)
+Speed.Dev.#13.....:  5085.6 MH/s (12.34ms)
+Speed.Dev.#14.....:  4952.7 MH/s (12.63ms)
+Speed.Dev.#15.....:  4980.8 MH/s (50.44ms)
+Speed.Dev.#16.....:  5011.9 MH/s (12.54ms)
+Speed.Dev.#*.....: 80312.5 MH/s
+
+Hashmode: 2611 - vBulletin < v3.8.5
+
+Speed.Dev.#1.....:  5263.1 MH/s (47.78ms)
+Speed.Dev.#2.....:  5116.6 MH/s (49.20ms)
+Speed.Dev.#3.....:  5158.1 MH/s (48.77ms)
+Speed.Dev.#4.....:  5113.3 MH/s (49.16ms)
+Speed.Dev.#5.....:  5179.0 MH/s (12.11ms)
+Speed.Dev.#6.....:  5189.4 MH/s (48.41ms)
+Speed.Dev.#7.....:  5140.0 MH/s (48.73ms)
+Speed.Dev.#8.....:  5180.8 MH/s (48.50ms)
+Speed.Dev.#9.....:  5122.5 MH/s (49.12ms)
+Speed.Dev.#10.....:  5145.5 MH/s (12.19ms)
+Speed.Dev.#11.....:  5109.8 MH/s (48.99ms)
+Speed.Dev.#12.....:  5179.0 MH/s (12.11ms)
+Speed.Dev.#13.....:  5206.4 MH/s (12.03ms)
+Speed.Dev.#14.....:  5099.4 MH/s (48.99ms)
+Speed.Dev.#15.....:  5151.3 MH/s (48.86ms)
+Speed.Dev.#16.....:  5155.5 MH/s (48.62ms)
+Speed.Dev.#*.....: 82509.7 MH/s
+
+Hashmode: 2711 - vBulletin >= v3.8.5
+
+Speed.Dev.#1.....:  3678.5 MH/s (68.41ms)
+Speed.Dev.#2.....:  3578.6 MH/s (70.38ms)
+Speed.Dev.#3.....:  3603.8 MH/s (69.81ms)
+Speed.Dev.#4.....:  3576.9 MH/s (70.36ms)
+Speed.Dev.#5.....:  3628.6 MH/s (69.05ms)
+Speed.Dev.#6.....:  3629.2 MH/s (69.18ms)
+Speed.Dev.#7.....:  3583.4 MH/s (17.44ms)
+Speed.Dev.#8.....:  3618.5 MH/s (17.45ms)
+Speed.Dev.#9.....:  3621.0 MH/s (17.47ms)
+Speed.Dev.#10.....:  3629.3 MH/s (69.34ms)
+Speed.Dev.#11.....:  3589.8 MH/s (17.60ms)
+Speed.Dev.#12.....:  3616.4 MH/s (69.33ms)
+Speed.Dev.#13.....:  3651.8 MH/s (68.53ms)
+Speed.Dev.#14.....:  3543.5 MH/s (17.65ms)
+Speed.Dev.#15.....:  3559.0 MH/s (70.02ms)
+Speed.Dev.#16.....:  3609.3 MH/s (69.73ms)
+Speed.Dev.#*.....: 57717.6 MH/s
+
+Hashmode: 2811 - IPB2+ (Invision Power Board), MyBB 1.2+
+
+Speed.Dev.#1.....:  3814.6 MH/s (65.98ms)
+Speed.Dev.#2.....:  3712.0 MH/s (67.89ms)
+Speed.Dev.#3.....:  3735.6 MH/s (67.19ms)
+Speed.Dev.#4.....:  3705.2 MH/s (67.72ms)
+Speed.Dev.#5.....:  3739.8 MH/s (16.78ms)
+Speed.Dev.#6.....:  3734.5 MH/s (16.79ms)
+Speed.Dev.#7.....:  3729.8 MH/s (67.17ms)
+Speed.Dev.#8.....:  3717.9 MH/s (16.91ms)
+Speed.Dev.#9.....:  3708.8 MH/s (67.60ms)
+Speed.Dev.#10.....:  3757.8 MH/s (67.01ms)
+Speed.Dev.#11.....:  3696.3 MH/s (67.75ms)
+Speed.Dev.#12.....:  3732.9 MH/s (16.81ms)
+Speed.Dev.#13.....:  3771.2 MH/s (16.67ms)
+Speed.Dev.#14.....:  3685.8 MH/s (68.05ms)
+Speed.Dev.#15.....:  3689.8 MH/s (67.46ms)
+Speed.Dev.#16.....:  3712.2 MH/s (16.95ms)
+Speed.Dev.#*.....: 59644.2 MH/s
+
+Hashmode: 8400 - WBB3 (Woltlab Burning Board)
+
+Speed.Dev.#1.....:   902.7 MH/s (69.59ms)
+Speed.Dev.#2.....:   880.3 MH/s (71.76ms)
+Speed.Dev.#3.....:   887.8 MH/s (70.98ms)
+Speed.Dev.#4.....:   873.9 MH/s (71.64ms)
+Speed.Dev.#5.....:   902.8 MH/s (69.50ms)
+Speed.Dev.#6.....:   894.9 MH/s (70.34ms)
+Speed.Dev.#7.....:   883.0 MH/s (70.84ms)
+Speed.Dev.#8.....:   894.9 MH/s (70.24ms)
+Speed.Dev.#9.....:   881.1 MH/s (71.37ms)
+Speed.Dev.#10.....:   902.3 MH/s (69.82ms)
+Speed.Dev.#11.....:   885.2 MH/s (70.74ms)
+Speed.Dev.#12.....:   899.0 MH/s (69.51ms)
+Speed.Dev.#13.....:   913.4 MH/s (68.76ms)
+Speed.Dev.#14.....:   875.9 MH/s (71.56ms)
+Speed.Dev.#15.....:   877.4 MH/s (71.17ms)
+Speed.Dev.#16.....:   899.8 MH/s (69.84ms)
+Speed.Dev.#*.....: 14254.3 MH/s
+
+Hashmode: 13900 - OpenCart
+
+Speed.Dev.#1.....:  1541.3 MH/s (81.58ms)
+Speed.Dev.#2.....:  1500.4 MH/s (83.97ms)
+Speed.Dev.#3.....:  1515.6 MH/s (82.90ms)
+Speed.Dev.#4.....:  1497.7 MH/s (83.71ms)
+Speed.Dev.#5.....:  1521.3 MH/s (82.35ms)
+Speed.Dev.#6.....:  1524.9 MH/s (41.01ms)
+Speed.Dev.#7.....:  1526.4 MH/s (41.19ms)
+Speed.Dev.#8.....:  1524.6 MH/s (40.94ms)
+Speed.Dev.#9.....:  1503.5 MH/s (41.54ms)
+Speed.Dev.#10.....:  1525.5 MH/s (41.22ms)
+Speed.Dev.#11.....:  1489.4 MH/s (84.10ms)
+Speed.Dev.#12.....:  1516.8 MH/s (82.30ms)
+Speed.Dev.#13.....:  1539.7 MH/s (81.58ms)
+Speed.Dev.#14.....:  1490.0 MH/s (83.76ms)
+Speed.Dev.#15.....:  1497.0 MH/s (83.59ms)
+Speed.Dev.#16.....:  1519.2 MH/s (41.27ms)
+Speed.Dev.#*.....: 24233.4 MH/s
+
+Hashmode: 11 - Joomla < 2.5.18
+
+Speed.Dev.#1.....: 16652.9 MH/s (15.02ms)
+Speed.Dev.#2.....: 16252.8 MH/s (15.48ms)
+Speed.Dev.#3.....: 16534.7 MH/s (15.21ms)
+Speed.Dev.#4.....: 16344.6 MH/s (15.35ms)
+Speed.Dev.#5.....: 16591.4 MH/s (15.13ms)
+Speed.Dev.#6.....: 16602.9 MH/s (30.11ms)
+Speed.Dev.#7.....: 16219.3 MH/s (3.83ms)
+Speed.Dev.#8.....: 16567.4 MH/s (15.12ms)
+Speed.Dev.#9.....: 16500.6 MH/s (30.45ms)
+Speed.Dev.#10.....: 16585.9 MH/s (30.29ms)
+Speed.Dev.#11.....: 16345.7 MH/s (15.35ms)
+Speed.Dev.#12.....: 16702.6 MH/s (15.10ms)
+Speed.Dev.#13.....: 16495.7 MH/s (3.77ms)
+Speed.Dev.#14.....: 16070.1 MH/s (3.87ms)
+Speed.Dev.#15.....: 16152.6 MH/s (3.86ms)
+Speed.Dev.#16.....: 16227.6 MH/s (3.84ms)
+Speed.Dev.#*.....:   262.8 GH/s
+
+Hashmode: 2612 - PHPS
+
+Speed.Dev.#1.....:  5264.3 MH/s (47.79ms)
+Speed.Dev.#2.....:  5113.5 MH/s (49.18ms)
+Speed.Dev.#3.....:  5155.1 MH/s (48.57ms)
+Speed.Dev.#4.....:  5118.0 MH/s (48.89ms)
+Speed.Dev.#5.....:  5176.4 MH/s (12.11ms)
+Speed.Dev.#6.....:  5197.0 MH/s (48.28ms)
+Speed.Dev.#7.....:  5193.9 MH/s (48.44ms)
+Speed.Dev.#8.....:  5207.4 MH/s (48.12ms)
+Speed.Dev.#9.....:  5124.6 MH/s (12.24ms)
+Speed.Dev.#10.....:  5193.0 MH/s (48.45ms)
+Speed.Dev.#11.....:  5098.8 MH/s (12.29ms)
+Speed.Dev.#12.....:  5176.9 MH/s (12.12ms)
+Speed.Dev.#13.....:  5262.2 MH/s (95.51ms)
+Speed.Dev.#14.....:  5094.1 MH/s (49.12ms)
+Speed.Dev.#15.....:  5089.8 MH/s (12.30ms)
+Speed.Dev.#16.....:  5158.0 MH/s (48.64ms)
+Speed.Dev.#*.....: 82623.0 MH/s
+
+Hashmode: 7900 - Drupal7
+
+Speed.Dev.#1.....:    41762 H/s (91.86ms)
+Speed.Dev.#2.....:    40580 H/s (94.54ms)
+Speed.Dev.#3.....:    40957 H/s (93.46ms)
+Speed.Dev.#4.....:    40927 H/s (93.74ms)
+Speed.Dev.#5.....:    41309 H/s (92.71ms)
+Speed.Dev.#6.....:    41262 H/s (92.77ms)
+Speed.Dev.#7.....:    41210 H/s (93.07ms)
+Speed.Dev.#8.....:    41544 H/s (92.16ms)
+Speed.Dev.#9.....:    40859 H/s (93.53ms)
+Speed.Dev.#10.....:    41461 H/s (92.46ms)
+Speed.Dev.#11.....:    40507 H/s (94.61ms)
+Speed.Dev.#12.....:    41417 H/s (92.37ms)
+Speed.Dev.#13.....:    41980 H/s (91.27ms)
+Speed.Dev.#14.....:    40701 H/s (94.11ms)
+Speed.Dev.#15.....:    40539 H/s (94.42ms)
+Speed.Dev.#16.....:    40862 H/s (93.88ms)
+Speed.Dev.#*.....:   657.9 kH/s
+
+Hashmode: 21 - osCommerce, xt:Commerce
+
+Speed.Dev.#1.....: 10161.4 MH/s (24.73ms)
+Speed.Dev.#2.....:  9873.6 MH/s (25.45ms)
+Speed.Dev.#3.....: 10029.4 MH/s (25.06ms)
+Speed.Dev.#4.....:  9962.3 MH/s (25.23ms)
+Speed.Dev.#5.....: 10106.1 MH/s (49.80ms)
+Speed.Dev.#6.....:  9917.2 MH/s (6.28ms)
+Speed.Dev.#7.....: 10035.0 MH/s (50.13ms)
+Speed.Dev.#8.....:  9917.2 MH/s (6.28ms)
+Speed.Dev.#9.....:  9835.0 MH/s (6.35ms)
+Speed.Dev.#10.....: 10038.4 MH/s (50.12ms)
+Speed.Dev.#11.....:  9798.2 MH/s (6.37ms)
+Speed.Dev.#12.....: 10095.8 MH/s (24.89ms)
+Speed.Dev.#13.....: 10176.2 MH/s (24.69ms)
+Speed.Dev.#14.....:  9939.1 MH/s (25.29ms)
+Speed.Dev.#15.....:  9944.6 MH/s (25.28ms)
+Speed.Dev.#16.....: 10028.6 MH/s (25.09ms)
+Speed.Dev.#*.....:   159.9 GH/s
+
+Hashmode: 11000 - PrestaShop
+
+Speed.Dev.#1.....:  6484.4 MH/s (38.77ms)
+Speed.Dev.#2.....:  6311.2 MH/s (39.91ms)
+Speed.Dev.#3.....:  6354.4 MH/s (39.31ms)
+Speed.Dev.#4.....:  5359.0 MH/s (46.95ms)
+Speed.Dev.#5.....:  6442.2 MH/s (39.03ms)
+Speed.Dev.#6.....:  6348.6 MH/s (9.85ms)
+Speed.Dev.#7.....:  6311.0 MH/s (9.92ms)
+Speed.Dev.#8.....:  6346.0 MH/s (9.86ms)
+Speed.Dev.#9.....:  6270.2 MH/s (79.72ms)
+Speed.Dev.#10.....:  6318.0 MH/s (9.92ms)
+Speed.Dev.#11.....:  6263.3 MH/s (10.00ms)
+Speed.Dev.#12.....:  6390.3 MH/s (39.10ms)
+Speed.Dev.#13.....:  6493.7 MH/s (38.71ms)
+Speed.Dev.#14.....:  6242.8 MH/s (10.02ms)
+Speed.Dev.#15.....:  6267.6 MH/s (10.00ms)
+Speed.Dev.#16.....:  6390.8 MH/s (78.71ms)
+Speed.Dev.#*.....:   100.6 GH/s
+
+Hashmode: 124 - Django (SHA-1)
+
+Speed.Dev.#1.....:  5114.4 MH/s (49.14ms)
+Speed.Dev.#2.....:  4993.0 MH/s (50.42ms)
+Speed.Dev.#3.....:  5032.4 MH/s (49.82ms)
+Speed.Dev.#4.....:  5015.4 MH/s (50.14ms)
+Speed.Dev.#5.....:  5051.8 MH/s (12.41ms)
+Speed.Dev.#6.....:  5043.2 MH/s (49.84ms)
+Speed.Dev.#7.....:  5020.4 MH/s (50.07ms)
+Speed.Dev.#8.....:  5048.1 MH/s (12.43ms)
+Speed.Dev.#9.....:  4996.8 MH/s (12.55ms)
+Speed.Dev.#10.....:  5011.5 MH/s (12.51ms)
+Speed.Dev.#11.....:  4972.7 MH/s (12.61ms)
+Speed.Dev.#12.....:  5040.3 MH/s (49.88ms)
+Speed.Dev.#13.....:  5122.8 MH/s (49.07ms)
+Speed.Dev.#14.....:  4967.6 MH/s (12.63ms)
+Speed.Dev.#15.....:  4963.7 MH/s (12.61ms)
+Speed.Dev.#16.....:  5049.8 MH/s (49.76ms)
+Speed.Dev.#*.....: 80443.8 MH/s
+
+Hashmode: 10000 - Django (PBKDF2-SHA256)
+
+Speed.Dev.#1.....:    43191 H/s (71.49ms)
+Speed.Dev.#2.....:    42022 H/s (73.54ms)
+Speed.Dev.#3.....:    42375 H/s (72.70ms)
+Speed.Dev.#4.....:    42355 H/s (72.91ms)
+Speed.Dev.#5.....:    42722 H/s (72.17ms)
+Speed.Dev.#6.....:    42815 H/s (72.11ms)
+Speed.Dev.#7.....:    42654 H/s (72.45ms)
+Speed.Dev.#8.....:    42943 H/s (71.92ms)
+Speed.Dev.#9.....:    42395 H/s (73.82ms)
+Speed.Dev.#10.....:    42655 H/s (72.41ms)
+Speed.Dev.#11.....:    41998 H/s (73.41ms)
+Speed.Dev.#12.....:    42582 H/s (72.36ms)
+Speed.Dev.#13.....:    43232 H/s (71.44ms)
+Speed.Dev.#14.....:    42224 H/s (73.15ms)
+Speed.Dev.#15.....:    42101 H/s (73.26ms)
+Speed.Dev.#16.....:    42578 H/s (72.55ms)
+Speed.Dev.#*.....:   680.8 kH/s
+
+Hashmode: 3711 - MediaWiki B type
+
+Speed.Dev.#1.....:  4929.6 MH/s (51.02ms)
+Speed.Dev.#2.....:  3485.2 MH/s (72.15ms)
+Speed.Dev.#3.....:  4831.7 MH/s (51.81ms)
+Speed.Dev.#4.....:  4828.4 MH/s (52.06ms)
+Speed.Dev.#5.....:  4899.1 MH/s (51.31ms)
+Speed.Dev.#6.....:  4850.4 MH/s (12.91ms)
+Speed.Dev.#7.....:  4824.4 MH/s (13.00ms)
+Speed.Dev.#8.....:  4854.1 MH/s (12.91ms)
+Speed.Dev.#9.....:  4803.6 MH/s (52.10ms)
+Speed.Dev.#10.....:  4866.3 MH/s (51.67ms)
+Speed.Dev.#11.....:  4783.8 MH/s (52.26ms)
+Speed.Dev.#12.....:  4849.3 MH/s (12.92ms)
+Speed.Dev.#13.....:  4891.5 MH/s (12.82ms)
+Speed.Dev.#14.....:  4826.8 MH/s (52.07ms)
+Speed.Dev.#15.....:  4830.6 MH/s (52.05ms)
+Speed.Dev.#16.....:  4807.4 MH/s (13.03ms)
+Speed.Dev.#*.....: 76162.3 MH/s
+
+Hashmode: 4521 - Redmine
+
+Speed.Dev.#1.....:  2281.9 MH/s (55.16ms)
+Speed.Dev.#2.....:  2215.5 MH/s (56.77ms)
+Speed.Dev.#3.....:  2232.1 MH/s (55.90ms)
+Speed.Dev.#4.....:  2231.4 MH/s (56.27ms)
+Speed.Dev.#5.....:  2265.4 MH/s (27.72ms)
+Speed.Dev.#6.....:  2255.8 MH/s (55.47ms)
+Speed.Dev.#7.....:  2247.2 MH/s (27.92ms)
+Speed.Dev.#8.....:  2266.2 MH/s (27.73ms)
+Speed.Dev.#9.....:  2244.6 MH/s (28.00ms)
+Speed.Dev.#10.....:  2249.0 MH/s (27.92ms)
+Speed.Dev.#11.....:  2231.1 MH/s (28.15ms)
+Speed.Dev.#12.....:  2271.7 MH/s (55.49ms)
+Speed.Dev.#13.....:  2285.7 MH/s (55.05ms)
+Speed.Dev.#14.....:  2213.5 MH/s (56.58ms)
+Speed.Dev.#15.....:  2231.0 MH/s (56.29ms)
+Speed.Dev.#16.....:  2250.4 MH/s (55.99ms)
+Speed.Dev.#*.....: 35972.5 MH/s
+
+Hashmode: 4522 - PunBB
+
+Speed.Dev.#1.....:  2276.2 MH/s (55.11ms)
+Speed.Dev.#2.....:  1607.5 MH/s (78.17ms)
+Speed.Dev.#3.....:  2240.1 MH/s (55.83ms)
+Speed.Dev.#4.....:  2213.4 MH/s (56.70ms)
+Speed.Dev.#5.....:  2243.7 MH/s (55.62ms)
+Speed.Dev.#6.....:  2250.6 MH/s (27.72ms)
+Speed.Dev.#7.....:  2251.7 MH/s (55.84ms)
+Speed.Dev.#8.....:  2253.1 MH/s (55.65ms)
+Speed.Dev.#9.....:  2210.7 MH/s (56.36ms)
+Speed.Dev.#10.....:  2254.8 MH/s (55.88ms)
+Speed.Dev.#11.....:  2233.5 MH/s (28.16ms)
+Speed.Dev.#12.....:  2269.2 MH/s (55.49ms)
+Speed.Dev.#13.....:  2282.4 MH/s (55.08ms)
+Speed.Dev.#14.....:  2211.1 MH/s (56.80ms)
+Speed.Dev.#15.....:  2239.7 MH/s (56.34ms)
+Speed.Dev.#16.....:  2240.8 MH/s (55.97ms)
+Speed.Dev.#*.....: 35278.3 MH/s
+
+Hashmode: 12 - PostgreSQL
+
+Speed.Dev.#1.....: 16656.2 MH/s (15.03ms)
+Speed.Dev.#2.....: 16208.8 MH/s (15.48ms)
+Speed.Dev.#3.....: 16468.7 MH/s (15.21ms)
+Speed.Dev.#4.....: 16203.6 MH/s (15.38ms)
+Speed.Dev.#5.....: 16625.4 MH/s (15.12ms)
+Speed.Dev.#6.....: 16341.4 MH/s (3.80ms)
+Speed.Dev.#7.....: 16206.7 MH/s (3.83ms)
+Speed.Dev.#8.....: 16328.7 MH/s (3.80ms)
+Speed.Dev.#9.....: 16160.9 MH/s (3.84ms)
+Speed.Dev.#10.....: 16240.2 MH/s (3.83ms)
+Speed.Dev.#11.....: 16086.6 MH/s (3.86ms)
+Speed.Dev.#12.....: 16320.2 MH/s (3.81ms)
+Speed.Dev.#13.....: 16680.5 MH/s (15.02ms)
+Speed.Dev.#14.....: 16465.5 MH/s (30.53ms)
+Speed.Dev.#15.....: 16469.2 MH/s (30.52ms)
+Speed.Dev.#16.....: 16082.5 MH/s (3.84ms)
+Speed.Dev.#*.....:   261.5 GH/s
+
+Hashmode: 131 - MSSQL (2000)
+
+Speed.Dev.#1.....:  6447.2 MH/s (39.00ms)
+Speed.Dev.#2.....:  6272.3 MH/s (40.14ms)
+Speed.Dev.#3.....:  6335.6 MH/s (39.49ms)
+Speed.Dev.#4.....:  6264.1 MH/s (40.02ms)
+Speed.Dev.#5.....:  6412.3 MH/s (39.20ms)
+Speed.Dev.#6.....:  6355.6 MH/s (9.85ms)
+Speed.Dev.#7.....:  6307.9 MH/s (9.93ms)
+Speed.Dev.#8.....:  6359.5 MH/s (9.86ms)
+Speed.Dev.#9.....:  6273.7 MH/s (79.86ms)
+Speed.Dev.#10.....:  6320.5 MH/s (9.93ms)
+Speed.Dev.#11.....:  6305.6 MH/s (39.85ms)
+Speed.Dev.#12.....:  6411.8 MH/s (39.26ms)
+Speed.Dev.#13.....:  6446.3 MH/s (38.96ms)
+Speed.Dev.#14.....:  6266.4 MH/s (10.02ms)
+Speed.Dev.#15.....:  6314.1 MH/s (79.67ms)
+Speed.Dev.#16.....:  6350.7 MH/s (39.58ms)
+Speed.Dev.#*.....:   101.4 GH/s
+
+Hashmode: 132 - MSSQL (2005)
+
+Speed.Dev.#1.....:  6449.3 MH/s (39.01ms)
+Speed.Dev.#2.....:  6258.6 MH/s (40.16ms)
+Speed.Dev.#3.....:  6323.5 MH/s (39.51ms)
+Speed.Dev.#4.....:  6259.7 MH/s (39.99ms)
+Speed.Dev.#5.....:  6367.8 MH/s (78.80ms)
+Speed.Dev.#6.....:  6363.4 MH/s (9.85ms)
+Speed.Dev.#7.....:  6314.2 MH/s (9.93ms)
+Speed.Dev.#8.....:  6401.1 MH/s (39.25ms)
+Speed.Dev.#9.....:  6273.0 MH/s (39.72ms)
+Speed.Dev.#10.....:  6363.4 MH/s (39.51ms)
+Speed.Dev.#11.....:  6308.5 MH/s (39.85ms)
+Speed.Dev.#12.....:  6406.8 MH/s (39.26ms)
+Speed.Dev.#13.....:  6411.3 MH/s (9.78ms)
+Speed.Dev.#14.....:  6248.3 MH/s (10.02ms)
+Speed.Dev.#15.....:  6271.4 MH/s (10.00ms)
+Speed.Dev.#16.....:  6360.8 MH/s (79.16ms)
+Speed.Dev.#*.....:   101.4 GH/s
+
+Hashmode: 1731 - MSSQL (2012, 2014)
+
+Speed.Dev.#1.....:   708.7 MH/s (88.75ms)
+Speed.Dev.#2.....:   691.8 MH/s (91.47ms)
+Speed.Dev.#3.....:   696.1 MH/s (89.83ms)
+Speed.Dev.#4.....:   682.8 MH/s (91.53ms)
+Speed.Dev.#5.....:   711.4 MH/s (88.48ms)
+Speed.Dev.#6.....:   701.6 MH/s (89.53ms)
+Speed.Dev.#7.....:   694.3 MH/s (89.96ms)
+Speed.Dev.#8.....:   704.5 MH/s (89.43ms)
+Speed.Dev.#9.....:   696.1 MH/s (89.64ms)
+Speed.Dev.#10.....:   705.5 MH/s (89.09ms)
+Speed.Dev.#11.....:   691.3 MH/s (90.89ms)
+Speed.Dev.#12.....:   710.8 MH/s (88.48ms)
+Speed.Dev.#13.....:   709.3 MH/s (88.75ms)
+Speed.Dev.#14.....:   693.9 MH/s (89.94ms)
+Speed.Dev.#15.....:   695.1 MH/s (90.72ms)
+Speed.Dev.#16.....:   698.5 MH/s (90.03ms)
+Speed.Dev.#*.....: 11191.7 MH/s
+
+Hashmode: 200 - MySQL323
+
+Speed.Dev.#1.....: 36220.2 MH/s (6.88ms)
+Speed.Dev.#2.....: 35385.0 MH/s (7.11ms)
+Speed.Dev.#3.....: 35910.1 MH/s (6.96ms)
+Speed.Dev.#4.....: 35484.8 MH/s (7.02ms)
+Speed.Dev.#5.....: 36189.0 MH/s (6.92ms)
+Speed.Dev.#6.....: 35925.5 MH/s (6.96ms)
+Speed.Dev.#7.....: 35894.8 MH/s (6.98ms)
+Speed.Dev.#8.....: 33861.4 MH/s (1.81ms)
+Speed.Dev.#9.....: 33572.3 MH/s (1.83ms)
+Speed.Dev.#10.....: 35935.8 MH/s (6.97ms)
+Speed.Dev.#11.....: 35635.5 MH/s (7.03ms)
+Speed.Dev.#12.....: 33897.9 MH/s (1.81ms)
+Speed.Dev.#13.....: 36445.8 MH/s (6.87ms)
+Speed.Dev.#14.....: 35439.8 MH/s (7.07ms)
+Speed.Dev.#15.....: 35439.8 MH/s (7.06ms)
+Speed.Dev.#16.....: 33394.1 MH/s (1.83ms)
+Speed.Dev.#*.....:   564.6 GH/s
+
+Hashmode: 300 - MySQL4.1/MySQL5
+
+Speed.Dev.#1.....:  2819.3 MH/s (89.21ms)
+Speed.Dev.#2.....:  2741.4 MH/s (91.84ms)
+Speed.Dev.#3.....:  2763.7 MH/s (90.56ms)
+Speed.Dev.#4.....:  2742.1 MH/s (91.48ms)
+Speed.Dev.#5.....:  2793.0 MH/s (22.49ms)
+Speed.Dev.#6.....:  2796.7 MH/s (22.48ms)
+Speed.Dev.#7.....:  2763.2 MH/s (90.86ms)
+Speed.Dev.#8.....:  2796.7 MH/s (89.76ms)
+Speed.Dev.#9.....:  2728.6 MH/s (91.90ms)
+Speed.Dev.#10.....:  2783.9 MH/s (90.37ms)
+Speed.Dev.#11.....:  2750.6 MH/s (22.85ms)
+Speed.Dev.#12.....:  2794.0 MH/s (22.52ms)
+Speed.Dev.#13.....:  2822.7 MH/s (89.11ms)
+Speed.Dev.#14.....:  2756.8 MH/s (91.22ms)
+Speed.Dev.#15.....:  2762.8 MH/s (91.12ms)
+Speed.Dev.#16.....:  2779.3 MH/s (90.51ms)
+Speed.Dev.#*.....: 44394.8 MH/s
+
+Hashmode: 3100 - Oracle H: Type (Oracle 7+)
+
+Speed.Dev.#1.....:   689.7 MH/s (45.66ms)
+Speed.Dev.#2.....:   672.3 MH/s (46.83ms)
+Speed.Dev.#3.....:   686.0 MH/s (45.98ms)
+Speed.Dev.#4.....:   676.4 MH/s (46.48ms)
+Speed.Dev.#5.....:   679.4 MH/s (45.82ms)
+Speed.Dev.#6.....:   685.5 MH/s (45.91ms)
+Speed.Dev.#7.....:   684.7 MH/s (46.00ms)
+Speed.Dev.#8.....:   687.0 MH/s (45.85ms)
+Speed.Dev.#9.....:   683.2 MH/s (46.10ms)
+Speed.Dev.#10.....:   683.0 MH/s (46.17ms)
+Speed.Dev.#11.....:   675.7 MH/s (46.53ms)
+Speed.Dev.#12.....:   689.0 MH/s (45.81ms)
+Speed.Dev.#13.....:   684.0 MH/s (45.44ms)
+Speed.Dev.#14.....:   699.8 MH/s (44.95ms)
+Speed.Dev.#15.....:   676.4 MH/s (46.39ms)
+Speed.Dev.#16.....:   704.9 MH/s (44.54ms)
+Speed.Dev.#*.....: 10957.0 MH/s
+
+Hashmode: 112 - Oracle S: Type (Oracle 11+)
+
+Speed.Dev.#1.....:  6285.6 MH/s (39.98ms)
+Speed.Dev.#2.....:  6106.1 MH/s (41.17ms)
+Speed.Dev.#3.....:  6208.6 MH/s (40.45ms)
+Speed.Dev.#4.....:  6107.9 MH/s (40.89ms)
+Speed.Dev.#5.....:  6255.5 MH/s (40.22ms)
+Speed.Dev.#6.....:  6244.3 MH/s (40.22ms)
+Speed.Dev.#7.....:  6158.9 MH/s (40.68ms)
+Speed.Dev.#8.....:  6190.6 MH/s (10.12ms)
+Speed.Dev.#9.....:  6116.9 MH/s (81.76ms)
+Speed.Dev.#10.....:  6142.2 MH/s (10.19ms)
+Speed.Dev.#11.....:  6150.0 MH/s (40.88ms)
+Speed.Dev.#12.....:  6194.8 MH/s (10.12ms)
+Speed.Dev.#13.....:  6234.1 MH/s (10.04ms)
+Speed.Dev.#14.....:  6154.2 MH/s (81.73ms)
+Speed.Dev.#15.....:  6152.6 MH/s (40.85ms)
+Speed.Dev.#16.....:  6133.8 MH/s (10.20ms)
+Speed.Dev.#*.....: 98836.1 MH/s
+
+Hashmode: 12300 - Oracle T: Type (Oracle 12+)
+
+Speed.Dev.#1.....:    66570 H/s (57.37ms)
+Speed.Dev.#2.....:    64758 H/s (58.86ms)
+Speed.Dev.#3.....:    66105 H/s (57.81ms)
+Speed.Dev.#4.....:    65460 H/s (58.34ms)
+Speed.Dev.#5.....:    66029 H/s (56.19ms)
+Speed.Dev.#6.....:    66194 H/s (56.05ms)
+Speed.Dev.#7.....:    65753 H/s (56.43ms)
+Speed.Dev.#8.....:    66027 H/s (56.14ms)
+Speed.Dev.#9.....:    65811 H/s (58.00ms)
+Speed.Dev.#10.....:    65775 H/s (57.97ms)
+Speed.Dev.#11.....:    65272 H/s (58.54ms)
+Speed.Dev.#12.....:    49070 H/s (77.92ms)
+Speed.Dev.#13.....:    66517 H/s (55.78ms)
+Speed.Dev.#14.....:    65063 H/s (56.99ms)
+Speed.Dev.#15.....:    65194 H/s (58.61ms)
+Speed.Dev.#16.....:    65839 H/s (58.04ms)
+Speed.Dev.#*.....:  1035.4 kH/s
+
+Hashmode: 8000 - Sybase ASE
+
+Speed.Dev.#1.....:   219.4 MH/s (71.62ms)
+Speed.Dev.#2.....:   213.3 MH/s (73.38ms)
+Speed.Dev.#3.....:   217.7 MH/s (72.21ms)
+Speed.Dev.#4.....:   215.6 MH/s (72.84ms)
+Speed.Dev.#5.....:   218.0 MH/s (72.14ms)
+Speed.Dev.#6.....:   218.5 MH/s (71.95ms)
+Speed.Dev.#7.....:   216.9 MH/s (72.21ms)
+Speed.Dev.#8.....:   218.1 MH/s (71.79ms)
+Speed.Dev.#9.....:   216.9 MH/s (72.47ms)
+Speed.Dev.#10.....:   216.5 MH/s (72.28ms)
+Speed.Dev.#11.....:   215.0 MH/s (73.10ms)
+Speed.Dev.#12.....:   218.4 MH/s (71.72ms)
+Speed.Dev.#13.....:   219.6 MH/s (71.59ms)
+Speed.Dev.#14.....:   214.1 MH/s (73.42ms)
+Speed.Dev.#15.....:   214.8 MH/s (73.22ms)
+Speed.Dev.#16.....:   216.3 MH/s (72.67ms)
+Speed.Dev.#*.....:  3469.4 MH/s
+
+Hashmode: 141 - Episerver 6.x < .NET 4
+
+Speed.Dev.#1.....:  5120.1 MH/s (49.13ms)
+Speed.Dev.#2.....:  4977.3 MH/s (50.55ms)
+Speed.Dev.#3.....:  5024.2 MH/s (49.72ms)
+Speed.Dev.#4.....:  5018.8 MH/s (50.13ms)
+Speed.Dev.#5.....:  5045.3 MH/s (12.42ms)
+Speed.Dev.#6.....:  5036.8 MH/s (12.42ms)
+Speed.Dev.#7.....:  5045.7 MH/s (49.83ms)
+Speed.Dev.#8.....:  5088.7 MH/s (49.41ms)
+Speed.Dev.#9.....:  4992.8 MH/s (12.55ms)
+Speed.Dev.#10.....:  5015.5 MH/s (12.51ms)
+Speed.Dev.#11.....:  4977.8 MH/s (12.62ms)
+Speed.Dev.#12.....:  5044.5 MH/s (12.44ms)
+Speed.Dev.#13.....:  5124.8 MH/s (49.07ms)
+Speed.Dev.#14.....:  4981.4 MH/s (50.56ms)
+Speed.Dev.#15.....:  4997.4 MH/s (50.45ms)
+Speed.Dev.#16.....:  5015.5 MH/s (12.51ms)
+Speed.Dev.#*.....: 80506.6 MH/s
+
+Hashmode: 1441 - Episerver 6.x >= .NET 4
+
+Speed.Dev.#1.....:  2053.6 MH/s (61.40ms)
+Speed.Dev.#2.....:  1989.9 MH/s (63.19ms)
+Speed.Dev.#3.....:  2004.7 MH/s (62.26ms)
+Speed.Dev.#4.....:  2013.9 MH/s (62.59ms)
+Speed.Dev.#5.....:  2044.1 MH/s (30.77ms)
+Speed.Dev.#6.....:  2045.2 MH/s (30.76ms)
+Speed.Dev.#7.....:  2009.1 MH/s (62.58ms)
+Speed.Dev.#8.....:  2029.7 MH/s (61.82ms)
+Speed.Dev.#9.....:  2019.7 MH/s (62.40ms)
+Speed.Dev.#10.....:  2029.3 MH/s (30.99ms)
+Speed.Dev.#11.....:  2010.4 MH/s (31.26ms)
+Speed.Dev.#12.....:  2034.9 MH/s (61.82ms)
+Speed.Dev.#13.....:  2046.0 MH/s (61.33ms)
+Speed.Dev.#14.....:  2004.2 MH/s (62.84ms)
+Speed.Dev.#15.....:  2009.5 MH/s (31.23ms)
+Speed.Dev.#16.....:  2016.0 MH/s (62.24ms)
+Speed.Dev.#*.....: 32360.2 MH/s
+
+Hashmode: 1600 - Apache $apr1$ MD5, md5apr1, MD5 (APR)
+
+Speed.Dev.#1.....:  7832.6 kH/s (15.28ms)
+Speed.Dev.#2.....:  7610.8 kH/s (15.73ms)
+Speed.Dev.#3.....:  7740.0 kH/s (15.47ms)
+Speed.Dev.#4.....:  7667.7 kH/s (15.59ms)
+Speed.Dev.#5.....:  7786.9 kH/s (7.66ms)
+Speed.Dev.#6.....:  7786.1 kH/s (7.66ms)
+Speed.Dev.#7.....:  7723.0 kH/s (7.74ms)
+Speed.Dev.#8.....:  7752.8 kH/s (7.67ms)
+Speed.Dev.#9.....:  7697.8 kH/s (15.55ms)
+Speed.Dev.#10.....:  7724.4 kH/s (15.49ms)
+Speed.Dev.#11.....:  7768.9 kH/s (61.74ms)
+Speed.Dev.#12.....:  7813.4 kH/s (60.91ms)
+Speed.Dev.#13.....:  7931.8 kH/s (60.44ms)
+Speed.Dev.#14.....:  7763.8 kH/s (61.82ms)
+Speed.Dev.#15.....:  7767.5 kH/s (61.76ms)
+Speed.Dev.#16.....:  7723.1 kH/s (15.47ms)
+Speed.Dev.#*.....:   124.1 MH/s
+
+Hashmode: 12600 - ColdFusion 10+
+
+Speed.Dev.#1.....:  1358.9 MH/s (92.61ms)
+Speed.Dev.#2.....:  1321.3 MH/s (95.35ms)
+Speed.Dev.#3.....:  1330.5 MH/s (94.45ms)
+Speed.Dev.#4.....:  1322.3 MH/s (94.96ms)
+Speed.Dev.#5.....:  1344.8 MH/s (93.26ms)
+Speed.Dev.#6.....:  1347.4 MH/s (93.35ms)
+Speed.Dev.#7.....:  1328.9 MH/s (94.36ms)
+Speed.Dev.#8.....:  1351.2 MH/s (93.24ms)
+Speed.Dev.#9.....:  1334.3 MH/s (47.00ms)
+Speed.Dev.#10.....:  1342.6 MH/s (46.86ms)
+Speed.Dev.#11.....:  1330.8 MH/s (47.26ms)
+Speed.Dev.#12.....:  1336.1 MH/s (46.56ms)
+Speed.Dev.#13.....:  1361.1 MH/s (46.19ms)
+Speed.Dev.#14.....:  1329.1 MH/s (94.76ms)
+Speed.Dev.#15.....:  1330.6 MH/s (94.55ms)
+Speed.Dev.#16.....:  1337.5 MH/s (46.93ms)
+Speed.Dev.#*.....: 21407.5 MH/s
+
+Hashmode: 1421 - hMailServer
+
+Speed.Dev.#1.....:  2042.9 MH/s (61.40ms)
+Speed.Dev.#2.....:  1991.7 MH/s (63.19ms)
+Speed.Dev.#3.....:  2014.3 MH/s (62.29ms)
+Speed.Dev.#4.....:  1993.7 MH/s (62.81ms)
+Speed.Dev.#5.....:  2030.7 MH/s (61.78ms)
+Speed.Dev.#6.....:  2041.2 MH/s (30.76ms)
+Speed.Dev.#7.....:  2027.8 MH/s (31.04ms)
+Speed.Dev.#8.....:  2041.6 MH/s (30.79ms)
+Speed.Dev.#9.....:  1990.0 MH/s (62.86ms)
+Speed.Dev.#10.....:  2028.7 MH/s (62.16ms)
+Speed.Dev.#11.....:  2010.0 MH/s (31.27ms)
+Speed.Dev.#12.....:  2027.8 MH/s (61.78ms)
+Speed.Dev.#13.....:  2056.2 MH/s (30.57ms)
+Speed.Dev.#14.....:  1997.1 MH/s (62.90ms)
+Speed.Dev.#15.....:  2010.7 MH/s (62.69ms)
+Speed.Dev.#16.....:  2020.9 MH/s (31.06ms)
+Speed.Dev.#*.....: 32325.4 MH/s
+
+Hashmode: 101 - nsldap, SHA-1(Base64), Netscape LDAP SHA
+
+Speed.Dev.#1.....:  6288.8 MH/s (40.00ms)
+Speed.Dev.#2.....:  6108.8 MH/s (41.17ms)
+Speed.Dev.#3.....:  6162.5 MH/s (40.56ms)
+Speed.Dev.#4.....:  6111.2 MH/s (40.98ms)
+Speed.Dev.#5.....:  6197.9 MH/s (10.11ms)
+Speed.Dev.#6.....:  6217.6 MH/s (40.24ms)
+Speed.Dev.#7.....:  6162.2 MH/s (40.67ms)
+Speed.Dev.#8.....:  6191.2 MH/s (10.12ms)
+Speed.Dev.#9.....:  6136.2 MH/s (10.22ms)
+Speed.Dev.#10.....:  6150.6 MH/s (10.19ms)
+Speed.Dev.#11.....:  6149.0 MH/s (40.87ms)
+Speed.Dev.#12.....:  6249.9 MH/s (40.25ms)
+Speed.Dev.#13.....:  6232.2 MH/s (10.04ms)
+Speed.Dev.#14.....:  6080.5 MH/s (10.30ms)
+Speed.Dev.#15.....:  6166.6 MH/s (81.61ms)
+Speed.Dev.#16.....:  6194.7 MH/s (81.15ms)
+Speed.Dev.#*.....: 98799.8 MH/s
+
+Hashmode: 111 - nsldaps, SSHA-1(Base64), Netscape LDAP SSHA
+
+Speed.Dev.#1.....:  6294.1 MH/s (40.00ms)
+Speed.Dev.#2.....:  6107.5 MH/s (41.18ms)
+Speed.Dev.#3.....:  6175.2 MH/s (40.55ms)
+Speed.Dev.#4.....:  6112.1 MH/s (40.92ms)
+Speed.Dev.#5.....:  6225.0 MH/s (80.58ms)
+Speed.Dev.#6.....:  6205.8 MH/s (10.11ms)
+Speed.Dev.#7.....:  6146.4 MH/s (10.20ms)
+Speed.Dev.#8.....:  6261.9 MH/s (80.43ms)
+Speed.Dev.#9.....:  6121.3 MH/s (10.22ms)
+Speed.Dev.#10.....:  6209.2 MH/s (40.53ms)
+Speed.Dev.#11.....:  6157.8 MH/s (40.88ms)
+Speed.Dev.#12.....:  6251.6 MH/s (40.27ms)
+Speed.Dev.#13.....:  6291.0 MH/s (39.96ms)
+Speed.Dev.#14.....:  6086.9 MH/s (10.30ms)
+Speed.Dev.#15.....:  6100.5 MH/s (10.27ms)
+Speed.Dev.#16.....:  6138.0 MH/s (10.20ms)
+Speed.Dev.#*.....: 98884.4 MH/s
+
+Hashmode: 1411 - SSHA-256(Base64), LDAP {SSHA256}
+
+Speed.Dev.#1.....:  2370.9 MH/s (53.03ms)
+Speed.Dev.#2.....:  2299.5 MH/s (54.62ms)
+Speed.Dev.#3.....:  2320.5 MH/s (53.75ms)
+Speed.Dev.#4.....:  2306.3 MH/s (54.31ms)
+Speed.Dev.#5.....:  2346.2 MH/s (53.44ms)
+Speed.Dev.#6.....:  2362.7 MH/s (53.24ms)
+Speed.Dev.#7.....:  2343.6 MH/s (26.78ms)
+Speed.Dev.#8.....:  2365.3 MH/s (26.61ms)
+Speed.Dev.#9.....:  2300.5 MH/s (54.08ms)
+Speed.Dev.#10.....:  2332.7 MH/s (53.84ms)
+Speed.Dev.#11.....:  2322.4 MH/s (54.19ms)
+Speed.Dev.#12.....:  2352.1 MH/s (53.43ms)
+Speed.Dev.#13.....:  2383.8 MH/s (26.35ms)
+Speed.Dev.#14.....:  2324.1 MH/s (27.08ms)
+Speed.Dev.#15.....:  2329.4 MH/s (26.99ms)
+Speed.Dev.#16.....:  2338.2 MH/s (53.80ms)
+Speed.Dev.#*.....: 37398.2 MH/s
+
+Hashmode: 1711 - SSHA-512(Base64), LDAP {SSHA512}
+
+Speed.Dev.#1.....:   720.4 MH/s (87.61ms)
+Speed.Dev.#2.....:   698.5 MH/s (90.18ms)
+Speed.Dev.#3.....:   710.9 MH/s (88.54ms)
+Speed.Dev.#4.....:   703.3 MH/s (89.25ms)
+Speed.Dev.#5.....:   712.3 MH/s (88.34ms)
+Speed.Dev.#6.....:   717.4 MH/s (88.09ms)
+Speed.Dev.#7.....:   710.8 MH/s (88.12ms)
+Speed.Dev.#8.....:   719.9 MH/s (87.36ms)
+Speed.Dev.#9.....:   701.0 MH/s (89.83ms)
+Speed.Dev.#10.....:   703.1 MH/s (88.94ms)
+Speed.Dev.#11.....:   709.2 MH/s (88.66ms)
+Speed.Dev.#12.....:   718.4 MH/s (87.33ms)
+Speed.Dev.#13.....:   726.6 MH/s (86.65ms)
+Speed.Dev.#14.....:   702.6 MH/s (89.88ms)
+Speed.Dev.#15.....:   699.6 MH/s (89.71ms)
+Speed.Dev.#16.....:   710.1 MH/s (88.83ms)
+Speed.Dev.#*.....: 11364.1 MH/s
+
+Hashmode: 3000 - LM
+
+Speed.Dev.#1.....: 15343.4 MH/s (65.54ms)
+Speed.Dev.#2.....: 14894.5 MH/s (67.47ms)
+Speed.Dev.#3.....: 15151.0 MH/s (66.27ms)
+Speed.Dev.#4.....: 15060.3 MH/s (66.75ms)
+Speed.Dev.#5.....: 15222.3 MH/s (66.04ms)
+Speed.Dev.#6.....: 15258.7 MH/s (65.94ms)
+Speed.Dev.#7.....: 15029.3 MH/s (66.58ms)
+Speed.Dev.#8.....: 15216.7 MH/s (66.03ms)
+Speed.Dev.#9.....: 14928.8 MH/s (66.85ms)
+Speed.Dev.#10.....: 15111.2 MH/s (66.47ms)
+Speed.Dev.#11.....: 15020.3 MH/s (66.95ms)
+Speed.Dev.#12.....: 15242.8 MH/s (65.94ms)
+Speed.Dev.#13.....: 15344.5 MH/s (65.43ms)
+Speed.Dev.#14.....: 14960.1 MH/s (67.21ms)
+Speed.Dev.#15.....: 15017.2 MH/s (66.99ms)
+Speed.Dev.#16.....: 15127.8 MH/s (66.46ms)
+Speed.Dev.#*.....:   241.9 GH/s
+
+Hashmode: 1000 - NTLM
+
+Speed.Dev.#1.....: 29198.1 MH/s (8.59ms)
+Speed.Dev.#2.....: 28346.3 MH/s (8.84ms)
+Speed.Dev.#3.....: 28800.4 MH/s (8.69ms)
+Speed.Dev.#4.....: 28571.6 MH/s (8.76ms)
+Speed.Dev.#5.....: 27999.4 MH/s (2.19ms)
+Speed.Dev.#6.....: 28327.1 MH/s (2.19ms)
+Speed.Dev.#7.....: 28790.6 MH/s (8.71ms)
+Speed.Dev.#8.....: 27924.8 MH/s (2.19ms)
+Speed.Dev.#9.....: 28688.8 MH/s (8.71ms)
+Speed.Dev.#10.....: 27838.3 MH/s (2.20ms)
+Speed.Dev.#11.....: 27740.1 MH/s (2.22ms)
+Speed.Dev.#12.....: 28327.1 MH/s (2.18ms)
+Speed.Dev.#13.....: 28327.1 MH/s (2.17ms)
+Speed.Dev.#14.....: 27247.5 MH/s (2.23ms)
+Speed.Dev.#15.....: 28782.3 MH/s (17.45ms)
+Speed.Dev.#16.....: 29186.2 MH/s (17.20ms)
+Speed.Dev.#*.....:   454.1 GH/s
+
+Hashmode: 1100 - Domain Cached Credentials (DCC), MS Cache
+
+Speed.Dev.#1.....:  8349.4 MH/s (30.09ms)
+Speed.Dev.#2.....:  8117.2 MH/s (30.95ms)
+Speed.Dev.#3.....:  8242.2 MH/s (30.48ms)
+Speed.Dev.#4.....:  8188.3 MH/s (30.69ms)
+Speed.Dev.#5.....:  8302.3 MH/s (30.28ms)
+Speed.Dev.#6.....:  8146.4 MH/s (7.68ms)
+Speed.Dev.#7.....:  8094.0 MH/s (7.74ms)
+Speed.Dev.#8.....:  8291.9 MH/s (30.28ms)
+Speed.Dev.#9.....:  8178.4 MH/s (61.20ms)
+Speed.Dev.#10.....:  8290.1 MH/s (60.69ms)
+Speed.Dev.#11.....:  8008.5 MH/s (7.80ms)
+Speed.Dev.#12.....:  8347.7 MH/s (60.27ms)
+Speed.Dev.#13.....:  8376.3 MH/s (30.03ms)
+Speed.Dev.#14.....:  8194.7 MH/s (61.32ms)
+Speed.Dev.#15.....:  7999.3 MH/s (7.81ms)
+Speed.Dev.#16.....:  8286.7 MH/s (60.67ms)
+Speed.Dev.#*.....:   131.4 GH/s
+
+Hashmode: 2100 - Domain Cached Credentials 2 (DCC2), MS Cache 2
+
+Speed.Dev.#1.....:   251.1 kH/s (48.82ms)
+Speed.Dev.#2.....:   243.9 kH/s (50.26ms)
+Speed.Dev.#3.....:   246.8 kH/s (49.53ms)
+Speed.Dev.#4.....:   244.1 kH/s (50.05ms)
+Speed.Dev.#5.....:   250.1 kH/s (24.47ms)
+Speed.Dev.#6.....:   251.1 kH/s (24.37ms)
+Speed.Dev.#7.....:   247.3 kH/s (24.74ms)
+Speed.Dev.#8.....:   250.6 kH/s (24.43ms)
+Speed.Dev.#9.....:   245.6 kH/s (24.88ms)
+Speed.Dev.#10.....:   248.6 kH/s (24.59ms)
+Speed.Dev.#11.....:   245.8 kH/s (24.90ms)
+Speed.Dev.#12.....:   250.0 kH/s (24.43ms)
+Speed.Dev.#13.....:   251.4 kH/s (48.74ms)
+Speed.Dev.#14.....:   245.5 kH/s (49.94ms)
+Speed.Dev.#15.....:   245.9 kH/s (49.84ms)
+Speed.Dev.#16.....:   247.8 kH/s (49.41ms)
+Speed.Dev.#*.....:  3965.7 kH/s
+
+Hashmode: 15300 - DPAPI masterkey file v1
+
+Speed.Dev.#1.....:    52021 H/s (50.19ms)
+Speed.Dev.#2.....:    50574 H/s (51.62ms)
+Speed.Dev.#3.....:    51284 H/s (50.87ms)
+Speed.Dev.#4.....:    50870 H/s (51.26ms)
+Speed.Dev.#5.....:    52734 H/s (49.56ms)
+Speed.Dev.#6.....:    51802 H/s (50.40ms)
+Speed.Dev.#7.....:    51001 H/s (51.10ms)
+Speed.Dev.#8.....:    52719 H/s (49.58ms)
+Speed.Dev.#9.....:    51887 H/s (50.33ms)
+Speed.Dev.#10.....:    52340 H/s (49.94ms)
+Speed.Dev.#11.....:    51891 H/s (50.38ms)
+Speed.Dev.#12.....:    52684 H/s (49.61ms)
+Speed.Dev.#13.....:    53141 H/s (49.20ms)
+Speed.Dev.#14.....:    51845 H/s (50.44ms)
+Speed.Dev.#15.....:    51955 H/s (50.32ms)
+Speed.Dev.#16.....:    51346 H/s (50.83ms)
+Speed.Dev.#*.....:   830.1 kH/s
+
+Hashmode: 15900 - DPAPI masterkey file v2
+
+Speed.Dev.#1.....:    34067 H/s (56.48ms)
+Speed.Dev.#2.....:    33135 H/s (57.88ms)
+Speed.Dev.#3.....:    33781 H/s (56.94ms)
+Speed.Dev.#4.....:    33458 H/s (57.49ms)
+Speed.Dev.#5.....:    33829 H/s (56.90ms)
+Speed.Dev.#6.....:    33918 H/s (56.74ms)
+Speed.Dev.#7.....:    33706 H/s (57.10ms)
+Speed.Dev.#8.....:    33973 H/s (56.52ms)
+Speed.Dev.#9.....:    33702 H/s (57.10ms)
+Speed.Dev.#10.....:    33792 H/s (56.89ms)
+Speed.Dev.#11.....:    33384 H/s (57.66ms)
+Speed.Dev.#12.....:    33932 H/s (56.73ms)
+Speed.Dev.#13.....:    34063 H/s (56.49ms)
+Speed.Dev.#14.....:    33254 H/s (57.87ms)
+Speed.Dev.#15.....:    33383 H/s (57.67ms)
+Speed.Dev.#16.....:    33581 H/s (57.17ms)
+Speed.Dev.#*.....:   539.0 kH/s
+
+Hashmode: 12800 - MS-AzureSync PBKDF2-HMAC-SHA256
+
+Speed.Dev.#1.....:  7533.5 kH/s (26.33ms)
+Speed.Dev.#2.....:  7324.5 kH/s (26.97ms)
+Speed.Dev.#3.....:  7454.0 kH/s (26.64ms)
+Speed.Dev.#4.....:  7392.8 kH/s (26.85ms)
+Speed.Dev.#5.....:  7486.4 kH/s (26.54ms)
+Speed.Dev.#6.....:  7480.3 kH/s (26.50ms)
+Speed.Dev.#7.....:  7420.0 kH/s (26.74ms)
+Speed.Dev.#8.....:  7480.3 kH/s (26.34ms)
+Speed.Dev.#9.....:  7414.9 kH/s (26.76ms)
+Speed.Dev.#10.....:  7494.3 kH/s (26.48ms)
+Speed.Dev.#11.....:  7373.5 kH/s (26.93ms)
+Speed.Dev.#12.....:  7484.8 kH/s (26.56ms)
+Speed.Dev.#13.....:  7532.3 kH/s (26.33ms)
+Speed.Dev.#14.....:  7348.3 kH/s (27.01ms)
+Speed.Dev.#15.....:  7373.3 kH/s (26.94ms)
+Speed.Dev.#16.....:  7419.2 kH/s (26.73ms)
+Speed.Dev.#*.....:   119.0 MH/s
+
+Hashmode: 1500 - descrypt, DES (Unix), Traditional DES
+
+Speed.Dev.#1.....:   743.3 MH/s (84.48ms)
+Speed.Dev.#2.....:   722.0 MH/s (87.00ms)
+Speed.Dev.#3.....:   735.4 MH/s (85.41ms)
+Speed.Dev.#4.....:   729.6 MH/s (86.07ms)
+Speed.Dev.#5.....:   733.3 MH/s (85.64ms)
+Speed.Dev.#6.....:   739.5 MH/s (84.94ms)
+Speed.Dev.#7.....:   733.0 MH/s (85.68ms)
+Speed.Dev.#8.....:   739.5 MH/s (84.82ms)
+Speed.Dev.#9.....:   732.4 MH/s (85.74ms)
+Speed.Dev.#10.....:   733.5 MH/s (85.63ms)
+Speed.Dev.#11.....:   727.5 MH/s (86.34ms)
+Speed.Dev.#12.....:   738.9 MH/s (85.00ms)
+Speed.Dev.#13.....:   743.3 MH/s (84.47ms)
+Speed.Dev.#14.....:   725.1 MH/s (86.65ms)
+Speed.Dev.#15.....:   727.7 MH/s (86.35ms)
+Speed.Dev.#16.....:   734.7 MH/s (85.47ms)
+Speed.Dev.#*.....: 11738.6 MH/s
+
+Hashmode: 12400 - BSDi Crypt, Extended DES
+
+Speed.Dev.#1.....:  1212.8 kH/s (69.90ms)
+Speed.Dev.#2.....:  1180.7 kH/s (71.60ms)
+Speed.Dev.#3.....:  1199.9 kH/s (70.65ms)
+Speed.Dev.#4.....:  1190.2 kH/s (71.18ms)
+Speed.Dev.#5.....:  1197.5 kH/s (70.81ms)
+Speed.Dev.#6.....:  1205.7 kH/s (70.74ms)
+Speed.Dev.#7.....:  1197.0 kH/s (70.81ms)
+Speed.Dev.#8.....:  1208.7 kH/s (70.57ms)
+Speed.Dev.#9.....:  1194.3 kH/s (71.40ms)
+Speed.Dev.#10.....:  1196.9 kH/s (70.84ms)
+Speed.Dev.#11.....:  1190.1 kH/s (71.66ms)
+Speed.Dev.#12.....:  1206.1 kH/s (70.75ms)
+Speed.Dev.#13.....:  1198.5 kH/s (17.76ms)
+Speed.Dev.#14.....:  1188.5 kH/s (71.78ms)
+Speed.Dev.#15.....:  1167.6 kH/s (18.23ms)
+Speed.Dev.#16.....:  1197.2 kH/s (70.76ms)
+Speed.Dev.#*.....: 19131.7 kH/s
+
+Hashmode: 500 - md5crypt, MD5 (Unix), Cisco-IOS $1$ (MD5)
+
+Speed.Dev.#1.....:  7826.8 kH/s (15.29ms)
+Speed.Dev.#2.....:  7611.5 kH/s (15.73ms)
+Speed.Dev.#3.....:  7746.6 kH/s (15.47ms)
+Speed.Dev.#4.....:  7677.2 kH/s (15.59ms)
+Speed.Dev.#5.....:  7721.9 kH/s (15.50ms)
+Speed.Dev.#6.....:  7787.1 kH/s (15.38ms)
+Speed.Dev.#7.....:  7721.0 kH/s (7.72ms)
+Speed.Dev.#8.....:  7784.7 kH/s (7.66ms)
+Speed.Dev.#9.....:  7709.0 kH/s (7.74ms)
+Speed.Dev.#10.....:  7729.8 kH/s (7.72ms)
+Speed.Dev.#11.....:  7767.8 kH/s (61.73ms)
+Speed.Dev.#12.....:  7875.9 kH/s (60.85ms)
+Speed.Dev.#13.....:  7813.3 kH/s (7.61ms)
+Speed.Dev.#14.....:  7759.5 kH/s (61.87ms)
+Speed.Dev.#15.....:  7713.5 kH/s (61.86ms)
+Speed.Dev.#16.....:  7825.0 kH/s (61.25ms)
+Speed.Dev.#*.....:   124.1 MH/s
+
+Hashmode: 3200 - bcrypt $2*$, Blowfish (Unix)
+
+Speed.Dev.#1.....:    10401 H/s (41.98ms)
+Speed.Dev.#2.....:    10096 H/s (43.16ms)
+Speed.Dev.#3.....:    10233 H/s (42.57ms)
+Speed.Dev.#4.....:    10173 H/s (42.84ms)
+Speed.Dev.#5.....:    10234 H/s (42.60ms)
+Speed.Dev.#6.....:    10325 H/s (42.34ms)
+Speed.Dev.#7.....:    10267 H/s (42.54ms)
+Speed.Dev.#8.....:    10341 H/s (42.26ms)
+Speed.Dev.#9.....:    10247 H/s (42.61ms)
+Speed.Dev.#10.....:    10231 H/s (42.61ms)
+Speed.Dev.#11.....:    10197 H/s (42.90ms)
+Speed.Dev.#12.....:    10341 H/s (42.27ms)
+Speed.Dev.#13.....:    10412 H/s (42.03ms)
+Speed.Dev.#14.....:    10102 H/s (43.09ms)
+Speed.Dev.#15.....:    10182 H/s (42.87ms)
+Speed.Dev.#16.....:    10294 H/s (42.31ms)
+Speed.Dev.#*.....:   164.1 kH/s
+
+Hashmode: 7400 - sha256crypt $5$, SHA256 (Unix)
+
+Speed.Dev.#1.....:   327.6 kH/s (37.68ms)
+Speed.Dev.#2.....:   318.3 kH/s (38.80ms)
+Speed.Dev.#3.....:   323.0 kH/s (38.14ms)
+Speed.Dev.#4.....:   319.5 kH/s (38.44ms)
+Speed.Dev.#5.....:   324.6 kH/s (37.67ms)
+Speed.Dev.#6.....:   327.5 kH/s (37.34ms)
+Speed.Dev.#7.....:   322.3 kH/s (38.25ms)
+Speed.Dev.#8.....:   327.4 kH/s (37.34ms)
+Speed.Dev.#9.....:   321.6 kH/s (38.31ms)
+Speed.Dev.#10.....:   325.0 kH/s (37.62ms)
+Speed.Dev.#11.....:   319.3 kH/s (38.51ms)
+Speed.Dev.#12.....:   324.1 kH/s (37.99ms)
+Speed.Dev.#13.....:   326.6 kH/s (37.64ms)
+Speed.Dev.#14.....:   319.5 kH/s (38.57ms)
+Speed.Dev.#15.....:   319.2 kH/s (38.51ms)
+Speed.Dev.#16.....:   324.8 kH/s (37.63ms)
+Speed.Dev.#*.....:  5170.2 kH/s
+
+Hashmode: 1800 - sha512crypt $6$, SHA512 (Unix)
+
+Speed.Dev.#1.....:   125.5 kH/s (48.92ms)
+Speed.Dev.#2.....:   122.5 kH/s (50.10ms)
+Speed.Dev.#3.....:   124.3 kH/s (49.47ms)
+Speed.Dev.#4.....:   123.4 kH/s (49.85ms)
+Speed.Dev.#5.....:   123.9 kH/s (49.48ms)
+Speed.Dev.#6.....:   124.6 kH/s (49.24ms)
+Speed.Dev.#7.....:   123.5 kH/s (49.65ms)
+Speed.Dev.#8.....:   124.5 kH/s (49.34ms)
+Speed.Dev.#9.....:   123.3 kH/s (49.81ms)
+Speed.Dev.#10.....:   123.9 kH/s (49.52ms)
+Speed.Dev.#11.....:   121.0 kH/s (50.52ms)
+Speed.Dev.#12.....:   125.0 kH/s (49.21ms)
+Speed.Dev.#13.....:   125.6 kH/s (48.84ms)
+Speed.Dev.#14.....:   122.7 kH/s (50.05ms)
+Speed.Dev.#15.....:   122.4 kH/s (50.02ms)
+Speed.Dev.#16.....:   124.4 kH/s (49.43ms)
+Speed.Dev.#*.....:  1980.8 kH/s
+
+Hashmode: 122 - macOS v10.4, macOS v10.5, MacOS v10.6
+
+Speed.Dev.#1.....:  5112.4 MH/s (49.15ms)
+Speed.Dev.#2.....:  4995.3 MH/s (50.27ms)
+Speed.Dev.#3.....:  5053.0 MH/s (49.67ms)
+Speed.Dev.#4.....:  5024.4 MH/s (50.13ms)
+Speed.Dev.#5.....:  5011.1 MH/s (12.52ms)
+Speed.Dev.#6.....:  5050.9 MH/s (12.42ms)
+Speed.Dev.#7.....:  5027.3 MH/s (50.08ms)
+Speed.Dev.#8.....:  5069.8 MH/s (49.65ms)
+Speed.Dev.#9.....:  4992.2 MH/s (50.26ms)
+Speed.Dev.#10.....:  5011.5 MH/s (12.51ms)
+Speed.Dev.#11.....:  4985.5 MH/s (50.50ms)
+Speed.Dev.#12.....:  5089.6 MH/s (49.45ms)
+Speed.Dev.#13.....:  5082.8 MH/s (12.34ms)
+Speed.Dev.#14.....:  4955.5 MH/s (12.65ms)
+Speed.Dev.#15.....:  4978.0 MH/s (50.27ms)
+Speed.Dev.#16.....:  5035.4 MH/s (49.88ms)
+Speed.Dev.#*.....: 80474.7 MH/s
+
+Hashmode: 1722 - macOS v10.7
+
+Speed.Dev.#1.....:   690.7 MH/s (91.45ms)
+Speed.Dev.#2.....:   471.1 MH/s (66.73ms)
+Speed.Dev.#3.....:   679.5 MH/s (92.44ms)
+Speed.Dev.#4.....:   673.4 MH/s (93.13ms)
+Speed.Dev.#5.....:   678.5 MH/s (92.62ms)
+Speed.Dev.#6.....:   688.1 MH/s (91.68ms)
+Speed.Dev.#7.....:   690.3 MH/s (91.09ms)
+Speed.Dev.#8.....:   691.9 MH/s (90.88ms)
+Speed.Dev.#9.....:   676.1 MH/s (92.86ms)
+Speed.Dev.#10.....:   678.6 MH/s (92.60ms)
+Speed.Dev.#11.....:   684.3 MH/s (91.89ms)
+Speed.Dev.#12.....:   693.1 MH/s (90.48ms)
+Speed.Dev.#13.....:   700.8 MH/s (89.77ms)
+Speed.Dev.#14.....:   683.5 MH/s (92.04ms)
+Speed.Dev.#15.....:   669.9 MH/s (94.08ms)
+Speed.Dev.#16.....:   689.8 MH/s (91.08ms)
+Speed.Dev.#*.....: 10739.6 MH/s
+
+Hashmode: 7100 - macOS v10.8+ (PBKDF2-SHA512)
+
+Speed.Dev.#1.....:     8403 H/s (53.32ms)
+Speed.Dev.#2.....:     8214 H/s (54.55ms)
+Speed.Dev.#3.....:     8296 H/s (53.92ms)
+Speed.Dev.#4.....:     8222 H/s (54.43ms)
+Speed.Dev.#5.....:     8279 H/s (54.01ms)
+Speed.Dev.#6.....:     8366 H/s (53.57ms)
+Speed.Dev.#7.....:     8280 H/s (54.04ms)
+Speed.Dev.#8.....:     8336 H/s (53.68ms)
+Speed.Dev.#9.....:     8219 H/s (54.41ms)
+Speed.Dev.#10.....:     8283 H/s (53.97ms)
+Speed.Dev.#11.....:     8178 H/s (54.72ms)
+Speed.Dev.#12.....:     8352 H/s (53.67ms)
+Speed.Dev.#13.....:     8432 H/s (52.86ms)
+Speed.Dev.#14.....:     8222 H/s (54.21ms)
+Speed.Dev.#15.....:     8195 H/s (54.30ms)
+Speed.Dev.#16.....:     8288 H/s (53.96ms)
+Speed.Dev.#*.....:   132.6 kH/s
+
+Hashmode: 6300 - AIX {smd5}
+
+Speed.Dev.#1.....:  7814.9 kH/s (15.30ms)
+Speed.Dev.#2.....:  7627.9 kH/s (15.69ms)
+Speed.Dev.#3.....:  7731.0 kH/s (15.47ms)
+Speed.Dev.#4.....:  7669.0 kH/s (15.61ms)
+Speed.Dev.#5.....:  7827.9 kH/s (61.20ms)
+Speed.Dev.#6.....:  7880.1 kH/s (60.85ms)
+Speed.Dev.#7.....:  7723.3 kH/s (15.51ms)
+Speed.Dev.#8.....:  7835.4 kH/s (7.61ms)
+Speed.Dev.#9.....:  7677.1 kH/s (15.55ms)
+Speed.Dev.#10.....:  7715.2 kH/s (15.49ms)
+Speed.Dev.#11.....:  7617.4 kH/s (15.71ms)
+Speed.Dev.#12.....:  7771.2 kH/s (15.39ms)
+Speed.Dev.#13.....:  7834.4 kH/s (7.61ms)
+Speed.Dev.#14.....:  7633.2 kH/s (7.80ms)
+Speed.Dev.#15.....:  7681.3 kH/s (15.59ms)
+Speed.Dev.#16.....:  7826.4 kH/s (61.24ms)
+Speed.Dev.#*.....:   123.9 MH/s
+
+Hashmode: 6700 - AIX {ssha1}
+
+Speed.Dev.#1.....: 33045.6 kH/s (6.14ms)
+Speed.Dev.#2.....: 32422.2 kH/s (6.27ms)
+Speed.Dev.#3.....: 32860.0 kH/s (6.21ms)
+Speed.Dev.#4.....: 32339.0 kH/s (6.28ms)
+Speed.Dev.#5.....: 28070.8 kH/s (7.41ms)
+Speed.Dev.#6.....: 33094.5 kH/s (6.18ms)
+Speed.Dev.#7.....: 32717.8 kH/s (6.23ms)
+Speed.Dev.#8.....: 33143.6 kH/s (6.14ms)
+Speed.Dev.#9.....: 32633.1 kH/s (6.24ms)
+Speed.Dev.#10.....: 32871.0 kH/s (6.22ms)
+Speed.Dev.#11.....: 32600.6 kH/s (6.26ms)
+Speed.Dev.#12.....: 33030.0 kH/s (6.18ms)
+Speed.Dev.#13.....: 33195.1 kH/s (6.14ms)
+Speed.Dev.#14.....: 32447.8 kH/s (6.30ms)
+Speed.Dev.#15.....: 32477.9 kH/s (6.27ms)
+Speed.Dev.#16.....: 32941.5 kH/s (6.20ms)
+Speed.Dev.#*.....:   519.9 MH/s
+
+Hashmode: 6400 - AIX {ssha256}
+
+Speed.Dev.#1.....: 12758.8 kH/s (17.65ms)
+Speed.Dev.#2.....: 12478.6 kH/s (18.02ms)
+Speed.Dev.#3.....: 12613.1 kH/s (17.87ms)
+Speed.Dev.#4.....: 12488.4 kH/s (18.04ms)
+Speed.Dev.#5.....: 12670.0 kH/s (17.76ms)
+Speed.Dev.#6.....: 12665.1 kH/s (17.77ms)
+Speed.Dev.#7.....: 12589.2 kH/s (17.91ms)
+Speed.Dev.#8.....: 12754.5 kH/s (17.65ms)
+Speed.Dev.#9.....: 12576.3 kH/s (17.92ms)
+Speed.Dev.#10.....: 12586.0 kH/s (17.90ms)
+Speed.Dev.#11.....: 12496.1 kH/s (18.01ms)
+Speed.Dev.#12.....: 12661.5 kH/s (17.79ms)
+Speed.Dev.#13.....: 12761.8 kH/s (17.65ms)
+Speed.Dev.#14.....: 12442.0 kH/s (18.11ms)
+Speed.Dev.#15.....: 12501.1 kH/s (18.01ms)
+Speed.Dev.#16.....: 12624.4 kH/s (17.83ms)
+Speed.Dev.#*.....:   201.7 MH/s
+
+Hashmode: 6500 - AIX {ssha512}
+
+Speed.Dev.#1.....:  3967.2 kH/s (52.80ms)
+Speed.Dev.#2.....:  3891.7 kH/s (53.88ms)
+Speed.Dev.#3.....:  3922.3 kH/s (53.47ms)
+Speed.Dev.#4.....:  3892.8 kH/s (53.92ms)
+Speed.Dev.#5.....:  3942.0 kH/s (53.13ms)
+Speed.Dev.#6.....:  3945.4 kH/s (53.11ms)
+Speed.Dev.#7.....:  3911.9 kH/s (53.56ms)
+Speed.Dev.#8.....:  3971.1 kH/s (52.79ms)
+Speed.Dev.#9.....:  3920.1 kH/s (53.55ms)
+Speed.Dev.#10.....:  3945.6 kH/s (53.09ms)
+Speed.Dev.#11.....:  3899.9 kH/s (53.83ms)
+Speed.Dev.#12.....:  3943.9 kH/s (53.22ms)
+Speed.Dev.#13.....:  3967.3 kH/s (52.82ms)
+Speed.Dev.#14.....:  3875.1 kH/s (54.15ms)
+Speed.Dev.#15.....:  3897.1 kH/s (53.85ms)
+Speed.Dev.#16.....:  3920.1 kH/s (53.43ms)
+Speed.Dev.#*.....: 62813.6 kH/s
+
+Hashmode: 2400 - Cisco-PIX MD5
+
+Speed.Dev.#1.....: 12406.7 MH/s (20.25ms)
+Speed.Dev.#2.....: 12152.7 MH/s (20.66ms)
+Speed.Dev.#3.....: 12246.7 MH/s (20.54ms)
+Speed.Dev.#4.....: 12158.0 MH/s (20.66ms)
+Speed.Dev.#5.....: 12240.8 MH/s (40.91ms)
+Speed.Dev.#6.....: 12134.0 MH/s (5.14ms)
+Speed.Dev.#7.....: 12066.5 MH/s (5.18ms)
+Speed.Dev.#8.....: 12417.1 MH/s (40.52ms)
+Speed.Dev.#9.....: 12006.6 MH/s (5.19ms)
+Speed.Dev.#10.....: 12131.6 MH/s (5.14ms)
+Speed.Dev.#11.....: 12179.2 MH/s (20.62ms)
+Speed.Dev.#12.....: 12094.3 MH/s (5.15ms)
+Speed.Dev.#13.....: 12159.8 MH/s (5.11ms)
+Speed.Dev.#14.....: 11931.5 MH/s (5.24ms)
+Speed.Dev.#15.....: 12160.9 MH/s (20.66ms)
+Speed.Dev.#16.....: 12239.6 MH/s (20.50ms)
+Speed.Dev.#*.....:   194.7 GH/s
+
+Hashmode: 2410 - Cisco-ASA MD5
+
+Speed.Dev.#1.....: 12715.1 MH/s (19.76ms)
+Speed.Dev.#2.....: 12457.7 MH/s (20.19ms)
+Speed.Dev.#3.....: 12549.0 MH/s (20.02ms)
+Speed.Dev.#4.....: 12459.6 MH/s (20.16ms)
+Speed.Dev.#5.....: 12544.0 MH/s (20.03ms)
+Speed.Dev.#6.....: 12623.3 MH/s (19.89ms)
+Speed.Dev.#7.....: 12341.0 MH/s (5.06ms)
+Speed.Dev.#8.....: 12588.6 MH/s (39.59ms)
+Speed.Dev.#9.....: 12276.0 MH/s (5.07ms)
+Speed.Dev.#10.....: 12416.5 MH/s (5.05ms)
+Speed.Dev.#11.....: 12145.7 MH/s (5.14ms)
+Speed.Dev.#12.....: 12397.0 MH/s (5.03ms)
+Speed.Dev.#13.....: 12500.4 MH/s (4.99ms)
+Speed.Dev.#14.....: 12424.8 MH/s (40.47ms)
+Speed.Dev.#15.....: 12460.8 MH/s (20.16ms)
+Speed.Dev.#16.....: 12414.1 MH/s (5.04ms)
+Speed.Dev.#*.....:   199.3 GH/s
+
+Hashmode: 5700 - Cisco-IOS type 4 (SHA256)
+
+Speed.Dev.#1.....:  2368.5 MH/s (53.00ms)
+Speed.Dev.#2.....:  2305.7 MH/s (54.27ms)
+Speed.Dev.#3.....:  2337.3 MH/s (53.67ms)
+Speed.Dev.#4.....:  2323.7 MH/s (54.13ms)
+Speed.Dev.#5.....:  2347.6 MH/s (26.78ms)
+Speed.Dev.#6.....:  2364.2 MH/s (53.29ms)
+Speed.Dev.#7.....:  2338.5 MH/s (53.79ms)
+Speed.Dev.#8.....:  2383.9 MH/s (26.40ms)
+Speed.Dev.#9.....:  2332.7 MH/s (26.96ms)
+Speed.Dev.#10.....:  2350.7 MH/s (26.74ms)
+Speed.Dev.#11.....:  2306.3 MH/s (54.55ms)
+Speed.Dev.#12.....:  2356.5 MH/s (26.64ms)
+Speed.Dev.#13.....:  2374.1 MH/s (53.02ms)
+Speed.Dev.#14.....:  2311.8 MH/s (54.32ms)
+Speed.Dev.#15.....:  2303.5 MH/s (54.45ms)
+Speed.Dev.#16.....:  2328.2 MH/s (53.79ms)
+Speed.Dev.#*.....: 37433.2 MH/s
+
+Hashmode: 9200 - Cisco-IOS $8$ (PBKDF2-SHA256)
+
+Speed.Dev.#1.....:    43220 H/s (71.44ms)
+Speed.Dev.#2.....:    42099 H/s (73.24ms)
+Speed.Dev.#3.....:    42735 H/s (72.27ms)
+Speed.Dev.#4.....:    42297 H/s (72.97ms)
+Speed.Dev.#5.....:    42948 H/s (73.01ms)
+Speed.Dev.#6.....:    43348 H/s (72.36ms)
+Speed.Dev.#7.....:    42979 H/s (73.00ms)
+Speed.Dev.#8.....:    42763 H/s (71.99ms)
+Speed.Dev.#9.....:    42651 H/s (73.51ms)
+Speed.Dev.#10.....:    42601 H/s (72.49ms)
+Speed.Dev.#11.....:    42347 H/s (74.01ms)
+Speed.Dev.#12.....:    43189 H/s (72.62ms)
+Speed.Dev.#13.....:    43263 H/s (71.40ms)
+Speed.Dev.#14.....:    42210 H/s (73.20ms)
+Speed.Dev.#15.....:    41990 H/s (73.35ms)
+Speed.Dev.#16.....:    42679 H/s (72.35ms)
+Speed.Dev.#*.....:   683.3 kH/s
+
+Hashmode: 9300 - Cisco-IOS $9$ (scrypt)
+
+Speed.Dev.#1.....:    18547 H/s (96.96ms)
+Speed.Dev.#2.....:    18185 H/s (99.65ms)
+Speed.Dev.#3.....:    14727 H/s (121.57ms)
+Speed.Dev.#4.....:    18202 H/s (98.42ms)
+Speed.Dev.#5.....:    18417 H/s (97.74ms)
+Speed.Dev.#6.....:    18444 H/s (97.57ms)
+Speed.Dev.#7.....:    16904 H/s (98.61ms)
+Speed.Dev.#8.....:    18594 H/s (95.52ms)
+Speed.Dev.#9.....:    18309 H/s (96.82ms)
+Speed.Dev.#10.....:    18457 H/s (96.06ms)
+Speed.Dev.#11.....:    18258 H/s (97.49ms)
+Speed.Dev.#12.....:    18408 H/s (96.39ms)
+Speed.Dev.#13.....:    18552 H/s (95.94ms)
+Speed.Dev.#14.....:    18172 H/s (97.89ms)
+Speed.Dev.#15.....:    18206 H/s (97.38ms)
+Speed.Dev.#16.....:    18353 H/s (96.65ms)
+Speed.Dev.#*.....:   288.7 kH/s
+
+Hashmode: 22 - Juniper NetScreen/SSG (ScreenOS)
+
+Speed.Dev.#1.....: 10027.8 MH/s (25.08ms)
+Speed.Dev.#2.....:  9825.4 MH/s (25.57ms)
+Speed.Dev.#3.....:  9896.5 MH/s (25.39ms)
+Speed.Dev.#4.....:  9825.8 MH/s (25.57ms)
+Speed.Dev.#5.....:  9813.5 MH/s (6.37ms)
+Speed.Dev.#6.....:  9783.0 MH/s (6.37ms)
+Speed.Dev.#7.....:  9715.0 MH/s (6.42ms)
+Speed.Dev.#8.....: 10023.0 MH/s (25.07ms)
+Speed.Dev.#9.....:  9897.3 MH/s (25.39ms)
+Speed.Dev.#10.....:  9969.8 MH/s (25.21ms)
+Speed.Dev.#11.....:  9694.1 MH/s (6.45ms)
+Speed.Dev.#12.....:  9795.2 MH/s (6.38ms)
+Speed.Dev.#13.....: 10031.4 MH/s (25.05ms)
+Speed.Dev.#14.....:  9828.1 MH/s (51.19ms)
+Speed.Dev.#15.....:  9850.8 MH/s (51.03ms)
+Speed.Dev.#16.....:  9927.2 MH/s (50.69ms)
+Speed.Dev.#*.....:   157.9 GH/s
+
+Hashmode: 501 - Juniper IVE
+
+Speed.Dev.#1.....:  7836.0 kH/s (15.27ms)
+Speed.Dev.#2.....:  7678.4 kH/s (15.58ms)
+Speed.Dev.#3.....:  7735.0 kH/s (15.48ms)
+Speed.Dev.#4.....:  7666.8 kH/s (15.61ms)
+Speed.Dev.#5.....:  7827.9 kH/s (61.18ms)
+Speed.Dev.#6.....:  7784.4 kH/s (15.38ms)
+Speed.Dev.#7.....:  7721.5 kH/s (7.73ms)
+Speed.Dev.#8.....:  7926.7 kH/s (60.51ms)
+Speed.Dev.#9.....:  7774.9 kH/s (61.40ms)
+Speed.Dev.#10.....:  7882.9 kH/s (60.80ms)
+Speed.Dev.#11.....:  7683.1 kH/s (7.76ms)
+Speed.Dev.#12.....:  7760.6 kH/s (7.69ms)
+Speed.Dev.#13.....:  7832.4 kH/s (15.27ms)
+Speed.Dev.#14.....:  7649.0 kH/s (15.65ms)
+Speed.Dev.#15.....:  7657.9 kH/s (7.77ms)
+Speed.Dev.#16.....:  7727.3 kH/s (15.50ms)
+Speed.Dev.#*.....:   124.1 MH/s
+
+Hashmode: 5800 - Samsung Android Password/PIN
+
+Speed.Dev.#1.....:  4161.3 kH/s (27.39ms)
+Speed.Dev.#2.....:  4078.3 kH/s (27.96ms)
+Speed.Dev.#3.....:  4110.6 kH/s (27.74ms)
+Speed.Dev.#4.....:  4069.9 kH/s (28.02ms)
+Speed.Dev.#5.....:  4188.9 kH/s (57.74ms)
+Speed.Dev.#6.....:  4042.3 kH/s (14.23ms)
+Speed.Dev.#7.....:  4190.6 kH/s (57.82ms)
+Speed.Dev.#8.....:  4068.1 kH/s (14.13ms)
+Speed.Dev.#9.....:  4010.5 kH/s (14.35ms)
+Speed.Dev.#10.....:  4042.8 kH/s (14.22ms)
+Speed.Dev.#11.....:  3990.4 kH/s (14.42ms)
+Speed.Dev.#12.....:  4121.7 kH/s (27.66ms)
+Speed.Dev.#13.....:  4162.5 kH/s (27.38ms)
+Speed.Dev.#14.....:  4060.9 kH/s (28.08ms)
+Speed.Dev.#15.....:  3987.7 kH/s (14.43ms)
+Speed.Dev.#16.....:  4086.8 kH/s (27.85ms)
+Speed.Dev.#*.....: 65373.3 kH/s
+
+Hashmode: 8100 - Citrix NetScaler
+
+Speed.Dev.#1.....:  5492.6 MH/s (45.62ms)
+Speed.Dev.#2.....:  5362.5 MH/s (46.64ms)
+Speed.Dev.#3.....:  5435.9 MH/s (46.21ms)
+Speed.Dev.#4.....:  5403.3 MH/s (46.62ms)
+Speed.Dev.#5.....:  5445.3 MH/s (92.46ms)
+Speed.Dev.#6.....:  5475.8 MH/s (45.89ms)
+Speed.Dev.#7.....:  5393.4 MH/s (11.61ms)
+Speed.Dev.#8.....:  5478.0 MH/s (11.45ms)
+Speed.Dev.#9.....:  5382.6 MH/s (46.51ms)
+Speed.Dev.#10.....:  5444.6 MH/s (92.33ms)
+Speed.Dev.#11.....:  5375.5 MH/s (11.67ms)
+Speed.Dev.#12.....:  5441.0 MH/s (11.55ms)
+Speed.Dev.#13.....:  5478.5 MH/s (11.44ms)
+Speed.Dev.#14.....:  5391.6 MH/s (46.73ms)
+Speed.Dev.#15.....:  5356.7 MH/s (11.69ms)
+Speed.Dev.#16.....:  5443.1 MH/s (46.20ms)
+Speed.Dev.#*.....: 86800.4 MH/s
+
+Hashmode: 8500 - RACF
+
+Speed.Dev.#1.....:  1976.5 MH/s (63.69ms)
+Speed.Dev.#2.....:  1923.8 MH/s (65.08ms)
+Speed.Dev.#3.....:  1948.5 MH/s (64.48ms)
+Speed.Dev.#4.....:  1940.0 MH/s (64.73ms)
+Speed.Dev.#5.....:  1949.4 MH/s (64.40ms)
+Speed.Dev.#6.....:  1966.0 MH/s (64.01ms)
+Speed.Dev.#7.....:  1957.8 MH/s (64.27ms)
+Speed.Dev.#8.....:  1988.4 MH/s (63.23ms)
+Speed.Dev.#9.....:  1944.4 MH/s (64.41ms)
+Speed.Dev.#10.....:  1947.9 MH/s (64.60ms)
+Speed.Dev.#11.....:  1926.1 MH/s (64.83ms)
+Speed.Dev.#12.....:  1955.8 MH/s (64.21ms)
+Speed.Dev.#13.....:  1991.1 MH/s (63.42ms)
+Speed.Dev.#14.....:  1934.9 MH/s (64.95ms)
+Speed.Dev.#15.....:  1942.8 MH/s (64.70ms)
+Speed.Dev.#16.....:  1959.5 MH/s (64.15ms)
+Speed.Dev.#*.....: 31252.8 MH/s
+
+Hashmode: 7200 - GRUB 2
+
+Speed.Dev.#1.....:    29463 H/s (52.37ms)
+Speed.Dev.#2.....:    28850 H/s (53.48ms)
+Speed.Dev.#3.....:    29073 H/s (53.09ms)
+Speed.Dev.#4.....:    28816 H/s (53.55ms)
+Speed.Dev.#5.....:    29163 H/s (52.86ms)
+Speed.Dev.#6.....:    29260 H/s (52.72ms)
+Speed.Dev.#7.....:    29039 H/s (53.15ms)
+Speed.Dev.#8.....:    29463 H/s (52.35ms)
+Speed.Dev.#9.....:    28959 H/s (53.25ms)
+Speed.Dev.#10.....:    29259 H/s (52.75ms)
+Speed.Dev.#11.....:    28837 H/s (53.48ms)
+Speed.Dev.#12.....:    29197 H/s (52.85ms)
+Speed.Dev.#13.....:    29572 H/s (52.10ms)
+Speed.Dev.#14.....:    28846 H/s (53.41ms)
+Speed.Dev.#15.....:    28967 H/s (53.17ms)
+Speed.Dev.#16.....:    29040 H/s (53.16ms)
+Speed.Dev.#*.....:   465.8 kH/s
+
+Hashmode: 9900 - Radmin2
+
+Speed.Dev.#1.....:  6185.5 MH/s (40.62ms)
+Speed.Dev.#2.....:  6069.5 MH/s (41.46ms)
+Speed.Dev.#3.....:  6112.4 MH/s (41.20ms)
+Speed.Dev.#4.....:  6058.4 MH/s (41.47ms)
+Speed.Dev.#5.....:  6102.3 MH/s (10.28ms)
+Speed.Dev.#6.....:  6148.9 MH/s (81.79ms)
+Speed.Dev.#7.....:  6041.3 MH/s (10.36ms)
+Speed.Dev.#8.....:  6126.1 MH/s (10.22ms)
+Speed.Dev.#9.....:  6038.4 MH/s (10.38ms)
+Speed.Dev.#10.....:  6097.6 MH/s (10.28ms)
+Speed.Dev.#11.....:  6052.5 MH/s (41.40ms)
+Speed.Dev.#12.....:  6136.0 MH/s (81.99ms)
+Speed.Dev.#13.....:  6193.9 MH/s (40.61ms)
+Speed.Dev.#14.....:  6036.9 MH/s (41.62ms)
+Speed.Dev.#15.....:  6059.8 MH/s (41.46ms)
+Speed.Dev.#16.....:  6100.1 MH/s (41.21ms)
+Speed.Dev.#*.....: 97559.4 MH/s
+
+Hashmode: 7700 - SAP CODVN B (BCODE)
+
+Speed.Dev.#1.....:  1443.0 MH/s (43.45ms)
+Speed.Dev.#2.....:  1418.2 MH/s (44.27ms)
+Speed.Dev.#3.....:  1430.2 MH/s (43.97ms)
+Speed.Dev.#4.....:  1416.1 MH/s (44.34ms)
+Speed.Dev.#5.....:  1419.6 MH/s (44.25ms)
+Speed.Dev.#6.....:  1450.5 MH/s (43.37ms)
+Speed.Dev.#7.....:  1429.1 MH/s (44.02ms)
+Speed.Dev.#8.....:  1482.6 MH/s (42.43ms)
+Speed.Dev.#9.....:  1462.5 MH/s (42.98ms)
+Speed.Dev.#10.....:  1487.3 MH/s (42.25ms)
+Speed.Dev.#11.....:  1407.8 MH/s (44.28ms)
+Speed.Dev.#12.....:  1481.6 MH/s (42.40ms)
+Speed.Dev.#13.....:  1453.9 MH/s (43.06ms)
+Speed.Dev.#14.....:  1420.5 MH/s (44.32ms)
+Speed.Dev.#15.....:  1415.2 MH/s (44.37ms)
+Speed.Dev.#16.....:  1425.8 MH/s (44.10ms)
+Speed.Dev.#*.....: 23043.9 MH/s
+
+Hashmode: 7800 - SAP CODVN F/G (PASSCODE)
+
+Speed.Dev.#1.....:   905.8 MH/s (69.31ms)
+Speed.Dev.#2.....:   884.2 MH/s (70.93ms)
+Speed.Dev.#3.....:   897.0 MH/s (70.24ms)
+Speed.Dev.#4.....:   890.2 MH/s (70.69ms)
+Speed.Dev.#5.....:   895.3 MH/s (70.20ms)
+Speed.Dev.#6.....:   900.3 MH/s (69.76ms)
+Speed.Dev.#7.....:   895.0 MH/s (70.23ms)
+Speed.Dev.#8.....:   900.7 MH/s (69.64ms)
+Speed.Dev.#9.....:   903.0 MH/s (69.52ms)
+Speed.Dev.#10.....:   897.1 MH/s (69.89ms)
+Speed.Dev.#11.....:   893.1 MH/s (70.24ms)
+Speed.Dev.#12.....:   915.2 MH/s (68.74ms)
+Speed.Dev.#13.....:   908.4 MH/s (69.20ms)
+Speed.Dev.#14.....:   883.8 MH/s (70.92ms)
+Speed.Dev.#15.....:   892.2 MH/s (70.53ms)
+Speed.Dev.#16.....:   911.4 MH/s (68.99ms)
+Speed.Dev.#*.....: 14372.8 MH/s
+
+Hashmode: 10300 - SAP CODVN H (PWDSALTEDHASH) iSSHA-1
+
+Speed.Dev.#1.....:  4438.3 kH/s (25.77ms)
+Speed.Dev.#2.....:  4349.7 kH/s (26.31ms)
+Speed.Dev.#3.....:  4371.9 kH/s (26.11ms)
+Speed.Dev.#4.....:  4346.8 kH/s (26.31ms)
+Speed.Dev.#5.....:  4400.0 kH/s (13.06ms)
+Speed.Dev.#6.....:  4406.1 kH/s (12.98ms)
+Speed.Dev.#7.....:  4364.8 kH/s (13.18ms)
+Speed.Dev.#8.....:  4362.6 kH/s (54.83ms)
+Speed.Dev.#9.....:  4323.3 kH/s (55.66ms)
+Speed.Dev.#10.....:  4398.8 kH/s (13.07ms)
+Speed.Dev.#11.....:  4333.4 kH/s (13.25ms)
+Speed.Dev.#12.....:  4391.7 kH/s (13.10ms)
+Speed.Dev.#13.....:  4428.9 kH/s (12.98ms)
+Speed.Dev.#14.....:  4325.3 kH/s (55.75ms)
+Speed.Dev.#15.....:  4337.0 kH/s (13.26ms)
+Speed.Dev.#16.....:  4381.6 kH/s (13.11ms)
+Speed.Dev.#*.....: 69960.0 kH/s
+
+Hashmode: 8600 - Lotus Notes/Domino 5
+
+Speed.Dev.#1.....:   167.5 MH/s (93.91ms)
+Speed.Dev.#2.....:   162.6 MH/s (48.32ms)
+Speed.Dev.#3.....:   165.4 MH/s (95.01ms)
+Speed.Dev.#4.....:   164.3 MH/s (95.67ms)
+Speed.Dev.#5.....:   165.0 MH/s (95.27ms)
+Speed.Dev.#6.....:   166.0 MH/s (94.32ms)
+Speed.Dev.#7.....:   165.0 MH/s (94.92ms)
+Speed.Dev.#8.....:   167.7 MH/s (93.74ms)
+Speed.Dev.#9.....:   163.8 MH/s (95.66ms)
+Speed.Dev.#10.....:   166.6 MH/s (94.37ms)
+Speed.Dev.#11.....:   164.5 MH/s (95.60ms)
+Speed.Dev.#12.....:   166.1 MH/s (94.66ms)
+Speed.Dev.#13.....:   167.5 MH/s (93.85ms)
+Speed.Dev.#14.....:   163.5 MH/s (48.03ms)
+Speed.Dev.#15.....:   163.7 MH/s (48.00ms)
+Speed.Dev.#16.....:   165.0 MH/s (95.26ms)
+Speed.Dev.#*.....:  2644.4 MH/s
+
+Hashmode: 8700 - Lotus Notes/Domino 6
+
+Speed.Dev.#1.....: 55249.5 kH/s (71.12ms)
+Speed.Dev.#2.....: 54091.2 kH/s (72.64ms)
+Speed.Dev.#3.....: 54605.7 kH/s (71.96ms)
+Speed.Dev.#4.....: 54203.8 kH/s (72.46ms)
+Speed.Dev.#5.....: 46463.7 kH/s (83.48ms)
+Speed.Dev.#6.....: 54779.2 kH/s (71.70ms)
+Speed.Dev.#7.....: 54492.2 kH/s (72.15ms)
+Speed.Dev.#8.....: 55357.6 kH/s (71.00ms)
+Speed.Dev.#9.....: 54244.9 kH/s (72.22ms)
+Speed.Dev.#10.....: 55007.6 kH/s (71.44ms)
+Speed.Dev.#11.....: 54274.9 kH/s (72.43ms)
+Speed.Dev.#12.....: 54741.1 kH/s (71.77ms)
+Speed.Dev.#13.....: 55282.9 kH/s (71.12ms)
+Speed.Dev.#14.....: 48938.0 kH/s (80.26ms)
+Speed.Dev.#15.....: 54122.5 kH/s (72.65ms)
+Speed.Dev.#16.....: 45636.0 kH/s (85.75ms)
+Speed.Dev.#*.....:   851.5 MH/s
+
+Hashmode: 9100 - Lotus Notes/Domino 8
+
+Speed.Dev.#1.....:   506.0 kH/s (48.59ms)
+Speed.Dev.#2.....:   494.0 kH/s (49.65ms)
+Speed.Dev.#3.....:   500.2 kH/s (49.19ms)
+Speed.Dev.#4.....:   492.8 kH/s (49.74ms)
+Speed.Dev.#5.....:   499.5 kH/s (49.28ms)
+Speed.Dev.#6.....:   507.2 kH/s (24.04ms)
+Speed.Dev.#7.....:   502.0 kH/s (24.32ms)
+Speed.Dev.#8.....:   501.1 kH/s (48.81ms)
+Speed.Dev.#9.....:   498.4 kH/s (24.49ms)
+Speed.Dev.#10.....:   502.4 kH/s (48.93ms)
+Speed.Dev.#11.....:   492.0 kH/s (49.79ms)
+Speed.Dev.#12.....:   502.5 kH/s (49.02ms)
+Speed.Dev.#13.....:   508.9 kH/s (23.98ms)
+Speed.Dev.#14.....:   495.6 kH/s (49.75ms)
+Speed.Dev.#15.....:   498.7 kH/s (24.48ms)
+Speed.Dev.#16.....:   499.8 kH/s (49.27ms)
+Speed.Dev.#*.....:  8001.2 kH/s
+
+Hashmode: 133 - PeopleSoft
+
+Speed.Dev.#1.....:  6459.1 MH/s (38.94ms)
+Speed.Dev.#2.....:  6315.1 MH/s (39.78ms)
+Speed.Dev.#3.....:  6367.4 MH/s (39.48ms)
+Speed.Dev.#4.....:  6304.5 MH/s (39.87ms)
+Speed.Dev.#5.....:  6351.3 MH/s (39.41ms)
+Speed.Dev.#6.....:  6426.2 MH/s (39.00ms)
+Speed.Dev.#7.....:  6362.6 MH/s (79.09ms)
+Speed.Dev.#8.....:  6385.2 MH/s (78.51ms)
+Speed.Dev.#9.....:  6317.0 MH/s (39.82ms)
+Speed.Dev.#10.....:  6353.7 MH/s (9.85ms)
+Speed.Dev.#11.....:  6274.5 MH/s (9.99ms)
+Speed.Dev.#12.....:  6401.4 MH/s (78.65ms)
+Speed.Dev.#13.....:  6458.4 MH/s (38.98ms)
+Speed.Dev.#14.....:  6246.5 MH/s (10.04ms)
+Speed.Dev.#15.....:  6277.0 MH/s (10.00ms)
+Speed.Dev.#16.....:  6343.5 MH/s (9.88ms)
+Speed.Dev.#*.....:   101.6 GH/s
+
+Hashmode: 13500 - PeopleSoft PS_TOKEN
+
+Speed.Dev.#1.....:  2333.5 MH/s (53.78ms)
+Speed.Dev.#2.....:  2290.7 MH/s (54.90ms)
+Speed.Dev.#3.....:  2305.3 MH/s (54.49ms)
+Speed.Dev.#4.....:  2291.5 MH/s (54.99ms)
+Speed.Dev.#5.....:  2324.1 MH/s (27.07ms)
+Speed.Dev.#6.....:  2344.4 MH/s (26.80ms)
+Speed.Dev.#7.....:  2287.9 MH/s (54.61ms)
+Speed.Dev.#8.....:  2309.2 MH/s (54.18ms)
+Speed.Dev.#9.....:  2288.6 MH/s (27.31ms)
+Speed.Dev.#10.....:  2319.9 MH/s (27.04ms)
+Speed.Dev.#11.....:  2270.7 MH/s (54.92ms)
+Speed.Dev.#12.....:  2315.3 MH/s (27.12ms)
+Speed.Dev.#13.....:  2344.2 MH/s (53.77ms)
+Speed.Dev.#14.....:  2281.2 MH/s (27.55ms)
+Speed.Dev.#15.....:  2292.5 MH/s (27.42ms)
+Speed.Dev.#16.....:  2301.4 MH/s (54.53ms)
+Speed.Dev.#*.....: 36900.6 MH/s
+
+Hashmode: 11600 - 7-Zip
+
+Speed.Dev.#1.....:     6163 H/s (19.36ms)
+Speed.Dev.#2.....:     6054 H/s (19.78ms)
+Speed.Dev.#3.....:     6077 H/s (19.61ms)
+Speed.Dev.#4.....:     6059 H/s (19.74ms)
+Speed.Dev.#5.....:     6266 H/s (19.09ms)
+Speed.Dev.#6.....:     6336 H/s (18.88ms)
+Speed.Dev.#7.....:     6261 H/s (19.06ms)
+Speed.Dev.#8.....:     6302 H/s (18.96ms)
+Speed.Dev.#9.....:     6224 H/s (19.19ms)
+Speed.Dev.#10.....:     6310 H/s (18.92ms)
+Speed.Dev.#11.....:     6201 H/s (19.23ms)
+Speed.Dev.#12.....:     6297 H/s (18.96ms)
+Speed.Dev.#13.....:     6171 H/s (19.33ms)
+Speed.Dev.#14.....:     6044 H/s (19.81ms)
+Speed.Dev.#15.....:     6068 H/s (19.73ms)
+Speed.Dev.#16.....:     6082 H/s (19.58ms)
+Speed.Dev.#*.....:    98913 H/s
+
+Hashmode: 13600 - WinZip
+
+Speed.Dev.#1.....:   832.4 kH/s (73.19ms)
+Speed.Dev.#2.....:   813.9 kH/s (74.70ms)
+Speed.Dev.#3.....:   820.2 kH/s (74.02ms)
+Speed.Dev.#4.....:   817.2 kH/s (74.73ms)
+Speed.Dev.#5.....:   837.0 kH/s (72.65ms)
+Speed.Dev.#6.....:   847.1 kH/s (71.92ms)
+Speed.Dev.#7.....:   838.0 kH/s (72.82ms)
+Speed.Dev.#8.....:   839.6 kH/s (72.41ms)
+Speed.Dev.#9.....:   829.7 kH/s (73.27ms)
+Speed.Dev.#10.....:   844.0 kH/s (72.21ms)
+Speed.Dev.#11.....:   831.2 kH/s (73.43ms)
+Speed.Dev.#12.....:   842.7 kH/s (72.41ms)
+Speed.Dev.#13.....:   834.3 kH/s (73.13ms)
+Speed.Dev.#14.....:   813.9 kH/s (74.80ms)
+Speed.Dev.#15.....:   814.3 kH/s (74.65ms)
+Speed.Dev.#16.....:   818.7 kH/s (74.15ms)
+Speed.Dev.#*.....: 13274.2 kH/s
+
+Hashmode: 12500 - RAR3-hp
+
+Speed.Dev.#1.....:    34764 H/s (27.54ms)
+Speed.Dev.#2.....:    34412 H/s (27.81ms)
+Speed.Dev.#3.....:    34588 H/s (27.69ms)
+Speed.Dev.#4.....:    34379 H/s (27.84ms)
+Speed.Dev.#5.....:    34620 H/s (27.62ms)
+Speed.Dev.#6.....:    34731 H/s (27.52ms)
+Speed.Dev.#7.....:    34537 H/s (27.72ms)
+Speed.Dev.#8.....:    34740 H/s (27.56ms)
+Speed.Dev.#9.....:    34602 H/s (27.69ms)
+Speed.Dev.#10.....:    34693 H/s (27.61ms)
+Speed.Dev.#11.....:    34341 H/s (27.86ms)
+Speed.Dev.#12.....:    34630 H/s (27.64ms)
+Speed.Dev.#13.....:    34766 H/s (27.53ms)
+Speed.Dev.#14.....:    34325 H/s (27.88ms)
+Speed.Dev.#15.....:    34400 H/s (27.82ms)
+Speed.Dev.#16.....:    34541 H/s (27.67ms)
+Speed.Dev.#*.....:   553.1 kH/s
+
+Hashmode: 13000 - RAR5
+
+Speed.Dev.#1.....:    26363 H/s (72.73ms)
+Speed.Dev.#2.....:    25756 H/s (74.40ms)
+Speed.Dev.#3.....:    26084 H/s (73.55ms)
+Speed.Dev.#4.....:    25867 H/s (74.16ms)
+Speed.Dev.#5.....:    26003 H/s (73.64ms)
+Speed.Dev.#6.....:    26280 H/s (72.90ms)
+Speed.Dev.#7.....:    26004 H/s (73.78ms)
+Speed.Dev.#8.....:    26106 H/s (73.28ms)
+Speed.Dev.#9.....:    25815 H/s (74.15ms)
+Speed.Dev.#10.....:    26348 H/s (72.65ms)
+Speed.Dev.#11.....:    26021 H/s (73.63ms)
+Speed.Dev.#12.....:    26160 H/s (73.32ms)
+Speed.Dev.#13.....:    26623 H/s (71.96ms)
+Speed.Dev.#14.....:    25779 H/s (74.42ms)
+Speed.Dev.#15.....:    25923 H/s (73.80ms)
+Speed.Dev.#16.....:    26256 H/s (72.96ms)
+Speed.Dev.#*.....:   417.4 kH/s
+
+Hashmode: 13200 - AxCrypt
+
+Speed.Dev.#1.....:    89821 H/s (138.22ms)
+Speed.Dev.#2.....:    87760 H/s (141.40ms)
+Speed.Dev.#3.....:    88369 H/s (140.43ms)
+Speed.Dev.#4.....:    87878 H/s (141.25ms)
+Speed.Dev.#5.....:    88000 H/s (71.36ms)
+Speed.Dev.#6.....:    88651 H/s (70.82ms)
+Speed.Dev.#7.....:    88487 H/s (140.29ms)
+Speed.Dev.#8.....:    88454 H/s (70.95ms)
+Speed.Dev.#9.....:    87083 H/s (72.07ms)
+Speed.Dev.#10.....:    89165 H/s (139.18ms)
+Speed.Dev.#11.....:    87704 H/s (141.53ms)
+Speed.Dev.#12.....:    88833 H/s (139.65ms)
+Speed.Dev.#13.....:    89821 H/s (138.21ms)
+Speed.Dev.#14.....:    87587 H/s (141.73ms)
+Speed.Dev.#15.....:    87962 H/s (141.14ms)
+Speed.Dev.#16.....:    88417 H/s (140.36ms)
+Speed.Dev.#*.....:  1414.0 kH/s
+
+Hashmode: 13300 - AxCrypt in-memory SHA1
+
+Speed.Dev.#1.....:  5972.9 MH/s (42.11ms)
+Speed.Dev.#2.....:  5846.1 MH/s (42.99ms)
+Speed.Dev.#3.....:  5896.3 MH/s (42.67ms)
+Speed.Dev.#4.....:  5836.4 MH/s (43.08ms)
+Speed.Dev.#5.....:  5889.9 MH/s (42.41ms)
+Speed.Dev.#6.....:  5944.3 MH/s (42.13ms)
+Speed.Dev.#7.....:  5881.8 MH/s (42.77ms)
+Speed.Dev.#8.....:  5968.0 MH/s (42.12ms)
+Speed.Dev.#9.....:  5826.0 MH/s (42.88ms)
+Speed.Dev.#10.....:  5873.8 MH/s (10.66ms)
+Speed.Dev.#11.....:  5807.4 MH/s (86.46ms)
+Speed.Dev.#12.....:  5910.4 MH/s (85.00ms)
+Speed.Dev.#13.....:  5914.7 MH/s (10.59ms)
+Speed.Dev.#14.....:  5779.4 MH/s (10.85ms)
+Speed.Dev.#15.....:  5789.0 MH/s (10.81ms)
+Speed.Dev.#16.....:  5887.6 MH/s (42.60ms)
+Speed.Dev.#*.....: 94023.9 MH/s
+
+Hashmode: 6211 - TrueCrypt PBKDF2-HMAC-RIPEMD160 + XTS 512 bit
+
+Speed.Dev.#1.....:   212.6 kH/s (69.36ms)
+Speed.Dev.#2.....:   208.5 kH/s (70.75ms)
+Speed.Dev.#3.....:   210.2 kH/s (70.24ms)
+Speed.Dev.#4.....:   208.8 kH/s (70.75ms)
+Speed.Dev.#5.....:   209.6 kH/s (70.05ms)
+Speed.Dev.#6.....:   211.6 kH/s (69.54ms)
+Speed.Dev.#7.....:   210.0 kH/s (70.29ms)
+Speed.Dev.#8.....:   212.1 kH/s (69.29ms)
+Speed.Dev.#9.....:   208.4 kH/s (70.63ms)
+Speed.Dev.#10.....:   211.8 kH/s (69.71ms)
+Speed.Dev.#11.....:   206.9 kH/s (71.01ms)
+Speed.Dev.#12.....:   211.0 kH/s (69.91ms)
+Speed.Dev.#13.....:   213.0 kH/s (69.29ms)
+Speed.Dev.#14.....:   207.9 kH/s (70.94ms)
+Speed.Dev.#15.....:   208.4 kH/s (70.77ms)
+Speed.Dev.#16.....:   209.7 kH/s (70.39ms)
+Speed.Dev.#*.....:  3360.5 kH/s
+
+Hashmode: 6221 - TrueCrypt PBKDF2-HMAC-SHA512 + XTS 512 bit
+
+Speed.Dev.#1.....:   274.1 kH/s (52.05ms)
+Speed.Dev.#2.....:   269.2 kH/s (53.07ms)
+Speed.Dev.#3.....:   270.6 kH/s (52.68ms)
+Speed.Dev.#4.....:   269.1 kH/s (53.18ms)
+Speed.Dev.#5.....:   272.8 kH/s (52.36ms)
+Speed.Dev.#6.....:   275.2 kH/s (51.91ms)
+Speed.Dev.#7.....:   271.0 kH/s (52.67ms)
+Speed.Dev.#8.....:   275.1 kH/s (51.96ms)
+Speed.Dev.#9.....:   269.1 kH/s (52.75ms)
+Speed.Dev.#10.....:   230.2 kH/s (62.15ms)
+Speed.Dev.#11.....:   269.2 kH/s (53.04ms)
+Speed.Dev.#12.....:   272.2 kH/s (52.50ms)
+Speed.Dev.#13.....:   275.5 kH/s (51.87ms)
+Speed.Dev.#14.....:   268.7 kH/s (53.15ms)
+Speed.Dev.#15.....:   270.5 kH/s (52.85ms)
+Speed.Dev.#16.....:   271.8 kH/s (52.52ms)
+Speed.Dev.#*.....:  4304.3 kH/s
+
+Hashmode: 6231 - TrueCrypt PBKDF2-HMAC-Whirlpool + XTS 512 bit
+
+Speed.Dev.#1.....:    26981 H/s (141.43ms)
+Speed.Dev.#2.....:    26411 H/s (144.43ms)
+Speed.Dev.#3.....:    26603 H/s (143.46ms)
+Speed.Dev.#4.....:    26348 H/s (144.57ms)
+Speed.Dev.#5.....:    26795 H/s (142.45ms)
+Speed.Dev.#6.....:    26724 H/s (142.24ms)
+Speed.Dev.#7.....:    26381 H/s (143.95ms)
+Speed.Dev.#8.....:    27062 H/s (135.57ms)
+Speed.Dev.#9.....:    26572 H/s (143.54ms)
+Speed.Dev.#10.....:    26556 H/s (143.15ms)
+Speed.Dev.#11.....:    26243 H/s (144.93ms)
+Speed.Dev.#12.....:    26764 H/s (142.68ms)
+Speed.Dev.#13.....:    26910 H/s (135.66ms)
+Speed.Dev.#14.....:    26094 H/s (145.88ms)
+Speed.Dev.#15.....:    26491 H/s (138.48ms)
+Speed.Dev.#16.....:    26639 H/s (137.43ms)
+Speed.Dev.#*.....:   425.6 kH/s
+
+Hashmode: 6241 - TrueCrypt PBKDF2-HMAC-RIPEMD160 + XTS 512 bit + boot-mode
+
+Speed.Dev.#1.....:   402.0 kH/s (68.43ms)
+Speed.Dev.#2.....:   393.9 kH/s (69.82ms)
+Speed.Dev.#3.....:   396.3 kH/s (69.40ms)
+Speed.Dev.#4.....:   393.3 kH/s (69.90ms)
+Speed.Dev.#5.....:   401.6 kH/s (66.04ms)
+Speed.Dev.#6.....:   401.4 kH/s (68.57ms)
+Speed.Dev.#7.....:   397.3 kH/s (69.41ms)
+Speed.Dev.#8.....:   403.3 kH/s (65.89ms)
+Speed.Dev.#9.....:   399.3 kH/s (66.66ms)
+Speed.Dev.#10.....:   402.6 kH/s (66.02ms)
+Speed.Dev.#11.....:   396.4 kH/s (67.08ms)
+Speed.Dev.#12.....:   397.8 kH/s (65.43ms)
+Speed.Dev.#13.....:   401.3 kH/s (64.87ms)
+Speed.Dev.#14.....:   394.3 kH/s (70.09ms)
+Speed.Dev.#15.....:   399.3 kH/s (66.66ms)
+Speed.Dev.#16.....:   396.7 kH/s (69.41ms)
+Speed.Dev.#*.....:  6376.8 kH/s
+
+Hashmode: 13711 - VeraCrypt PBKDF2-HMAC-RIPEMD160 + XTS 512 bit
+
+Speed.Dev.#1.....:      681 H/s (69.99ms)
+Speed.Dev.#2.....:      646 H/s (71.62ms)
+Speed.Dev.#3.....:      653 H/s (70.82ms)
+Speed.Dev.#4.....:      649 H/s (71.30ms)
+Speed.Dev.#5.....:      653 H/s (70.75ms)
+Speed.Dev.#6.....:      679 H/s (70.18ms)
+Speed.Dev.#7.....:      654 H/s (70.80ms)
+Speed.Dev.#8.....:      676 H/s (70.37ms)
+Speed.Dev.#9.....:      646 H/s (71.57ms)
+Speed.Dev.#10.....:      655 H/s (70.57ms)
+Speed.Dev.#11.....:      656 H/s (71.75ms)
+Speed.Dev.#12.....:      676 H/s (70.48ms)
+Speed.Dev.#13.....:      684 H/s (69.73ms)
+Speed.Dev.#14.....:      648 H/s (71.46ms)
+Speed.Dev.#15.....:      654 H/s (71.90ms)
+Speed.Dev.#16.....:      651 H/s (71.02ms)
+Speed.Dev.#*.....:    10562 H/s
+
+Hashmode: 13721 - VeraCrypt PBKDF2-HMAC-SHA512 + XTS 512 bit
+
+Speed.Dev.#1.....:      560 H/s (53.35ms)
+Speed.Dev.#2.....:      561 H/s (54.61ms)
+Speed.Dev.#3.....:      561 H/s (53.96ms)
+Speed.Dev.#4.....:      557 H/s (54.41ms)
+Speed.Dev.#5.....:      562 H/s (53.85ms)
+Speed.Dev.#6.....:      559 H/s (53.45ms)
+Speed.Dev.#7.....:      561 H/s (53.94ms)
+Speed.Dev.#8.....:      556 H/s (53.63ms)
+Speed.Dev.#9.....:      556 H/s (54.41ms)
+Speed.Dev.#10.....:      556 H/s (53.75ms)
+Speed.Dev.#11.....:      560 H/s (54.66ms)
+Speed.Dev.#12.....:      561 H/s (53.32ms)
+Speed.Dev.#13.....:      561 H/s (53.25ms)
+Speed.Dev.#14.....:      562 H/s (54.60ms)
+Speed.Dev.#15.....:      556 H/s (54.34ms)
+Speed.Dev.#16.....:      557 H/s (53.63ms)
+Speed.Dev.#*.....:     8946 H/s
+
+Hashmode: 13731 - VeraCrypt PBKDF2-HMAC-Whirlpool + XTS 512 bit
+
+Speed.Dev.#1.....:       31 H/s (144.03ms)
+Speed.Dev.#2.....:       31 H/s (146.99ms)
+Speed.Dev.#3.....:       30 H/s (146.15ms)
+Speed.Dev.#4.....:       31 H/s (147.00ms)
+Speed.Dev.#5.....:       31 H/s (146.54ms)
+Speed.Dev.#6.....:       31 H/s (143.83ms)
+Speed.Dev.#7.....:       31 H/s (147.54ms)
+Speed.Dev.#8.....:       31 H/s (144.00ms)
+Speed.Dev.#9.....:       31 H/s (146.17ms)
+Speed.Dev.#10.....:       30 H/s (144.98ms)
+Speed.Dev.#11.....:       31 H/s (147.89ms)
+Speed.Dev.#12.....:       31 H/s (146.88ms)
+Speed.Dev.#13.....:       31 H/s (144.09ms)
+Speed.Dev.#14.....:       31 H/s (149.32ms)
+Speed.Dev.#15.....:       31 H/s (147.00ms)
+Speed.Dev.#16.....:       30 H/s (145.89ms)
+Speed.Dev.#*.....:      493 H/s
+
+Hashmode: 13741 - VeraCrypt PBKDF2-HMAC-RIPEMD160 + XTS 512 bit + boot-mode
+
+Speed.Dev.#1.....:     1361 H/s (69.99ms)
+Speed.Dev.#2.....:     1322 H/s (71.59ms)
+Speed.Dev.#3.....:     1338 H/s (70.83ms)
+Speed.Dev.#4.....:     1330 H/s (71.27ms)
+Speed.Dev.#5.....:     1336 H/s (70.80ms)
+Speed.Dev.#6.....:     1358 H/s (70.15ms)
+Speed.Dev.#7.....:     1338 H/s (70.85ms)
+Speed.Dev.#8.....:     1342 H/s (70.46ms)
+Speed.Dev.#9.....:     1329 H/s (71.29ms)
+Speed.Dev.#10.....:     1340 H/s (70.66ms)
+Speed.Dev.#11.....:     1311 H/s (71.81ms)
+Speed.Dev.#12.....:     1353 H/s (70.49ms)
+Speed.Dev.#13.....:     1367 H/s (69.75ms)
+Speed.Dev.#14.....:     1327 H/s (71.47ms)
+Speed.Dev.#15.....:     1310 H/s (71.82ms)
+Speed.Dev.#16.....:     1337 H/s (70.87ms)
+Speed.Dev.#*.....:    21399 H/s
+
+Hashmode: 13751 - VeraCrypt PBKDF2-HMAC-SHA256 + XTS 512 bit
+
+Speed.Dev.#1.....:      865 H/s (72.57ms)
+Speed.Dev.#2.....:      830 H/s (74.19ms)
+Speed.Dev.#3.....:      839 H/s (73.49ms)
+Speed.Dev.#4.....:      834 H/s (73.93ms)
+Speed.Dev.#5.....:      841 H/s (73.23ms)
+Speed.Dev.#6.....:      864 H/s (72.60ms)
+Speed.Dev.#7.....:      842 H/s (73.27ms)
+Speed.Dev.#8.....:      861 H/s (72.83ms)
+Speed.Dev.#9.....:      834 H/s (73.90ms)
+Speed.Dev.#10.....:      843 H/s (73.09ms)
+Speed.Dev.#11.....:      829 H/s (74.30ms)
+Speed.Dev.#12.....:      844 H/s (73.09ms)
+Speed.Dev.#13.....:      867 H/s (72.45ms)
+Speed.Dev.#14.....:      831 H/s (74.19ms)
+Speed.Dev.#15.....:      841 H/s (74.49ms)
+Speed.Dev.#16.....:      839 H/s (73.50ms)
+Speed.Dev.#*.....:    13503 H/s
+
+Hashmode: 13761 - VeraCrypt PBKDF2-HMAC-SHA256 + XTS 512 bit + boot-mode
+
+Speed.Dev.#1.....:     2163 H/s (72.57ms)
+Speed.Dev.#2.....:     2093 H/s (74.34ms)
+Speed.Dev.#3.....:     2116 H/s (73.39ms)
+Speed.Dev.#4.....:     2104 H/s (73.83ms)
+Speed.Dev.#5.....:     2118 H/s (73.24ms)
+Speed.Dev.#6.....:     2159 H/s (72.64ms)
+Speed.Dev.#7.....:     2117 H/s (73.33ms)
+Speed.Dev.#8.....:     2150 H/s (72.90ms)
+Speed.Dev.#9.....:     2101 H/s (73.85ms)
+Speed.Dev.#10.....:     2150 H/s (73.03ms)
+Speed.Dev.#11.....:     2093 H/s (74.28ms)
+Speed.Dev.#12.....:     2124 H/s (73.10ms)
+Speed.Dev.#13.....:     2164 H/s (72.52ms)
+Speed.Dev.#14.....:     2094 H/s (74.17ms)
+Speed.Dev.#15.....:     2095 H/s (74.10ms)
+Speed.Dev.#16.....:     2112 H/s (73.50ms)
+Speed.Dev.#*.....:    33950 H/s
+
+Hashmode: 8800 - Android FDE <= 4.3
+
+Speed.Dev.#1.....:   616.5 kH/s (50.04ms)
+Speed.Dev.#2.....:   605.0 kH/s (51.07ms)
+Speed.Dev.#3.....:   610.3 kH/s (50.63ms)
+Speed.Dev.#4.....:   603.0 kH/s (51.11ms)
+Speed.Dev.#5.....:   611.4 kH/s (50.38ms)
+Speed.Dev.#6.....:   614.7 kH/s (50.02ms)
+Speed.Dev.#7.....:   610.4 kH/s (50.67ms)
+Speed.Dev.#8.....:   611.2 kH/s (50.14ms)
+Speed.Dev.#9.....:   600.3 kH/s (51.05ms)
+Speed.Dev.#10.....:   623.4 kH/s (49.13ms)
+Speed.Dev.#11.....:   602.8 kH/s (51.11ms)
+Speed.Dev.#12.....:   610.8 kH/s (50.54ms)
+Speed.Dev.#13.....:   616.9 kH/s (50.02ms)
+Speed.Dev.#14.....:   601.6 kH/s (51.27ms)
+Speed.Dev.#15.....:   605.4 kH/s (51.09ms)
+Speed.Dev.#16.....:   606.6 kH/s (50.82ms)
+Speed.Dev.#*.....:  9750.2 kH/s
+
+Hashmode: 12900 - Android FDE (Samsung DEK)
+
+Speed.Dev.#1.....:   210.7 kH/s (72.56ms)
+Speed.Dev.#2.....:   205.9 kH/s (74.19ms)
+Speed.Dev.#3.....:   207.9 kH/s (73.63ms)
+Speed.Dev.#4.....:   206.1 kH/s (74.26ms)
+Speed.Dev.#5.....:   209.4 kH/s (73.08ms)
+Speed.Dev.#6.....:   209.2 kH/s (72.83ms)
+Speed.Dev.#7.....:   208.0 kH/s (73.59ms)
+Speed.Dev.#8.....:   211.0 kH/s (72.57ms)
+Speed.Dev.#9.....:   206.5 kH/s (73.79ms)
+Speed.Dev.#10.....:   209.6 kH/s (73.04ms)
+Speed.Dev.#11.....:   205.7 kH/s (74.28ms)
+Speed.Dev.#12.....:   210.6 kH/s (72.63ms)
+Speed.Dev.#13.....:   212.6 kH/s (71.94ms)
+Speed.Dev.#14.....:   207.3 kH/s (73.78ms)
+Speed.Dev.#15.....:   208.3 kH/s (73.42ms)
+Speed.Dev.#16.....:   209.3 kH/s (73.09ms)
+Speed.Dev.#*.....:  3338.1 kH/s
+
+Hashmode: 12200 - eCryptfs
+
+Speed.Dev.#1.....:    10203 H/s (93.96ms)
+Speed.Dev.#2.....:    10132 H/s (94.61ms)
+Speed.Dev.#3.....:    10080 H/s (95.17ms)
+Speed.Dev.#4.....:     9981 H/s (95.93ms)
+Speed.Dev.#5.....:    10144 H/s (94.58ms)
+Speed.Dev.#6.....:    10138 H/s (94.52ms)
+Speed.Dev.#7.....:    10086 H/s (95.07ms)
+Speed.Dev.#8.....:    10180 H/s (94.09ms)
+Speed.Dev.#9.....:     9978 H/s (95.88ms)
+Speed.Dev.#10.....:    10100 H/s (94.85ms)
+Speed.Dev.#11.....:    10216 H/s (93.81ms)
+Speed.Dev.#12.....:    10129 H/s (94.71ms)
+Speed.Dev.#13.....:    10207 H/s (93.95ms)
+Speed.Dev.#14.....:    10204 H/s (93.89ms)
+Speed.Dev.#15.....:    10232 H/s (93.64ms)
+Speed.Dev.#16.....:    10040 H/s (95.37ms)
+Speed.Dev.#*.....:   162.1 kH/s
+
+Hashmode: 9700 - MS Office <= 2003 $0/$1, MD5 + RC4
+
+Speed.Dev.#1.....:   198.4 MH/s (79.55ms)
+Speed.Dev.#2.....:   192.5 MH/s (81.33ms)
+Speed.Dev.#3.....:   194.1 MH/s (80.76ms)
+Speed.Dev.#4.....:   193.7 MH/s (81.27ms)
+Speed.Dev.#5.....:   196.9 MH/s (79.72ms)
+Speed.Dev.#6.....:   197.4 MH/s (79.46ms)
+Speed.Dev.#7.....:   196.4 MH/s (80.08ms)
+Speed.Dev.#8.....:   199.0 MH/s (79.09ms)
+Speed.Dev.#9.....:   194.9 MH/s (80.65ms)
+Speed.Dev.#10.....:   195.5 MH/s (80.17ms)
+Speed.Dev.#11.....:   192.8 MH/s (81.55ms)
+Speed.Dev.#12.....:   195.4 MH/s (80.37ms)
+Speed.Dev.#13.....:   197.0 MH/s (79.59ms)
+Speed.Dev.#14.....:   193.2 MH/s (81.38ms)
+Speed.Dev.#15.....:   193.7 MH/s (81.29ms)
+Speed.Dev.#16.....:   195.0 MH/s (80.88ms)
+Speed.Dev.#*.....:  3126.0 MH/s
+
+Hashmode: 9710 - MS Office <= 2003 $0/$1, MD5 + RC4, collider #1
+
+Speed.Dev.#1.....:   246.4 MH/s (63.78ms)
+Speed.Dev.#2.....:   241.0 MH/s (65.20ms)
+Speed.Dev.#3.....:   242.7 MH/s (64.77ms)
+Speed.Dev.#4.....:   241.4 MH/s (65.10ms)
+Speed.Dev.#5.....:   244.3 MH/s (64.33ms)
+Speed.Dev.#6.....:   246.6 MH/s (63.76ms)
+Speed.Dev.#7.....:   244.6 MH/s (64.29ms)
+Speed.Dev.#8.....:   246.7 MH/s (63.72ms)
+Speed.Dev.#9.....:   242.8 MH/s (64.76ms)
+Speed.Dev.#10.....:   245.0 MH/s (64.15ms)
+Speed.Dev.#11.....:   240.8 MH/s (65.23ms)
+Speed.Dev.#12.....:   244.1 MH/s (64.40ms)
+Speed.Dev.#13.....:   247.0 MH/s (63.66ms)
+Speed.Dev.#14.....:   241.0 MH/s (65.08ms)
+Speed.Dev.#15.....:   241.2 MH/s (65.20ms)
+Speed.Dev.#16.....:   242.2 MH/s (64.58ms)
+Speed.Dev.#*.....:  3897.7 MH/s
+
+Hashmode: 9800 - MS Office <= 2003 $3/$4, SHA1 + RC4
+
+Speed.Dev.#1.....:   238.2 MH/s (65.83ms)
+Speed.Dev.#2.....:   233.4 MH/s (67.32ms)
+Speed.Dev.#3.....:   235.3 MH/s (66.85ms)
+Speed.Dev.#4.....:   233.8 MH/s (67.25ms)
+Speed.Dev.#5.....:   236.5 MH/s (67.24ms)
+Speed.Dev.#6.....:   239.1 MH/s (65.87ms)
+Speed.Dev.#7.....:   236.9 MH/s (66.37ms)
+Speed.Dev.#8.....:   239.0 MH/s (65.84ms)
+Speed.Dev.#9.....:   235.1 MH/s (66.82ms)
+Speed.Dev.#10.....:   237.0 MH/s (66.32ms)
+Speed.Dev.#11.....:   232.9 MH/s (67.43ms)
+Speed.Dev.#12.....:   236.6 MH/s (66.51ms)
+Speed.Dev.#13.....:   238.8 MH/s (65.80ms)
+Speed.Dev.#14.....:   233.0 MH/s (67.29ms)
+Speed.Dev.#15.....:   233.8 MH/s (67.30ms)
+Speed.Dev.#16.....:   236.6 MH/s (66.41ms)
+Speed.Dev.#*.....:  3776.0 MH/s
+
+Hashmode: 9810 - MS Office <= 2003 $3, SHA1 + RC4, collider #1
+
+Speed.Dev.#1.....:   265.6 MH/s (59.21ms)
+Speed.Dev.#2.....:   208.1 MH/s (75.55ms)
+Speed.Dev.#3.....:   261.6 MH/s (60.07ms)
+Speed.Dev.#4.....:   260.0 MH/s (60.47ms)
+Speed.Dev.#5.....:   263.3 MH/s (59.71ms)
+Speed.Dev.#6.....:   265.4 MH/s (59.24ms)
+Speed.Dev.#7.....:   263.6 MH/s (59.65ms)
+Speed.Dev.#8.....:   265.4 MH/s (59.20ms)
+Speed.Dev.#9.....:   261.7 MH/s (60.09ms)
+Speed.Dev.#10.....:   263.7 MH/s (59.60ms)
+Speed.Dev.#11.....:   259.3 MH/s (60.61ms)
+Speed.Dev.#12.....:   262.9 MH/s (59.76ms)
+Speed.Dev.#13.....:   265.3 MH/s (59.23ms)
+Speed.Dev.#14.....:   260.6 MH/s (60.30ms)
+Speed.Dev.#15.....:   261.5 MH/s (60.14ms)
+Speed.Dev.#16.....:   263.4 MH/s (59.67ms)
+Speed.Dev.#*.....:  4151.6 MH/s
+
+Hashmode: 9400 - MS Office 2007
+
+Speed.Dev.#1.....:   104.6 kH/s (48.01ms)
+Speed.Dev.#2.....:   102.4 kH/s (49.06ms)
+Speed.Dev.#3.....:   103.6 kH/s (48.53ms)
+Speed.Dev.#4.....:   102.6 kH/s (48.98ms)
+Speed.Dev.#5.....:   103.7 kH/s (48.44ms)
+Speed.Dev.#6.....:   103.6 kH/s (12.11ms)
+Speed.Dev.#7.....:   102.8 kH/s (12.18ms)
+Speed.Dev.#8.....:   103.5 kH/s (48.26ms)
+Speed.Dev.#9.....:   102.0 kH/s (49.04ms)
+Speed.Dev.#10.....:   103.3 kH/s (12.17ms)
+Speed.Dev.#11.....:   101.8 kH/s (49.16ms)
+Speed.Dev.#12.....:   103.9 kH/s (48.38ms)
+Speed.Dev.#13.....:   104.8 kH/s (47.95ms)
+Speed.Dev.#14.....:   102.5 kH/s (49.02ms)
+Speed.Dev.#15.....:   102.1 kH/s (12.27ms)
+Speed.Dev.#16.....:   102.7 kH/s (12.21ms)
+Speed.Dev.#*.....:  1650.1 kH/s
+
+Hashmode: 9500 - MS Office 2010
+
+Speed.Dev.#1.....:    52308 H/s (48.01ms)
+Speed.Dev.#2.....:    51086 H/s (49.14ms)
+Speed.Dev.#3.....:    51781 H/s (48.52ms)
+Speed.Dev.#4.....:    51312 H/s (48.97ms)
+Speed.Dev.#5.....:    51678 H/s (12.18ms)
+Speed.Dev.#6.....:    52031 H/s (48.23ms)
+Speed.Dev.#7.....:    51463 H/s (12.18ms)
+Speed.Dev.#8.....:    51864 H/s (12.11ms)
+Speed.Dev.#9.....:    51068 H/s (49.16ms)
+Speed.Dev.#10.....:    51547 H/s (48.71ms)
+Speed.Dev.#11.....:    50937 H/s (12.29ms)
+Speed.Dev.#12.....:    51656 H/s (12.12ms)
+Speed.Dev.#13.....:    52170 H/s (12.01ms)
+Speed.Dev.#14.....:    50980 H/s (49.28ms)
+Speed.Dev.#15.....:    51281 H/s (48.97ms)
+Speed.Dev.#16.....:    51588 H/s (48.70ms)
+Speed.Dev.#*.....:   824.8 kH/s
+
+Hashmode: 9600 - MS Office 2013
+
+Speed.Dev.#1.....:     6769 H/s (92.73ms)
+Speed.Dev.#2.....:     6635 H/s (94.63ms)
+Speed.Dev.#3.....:     6685 H/s (93.89ms)
+Speed.Dev.#4.....:     6634 H/s (94.66ms)
+Speed.Dev.#5.....:     6740 H/s (93.15ms)
+Speed.Dev.#6.....:     6766 H/s (92.74ms)
+Speed.Dev.#7.....:     6685 H/s (93.96ms)
+Speed.Dev.#8.....:     6734 H/s (93.03ms)
+Speed.Dev.#9.....:     6654 H/s (94.20ms)
+Speed.Dev.#10.....:     6714 H/s (93.41ms)
+Speed.Dev.#11.....:     6634 H/s (94.65ms)
+Speed.Dev.#12.....:     6865 H/s (91.40ms)
+Speed.Dev.#13.....:     6789 H/s (92.50ms)
+Speed.Dev.#14.....:     6618 H/s (94.87ms)
+Speed.Dev.#15.....:     6634 H/s (94.60ms)
+Speed.Dev.#16.....:     6816 H/s (92.03ms)
+Speed.Dev.#*.....:   107.4 kH/s
+
+Hashmode: 10400 - PDF 1.1 - 1.3 (Acrobat 2 - 4)
+
+Speed.Dev.#1.....:   272.2 MH/s (57.72ms)
+Speed.Dev.#2.....:   265.7 MH/s (59.11ms)
+Speed.Dev.#3.....:   267.7 MH/s (58.65ms)
+Speed.Dev.#4.....:   266.5 MH/s (59.01ms)
+Speed.Dev.#5.....:   270.0 MH/s (58.32ms)
+Speed.Dev.#6.....:   272.3 MH/s (57.75ms)
+Speed.Dev.#7.....:   269.1 MH/s (58.21ms)
+Speed.Dev.#8.....:   272.0 MH/s (57.75ms)
+Speed.Dev.#9.....:   268.0 MH/s (58.66ms)
+Speed.Dev.#10.....:   270.4 MH/s (58.19ms)
+Speed.Dev.#11.....:   265.6 MH/s (59.17ms)
+Speed.Dev.#12.....:   269.6 MH/s (58.32ms)
+Speed.Dev.#13.....:   272.0 MH/s (57.76ms)
+Speed.Dev.#14.....:   265.0 MH/s (59.25ms)
+Speed.Dev.#15.....:   265.1 MH/s (59.23ms)
+Speed.Dev.#16.....:   270.1 MH/s (58.23ms)
+Speed.Dev.#*.....:  4301.2 MH/s
+
+Hashmode: 10410 - PDF 1.1 - 1.3 (Acrobat 2 - 4), collider #1
+
+Speed.Dev.#1.....:   298.6 MH/s (52.65ms)
+Speed.Dev.#2.....:   291.5 MH/s (53.88ms)
+Speed.Dev.#3.....:   293.8 MH/s (53.51ms)
+Speed.Dev.#4.....:   292.3 MH/s (53.74ms)
+Speed.Dev.#5.....:   295.7 MH/s (53.14ms)
+Speed.Dev.#6.....:   298.3 MH/s (52.69ms)
+Speed.Dev.#7.....:   295.9 MH/s (53.08ms)
+Speed.Dev.#8.....:   298.7 MH/s (52.61ms)
+Speed.Dev.#9.....:   292.3 MH/s (53.56ms)
+Speed.Dev.#10.....:   296.8 MH/s (52.97ms)
+Speed.Dev.#11.....:   293.1 MH/s (53.66ms)
+Speed.Dev.#12.....:   295.4 MH/s (53.21ms)
+Speed.Dev.#13.....:   298.6 MH/s (52.66ms)
+Speed.Dev.#14.....:   289.8 MH/s (54.01ms)
+Speed.Dev.#15.....:   291.4 MH/s (53.93ms)
+Speed.Dev.#16.....:   296.0 MH/s (53.14ms)
+Speed.Dev.#*.....:  4718.0 MH/s
+
+Hashmode: 10500 - PDF 1.4 - 1.6 (Acrobat 5 - 8)
+
+Speed.Dev.#1.....: 13090.6 kH/s (8.47ms)
+Speed.Dev.#2.....: 12812.2 kH/s (8.66ms)
+Speed.Dev.#3.....: 12931.7 kH/s (8.59ms)
+Speed.Dev.#4.....: 12849.7 kH/s (8.65ms)
+Speed.Dev.#5.....: 12972.6 kH/s (8.55ms)
+Speed.Dev.#6.....: 10723.0 kH/s (10.43ms)
+Speed.Dev.#7.....: 13009.2 kH/s (8.53ms)
+Speed.Dev.#8.....: 13155.3 kH/s (8.45ms)
+Speed.Dev.#9.....: 12896.7 kH/s (8.60ms)
+Speed.Dev.#10.....: 13046.1 kH/s (8.51ms)
+Speed.Dev.#11.....: 12828.1 kH/s (8.64ms)
+Speed.Dev.#12.....: 13016.1 kH/s (8.54ms)
+Speed.Dev.#13.....: 13101.8 kH/s (8.47ms)
+Speed.Dev.#14.....: 12781.9 kH/s (8.69ms)
+Speed.Dev.#15.....: 12781.2 kH/s (8.68ms)
+Speed.Dev.#16.....: 13020.9 kH/s (8.53ms)
+Speed.Dev.#*.....:   205.0 MH/s
+
+Hashmode: 10600 - PDF 1.7 Level 3 (Acrobat 9)
+
+Speed.Dev.#1.....:  2377.8 MH/s (53.02ms)
+Speed.Dev.#2.....:  2294.9 MH/s (54.59ms)
+Speed.Dev.#3.....:  2338.1 MH/s (53.76ms)
+Speed.Dev.#4.....:  2319.7 MH/s (54.22ms)
+Speed.Dev.#5.....:  2354.5 MH/s (53.38ms)
+Speed.Dev.#6.....:  2378.8 MH/s (52.86ms)
+Speed.Dev.#7.....:  2361.7 MH/s (26.56ms)
+Speed.Dev.#8.....:  2383.2 MH/s (26.36ms)
+Speed.Dev.#9.....:  2347.6 MH/s (26.77ms)
+Speed.Dev.#10.....:  2365.7 MH/s (26.53ms)
+Speed.Dev.#11.....:  2329.3 MH/s (54.10ms)
+Speed.Dev.#12.....:  2359.4 MH/s (26.62ms)
+Speed.Dev.#13.....:  2372.4 MH/s (53.01ms)
+Speed.Dev.#14.....:  2316.5 MH/s (54.34ms)
+Speed.Dev.#15.....:  2317.3 MH/s (54.25ms)
+Speed.Dev.#16.....:  2340.1 MH/s (53.78ms)
+Speed.Dev.#*.....: 37556.8 MH/s
+
+Hashmode: 10700 - PDF 1.7 Level 8 (Acrobat 10 - 11)
+
+Speed.Dev.#1.....:    29532 H/s (51.70ms)
+Speed.Dev.#2.....:    29418 H/s (52.45ms)
+Speed.Dev.#3.....:    29270 H/s (52.29ms)
+Speed.Dev.#4.....:    28609 H/s (52.89ms)
+Speed.Dev.#5.....:    29390 H/s (51.98ms)
+Speed.Dev.#6.....:    29603 H/s (51.60ms)
+Speed.Dev.#7.....:    29523 H/s (52.05ms)
+Speed.Dev.#8.....:    29549 H/s (51.69ms)
+Speed.Dev.#9.....:    29226 H/s (52.31ms)
+Speed.Dev.#10.....:    29569 H/s (51.85ms)
+Speed.Dev.#11.....:    29345 H/s (52.48ms)
+Speed.Dev.#12.....:    29117 H/s (52.20ms)
+Speed.Dev.#13.....:    29692 H/s (51.59ms)
+Speed.Dev.#14.....:    29204 H/s (52.83ms)
+Speed.Dev.#15.....:    29053 H/s (52.69ms)
+Speed.Dev.#16.....:    29337 H/s (52.08ms)
+Speed.Dev.#*.....:   469.4 kH/s
+
+Hashmode: 9000 - Password Safe v2
+
+Speed.Dev.#1.....:   253.3 kH/s (39.08ms)
+Speed.Dev.#2.....:   249.0 kH/s (39.83ms)
+Speed.Dev.#3.....:   250.8 kH/s (39.62ms)
+Speed.Dev.#4.....:   247.6 kH/s (39.97ms)
+Speed.Dev.#5.....:   250.8 kH/s (39.38ms)
+Speed.Dev.#6.....:   252.7 kH/s (39.08ms)
+Speed.Dev.#7.....:   251.0 kH/s (39.40ms)
+Speed.Dev.#8.....:   253.1 kH/s (39.09ms)
+Speed.Dev.#9.....:   248.7 kH/s (39.66ms)
+Speed.Dev.#10.....:   250.9 kH/s (39.39ms)
+Speed.Dev.#11.....:   248.9 kH/s (39.76ms)
+Speed.Dev.#12.....:   250.4 kH/s (39.40ms)
+Speed.Dev.#13.....:   254.1 kH/s (39.07ms)
+Speed.Dev.#14.....:   248.9 kH/s (39.60ms)
+Speed.Dev.#15.....:   248.2 kH/s (39.94ms)
+Speed.Dev.#16.....:   251.4 kH/s (39.44ms)
+Speed.Dev.#*.....:  4009.9 kH/s
+
+Hashmode: 5200 - Password Safe v3
+
+Speed.Dev.#1.....:   930.5 kH/s (65.70ms)
+Speed.Dev.#2.....:   903.2 kH/s (67.46ms)
+Speed.Dev.#3.....:   919.0 kH/s (66.54ms)
+Speed.Dev.#4.....:   782.7 kH/s (78.21ms)
+Speed.Dev.#5.....:   929.2 kH/s (32.92ms)
+Speed.Dev.#6.....:   937.2 kH/s (32.61ms)
+Speed.Dev.#7.....:   924.9 kH/s (32.97ms)
+Speed.Dev.#8.....:   932.4 kH/s (32.72ms)
+Speed.Dev.#9.....:   921.7 kH/s (33.17ms)
+Speed.Dev.#10.....:   924.9 kH/s (66.12ms)
+Speed.Dev.#11.....:   911.3 kH/s (67.10ms)
+Speed.Dev.#12.....:   922.3 kH/s (66.32ms)
+Speed.Dev.#13.....:   936.2 kH/s (32.66ms)
+Speed.Dev.#14.....:   912.3 kH/s (33.50ms)
+Speed.Dev.#15.....:   909.6 kH/s (67.24ms)
+Speed.Dev.#16.....:   920.2 kH/s (33.21ms)
+Speed.Dev.#*.....: 14617.5 kH/s
+
+Hashmode: 6800 - LastPass + LastPass sniffed
+
+Speed.Dev.#1.....:  1701.8 kH/s (69.65ms)
+Speed.Dev.#2.....:  1667.5 kH/s (71.62ms)
+Speed.Dev.#3.....:  1677.5 kH/s (70.92ms)
+Speed.Dev.#4.....:  1678.4 kH/s (71.48ms)
+Speed.Dev.#5.....:  1689.2 kH/s (70.30ms)
+Speed.Dev.#6.....:  1723.3 kH/s (69.68ms)
+Speed.Dev.#7.....:  1721.0 kH/s (69.35ms)
+Speed.Dev.#8.....:  1732.4 kH/s (68.75ms)
+Speed.Dev.#9.....:  1718.3 kH/s (69.61ms)
+Speed.Dev.#10.....:  1707.2 kH/s (70.39ms)
+Speed.Dev.#11.....:  1701.9 kH/s (70.26ms)
+Speed.Dev.#12.....:  1727.7 kH/s (69.20ms)
+Speed.Dev.#13.....:  1700.4 kH/s (69.80ms)
+Speed.Dev.#14.....:  1672.0 kH/s (71.52ms)
+Speed.Dev.#15.....:  1702.7 kH/s (70.17ms)
+Speed.Dev.#16.....:  1674.3 kH/s (71.02ms)
+Speed.Dev.#*.....: 27195.5 kH/s
+
+Hashmode: 6600 - 1Password, agilekeychain
+
+Speed.Dev.#1.....:  2502.6 kH/s (47.58ms)
+Speed.Dev.#2.....:  2428.2 kH/s (48.82ms)
+Speed.Dev.#3.....:  2468.7 kH/s (48.19ms)
+Speed.Dev.#4.....:  2445.7 kH/s (48.65ms)
+Speed.Dev.#5.....:  2422.5 kH/s (24.03ms)
+Speed.Dev.#6.....:  2507.5 kH/s (47.43ms)
+Speed.Dev.#7.....:  2465.9 kH/s (48.08ms)
+Speed.Dev.#8.....:  2494.2 kH/s (23.82ms)
+Speed.Dev.#9.....:  2415.0 kH/s (49.23ms)
+Speed.Dev.#10.....:  2477.9 kH/s (23.97ms)
+Speed.Dev.#11.....:  2439.4 kH/s (24.37ms)
+Speed.Dev.#12.....:  2432.4 kH/s (48.93ms)
+Speed.Dev.#13.....:  2492.7 kH/s (23.81ms)
+Speed.Dev.#14.....:  2433.8 kH/s (48.74ms)
+Speed.Dev.#15.....:  2440.4 kH/s (24.37ms)
+Speed.Dev.#16.....:  2451.0 kH/s (24.11ms)
+Speed.Dev.#*.....: 39317.7 kH/s
+
+Hashmode: 8200 - 1Password, cloudkeychain
+
+Speed.Dev.#1.....:     6837 H/s (57.37ms)
+Speed.Dev.#2.....:     6718 H/s (58.41ms)
+Speed.Dev.#3.....:     6769 H/s (57.95ms)
+Speed.Dev.#4.....:     6697 H/s (58.51ms)
+Speed.Dev.#5.....:     6772 H/s (57.66ms)
+Speed.Dev.#6.....:     6827 H/s (57.19ms)
+Speed.Dev.#7.....:     6797 H/s (57.44ms)
+Speed.Dev.#8.....:     6820 H/s (57.24ms)
+Speed.Dev.#9.....:     6768 H/s (57.93ms)
+Speed.Dev.#10.....:     6806 H/s (57.66ms)
+Speed.Dev.#11.....:     6708 H/s (58.52ms)
+Speed.Dev.#12.....:     6800 H/s (57.67ms)
+Speed.Dev.#13.....:     6839 H/s (57.35ms)
+Speed.Dev.#14.....:     6707 H/s (58.51ms)
+Speed.Dev.#15.....:     6694 H/s (58.64ms)
+Speed.Dev.#16.....:     6758 H/s (58.00ms)
+Speed.Dev.#*.....:   108.3 kH/s
+
+Hashmode: 11300 - Bitcoin/Litecoin wallet.dat
+
+Speed.Dev.#1.....:     3344 H/s (93.88ms)
+Speed.Dev.#2.....:     3229 H/s (96.61ms)
+Speed.Dev.#3.....:     3280 H/s (95.20ms)
+Speed.Dev.#4.....:     3254 H/s (95.98ms)
+Speed.Dev.#5.....:     3371 H/s (92.88ms)
+Speed.Dev.#6.....:     3382 H/s (92.32ms)
+Speed.Dev.#7.....:     3374 H/s (92.87ms)
+Speed.Dev.#8.....:     3387 H/s (92.07ms)
+Speed.Dev.#9.....:     3369 H/s (93.09ms)
+Speed.Dev.#10.....:     3382 H/s (92.32ms)
+Speed.Dev.#11.....:     3347 H/s (93.71ms)
+Speed.Dev.#12.....:     3372 H/s (92.62ms)
+Speed.Dev.#13.....:     3407 H/s (91.66ms)
+Speed.Dev.#14.....:     3252 H/s (96.03ms)
+Speed.Dev.#15.....:     3317 H/s (94.64ms)
+Speed.Dev.#16.....:     3281 H/s (95.15ms)
+Speed.Dev.#*.....:    53350 H/s
+
+Hashmode: 12700 - Blockchain, My Wallet
+
+Speed.Dev.#1.....: 48037.5 kH/s (1.99ms)
+Speed.Dev.#2.....: 47257.0 kH/s (2.02ms)
+Speed.Dev.#3.....: 47352.6 kH/s (2.01ms)
+Speed.Dev.#4.....: 47112.0 kH/s (2.03ms)
+Speed.Dev.#5.....: 47284.3 kH/s (2.01ms)
+Speed.Dev.#6.....: 48004.7 kH/s (1.99ms)
+Speed.Dev.#7.....: 47831.8 kH/s (2.00ms)
+Speed.Dev.#8.....: 48079.8 kH/s (1.98ms)
+Speed.Dev.#9.....: 47669.5 kH/s (2.01ms)
+Speed.Dev.#10.....: 47845.8 kH/s (2.00ms)
+Speed.Dev.#11.....: 47247.9 kH/s (2.03ms)
+Speed.Dev.#12.....: 47725.0 kH/s (2.00ms)
+Speed.Dev.#13.....: 47985.9 kH/s (1.98ms)
+Speed.Dev.#14.....: 47361.7 kH/s (2.02ms)
+Speed.Dev.#15.....: 47270.6 kH/s (2.03ms)
+Speed.Dev.#16.....: 47701.9 kH/s (2.00ms)
+Speed.Dev.#*.....:   761.8 MH/s
+
+Hashmode: 15200 - Blockchain, My Wallet, V2
+
+Speed.Dev.#1.....:   249.4 kH/s (49.78ms)
+Speed.Dev.#2.....:   242.0 kH/s (51.34ms)
+Speed.Dev.#3.....:   245.9 kH/s (50.46ms)
+Speed.Dev.#4.....:   244.4 kH/s (50.90ms)
+Speed.Dev.#5.....:   252.6 kH/s (48.80ms)
+Speed.Dev.#6.....:   253.0 kH/s (48.71ms)
+Speed.Dev.#7.....:   250.8 kH/s (49.08ms)
+Speed.Dev.#8.....:   251.9 kH/s (48.79ms)
+Speed.Dev.#9.....:   245.8 kH/s (50.52ms)
+Speed.Dev.#10.....:   252.5 kH/s (48.80ms)
+Speed.Dev.#11.....:   244.0 kH/s (50.92ms)
+Speed.Dev.#12.....:   251.8 kH/s (48.93ms)
+Speed.Dev.#13.....:   254.3 kH/s (48.46ms)
+Speed.Dev.#14.....:   248.4 kH/s (49.60ms)
+Speed.Dev.#15.....:   248.7 kH/s (49.56ms)
+Speed.Dev.#16.....:   250.7 kH/s (49.12ms)
+Speed.Dev.#*.....:  3986.3 kH/s
+
+Hashmode: 13400 - KeePass 1 (AES/Twofish) and KeePass 2 (AES)
+
+Speed.Dev.#1.....:   107.2 kH/s (193.23ms)
+Speed.Dev.#2.....:   104.1 kH/s (198.18ms)
+Speed.Dev.#3.....:   105.7 kH/s (195.83ms)
+Speed.Dev.#4.....:   104.8 kH/s (197.64ms)
+Speed.Dev.#5.....:   106.4 kH/s (194.83ms)
+Speed.Dev.#6.....:   106.6 kH/s (98.31ms)
+Speed.Dev.#7.....:   105.6 kH/s (196.06ms)
+Speed.Dev.#8.....:   106.7 kH/s (193.63ms)
+Speed.Dev.#9.....:   105.3 kH/s (196.64ms)
+Speed.Dev.#10.....:   106.6 kH/s (98.28ms)
+Speed.Dev.#11.....:   105.2 kH/s (99.64ms)
+Speed.Dev.#12.....:   106.2 kH/s (194.91ms)
+Speed.Dev.#13.....:   107.2 kH/s (193.30ms)
+Speed.Dev.#14.....:   104.9 kH/s (99.81ms)
+Speed.Dev.#15.....:   104.8 kH/s (197.77ms)
+Speed.Dev.#16.....:   105.5 kH/s (196.42ms)
+Speed.Dev.#*.....:  1692.7 kH/s
+
+Hashmode: 15500 - JKS Java Key Store Private Keys (SHA1)
+
+Speed.Dev.#1.....:  6048.3 MH/s (41.60ms)
+Speed.Dev.#2.....:  5868.9 MH/s (42.88ms)
+Speed.Dev.#3.....:  5961.3 MH/s (42.01ms)
+Speed.Dev.#4.....:  5909.1 MH/s (42.48ms)
+Speed.Dev.#5.....:  5961.8 MH/s (84.18ms)
+Speed.Dev.#6.....:  6005.2 MH/s (41.77ms)
+Speed.Dev.#7.....:  5954.3 MH/s (42.05ms)
+Speed.Dev.#8.....:  5987.9 MH/s (10.47ms)
+Speed.Dev.#9.....:  5881.5 MH/s (10.65ms)
+Speed.Dev.#10.....:  6004.2 MH/s (41.88ms)
+Speed.Dev.#11.....:  5854.7 MH/s (10.71ms)
+Speed.Dev.#12.....:  6003.9 MH/s (83.80ms)
+Speed.Dev.#13.....:  6042.2 MH/s (41.62ms)
+Speed.Dev.#14.....:  5876.6 MH/s (10.65ms)
+Speed.Dev.#15.....:  5855.8 MH/s (10.71ms)
+Speed.Dev.#16.....:  5949.9 MH/s (10.55ms)
+Speed.Dev.#*.....: 95165.5 MH/s
+
+Hashmode: 15600 - Ethereum Wallet, PBKDF2-HMAC-SHA256
+
+Speed.Dev.#1.....:     3272 H/s (72.68ms)
+Speed.Dev.#2.....:     3202 H/s (74.68ms)
+Speed.Dev.#3.....:     3261 H/s (73.46ms)
+Speed.Dev.#4.....:     3236 H/s (74.10ms)
+Speed.Dev.#5.....:     3257 H/s (73.54ms)
+Speed.Dev.#6.....:     3280 H/s (73.03ms)
+Speed.Dev.#7.....:     3255 H/s (72.86ms)
+Speed.Dev.#8.....:     3256 H/s (72.91ms)
+Speed.Dev.#9.....:     3272 H/s (73.17ms)
+Speed.Dev.#10.....:     3278 H/s (73.12ms)
+Speed.Dev.#11.....:     3256 H/s (73.53ms)
+Speed.Dev.#12.....:     3275 H/s (72.49ms)
+Speed.Dev.#13.....:     3277 H/s (72.57ms)
+Speed.Dev.#14.....:     3225 H/s (74.31ms)
+Speed.Dev.#15.....:     3252 H/s (73.60ms)
+Speed.Dev.#16.....:     3250 H/s (73.77ms)
+Speed.Dev.#*.....:    52104 H/s
+
+Hashmode: 125 - ArubaOS
+
+Speed.Dev.#1.....:  5124.7 MH/s (49.06ms)
+Speed.Dev.#2.....:  4932.0 MH/s (50.33ms)
+Speed.Dev.#3.....:  5063.7 MH/s (49.52ms)
+Speed.Dev.#4.....:  5018.2 MH/s (50.05ms)
+Speed.Dev.#5.....:  5046.2 MH/s (49.54ms)
+Speed.Dev.#6.....:  5083.6 MH/s (49.22ms)
+Speed.Dev.#7.....:  5057.5 MH/s (49.60ms)
+Speed.Dev.#8.....:  5084.8 MH/s (49.24ms)
+Speed.Dev.#9.....:  5035.3 MH/s (49.93ms)
+Speed.Dev.#10.....:  5061.1 MH/s (12.42ms)
+Speed.Dev.#11.....:  4990.3 MH/s (50.43ms)
+Speed.Dev.#12.....:  5078.3 MH/s (12.36ms)
+Speed.Dev.#13.....:  5104.0 MH/s (49.33ms)
+Speed.Dev.#14.....:  4984.1 MH/s (12.56ms)
+Speed.Dev.#15.....:  4983.4 MH/s (50.50ms)
+Speed.Dev.#16.....:  5042.7 MH/s (49.87ms)
+Speed.Dev.#*.....: 80690.1 MH/s
+
+Hashmode: 15400 - ChaCha20
+
+Speed.Dev.#1.....:  3609.6 MH/s (69.16ms)
+Speed.Dev.#2.....:  3530.8 MH/s (70.95ms)
+Speed.Dev.#3.....:  3556.7 MH/s (70.70ms)
+Speed.Dev.#4.....:  3520.5 MH/s (71.34ms)
+Speed.Dev.#5.....:  3558.7 MH/s (17.71ms)
+Speed.Dev.#6.....:  3584.3 MH/s (70.15ms)
+Speed.Dev.#7.....:  3574.4 MH/s (70.24ms)
+Speed.Dev.#8.....:  3536.7 MH/s (17.62ms)
+Speed.Dev.#9.....:  3533.9 MH/s (71.18ms)
+Speed.Dev.#10.....:  3530.0 MH/s (17.72ms)
+Speed.Dev.#11.....:  3467.5 MH/s (18.25ms)
+Speed.Dev.#12.....:  3550.7 MH/s (17.69ms)
+Speed.Dev.#13.....:  3632.1 MH/s (69.18ms)
+Speed.Dev.#14.....:  3502.5 MH/s (71.61ms)
+Speed.Dev.#15.....:  3489.0 MH/s (71.76ms)
+Speed.Dev.#16.....:  3535.7 MH/s (17.68ms)
+Speed.Dev.#*.....: 56713.0 MH/s
+
+Started: Tue Jan  2 03:05:17 2018
+[2KStopped: Tue Jan  2 06:06:48 2018
